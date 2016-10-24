@@ -1,0 +1,5 @@
+features -- where we can declare ports
+with -- variables can be defined in other aadl files, use with to use them
+process -- to implement a component, xxxx.impl
+thread -- subcomponent
+properties -- specify range constraints and units
