@@ -1,0 +1,14 @@
+system requirements regulate_temperatureReqs for isolette::Thermostat[
+	requirement req1_1 : "Regulate Temperature Function"
+	[
+		description "shall set the value of the Heat Control"
+	]
+	requirement req1_2 : "Regulate Temperature Function"
+	[
+		description "shall set the value of the Regulator Status"
+	]
+	requirement req1_3 : "Regulate Temperature Function"
+	[
+		description "shall set the value of the Display Temperature"
+	]
+]

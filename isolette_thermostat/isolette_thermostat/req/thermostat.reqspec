@@ -1,0 +1,23 @@
+system requirements ThermostatReqs for isolette::Thermostat[
+	requirement req1_1 : "The Thermostat"
+	[
+		description "shall set the value of the Heat Control"
+	]
+	requirement req1_2 : "The Thermostat"
+	[
+		description "shall set the value of the Display Temperature"
+	]
+	requirement req1_3 : "The Thermostat"
+	[
+		description "shall set the value of the Alarm Control"
+	]
+	requirement req1_4 : "The Thermostat"
+	[
+		description " shall set the value of the Monitor Status"
+	]
+	requirement req2 : "The Thermostat Function"
+	[
+		description "shall set the value of the Regulator Status"
+	]
+	
+]
