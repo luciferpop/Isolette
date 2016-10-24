@@ -1,0 +1,34 @@
+system requirements Temperature_Sensor for isolette::Temperature_Sensor [
+	requirement req1 : "the Current Temperature increase rate when the Heat Source is turned on and the isolette is properly shut"
+	[
+		description "shall be less than" Minrate "per minute"
+		val Minrate = 1 
+	]
+	requirement req2: "the Current Temperature decrease rate when the Heat Source is turned off and the isolette is properly shut"
+	[
+		description "shall be less than " Minrate "per minute"
+		val Minrate = 1
+	]
+	requirement req3 : "Current temperature"
+	[
+		description "shall be provided to the Thermostat in °„F"	
+	]
+	requirement req4 : "Current temperature accuracy"
+	[
+		description "shall be °¿ 0.1°„F"
+	]
+	requirement req5 : "Current temperature" 
+	[
+		description "shall be less than and greater than" Maxtemp Mintemp
+		val Maxtemp = 105.0
+		val Mintemp = 68.0
+	]
+	requirement req6 : "The status of the Current Temperature variable"
+	[
+		description "shall be invalid when the Temperature Sensor does not function properly"
+	]
+	requirement req7 : "The status of the Current Temperature variable"
+	[
+		description "shall be valid when the Temperature Sensor functions properly"
+	]
+]
