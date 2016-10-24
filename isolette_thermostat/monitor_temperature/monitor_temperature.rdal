@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core:Specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http:///www.open-people.fr/rdal/core" xmlns:cst="http:///fr/labsticc/framework/constraints" id="dceaff5e-f926-4d7d-9653-ed75d4abd25c" name="Monitor Temperature" description="This is the requirements specification for the Monitor Temperature function of the Isolette Thermostat." specifies="monitor_temperature.aadl#monitor_temperature" constraintLanguagesSpecification="platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#20903345">
+  <contactInformation>dominique.blouin@univ-ubs.fr</contactInformation>
+  <requirementGroups id="ffa2c9a0-c3a2-4120-9fd6-8b4944f7094c" name="A.5.2 Monitor Temperature Function" description="The Monitor Temperature Function compares the Current Temperature from the Temperature Sensor with the Alarm Temperature Range provided by the Operator Interface and turns the Alarm Control on or off to Alert The Nurse if the Current Temperature falls below or rises above the safe range. It also provides the Monitor Status back to the Operator Interface.">
+    <requirements xsi:type="core:Requirement" id="ba1dee69-8e4f-4643-a171-5e6a5e535448" name="REQ-MT-1: Set value of Alarm Control" description="The Monitor Temperature Function shall set the value of the Alarm Control." rationale="The primary function of the Monitor Temperature Function is to raise an alarm if the Isolette is unable to maintain the Current Temperature within the Alarm Temperature Range, as required by safety requirement SR-2." containedRequirements="#dc245205-04d4-42bf-acaa-4bd91182b8f6 #648c5f6c-4c14-4139-9041-66a977167793 #f6a2673a-a175-4baf-9a43-1245ba472b6e #203959fb-5931-45f7-b186-7a86cb3f08b4 #919baed0-6065-432b-be9e-9685a37d6118" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="2bd0df0e-9fc0-4d8f-a608-4c1716b9100a">
+        <modelElementReferences id="121d484b-941a-41c2-9b82-d35d2d7d3aa3" modelElement="monitor_temperature.aadl#monitor_temperature::Monitor_Temperature"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:NaturalLanguageExpression" id="531c6c31-711e-4601-9677-1f08fa078ef5" language="cst:NaturalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.core.natural" text="The Monitor Temperature Function shall set the value of the Alarm Control."/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="08efca24-476e-47c8-a1d2-f60d5b008f0f" name="REQ-MT-2: Set value of Monitor Status." description="The Monitor Temperature Function shall set the value of the Monitor Status." rationale="Safety requirement SR-2 requires the Thermostat to provide an independent monitor function. The status of this function must be provided to the Operator Interface, which will use it and the status of the Regulate Temperature Function to report the overall status of the Thermostat, as required by safety requirement SR-2." containedRequirements="#0afe2364-b2ff-4bac-9f7f-3e40dbe6c41d #6d48db7a-f05d-448f-969b-c5aca56cccce #6a361943-1c44-4f7a-b9c3-4cae40cef5d0" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="ce1889de-0b11-4d4a-91fa-35ae792ab467">
+        <modelElementReferences id="55dcd403-80d8-417f-93f3-dd8bd4eee348" modelElement="monitor_temperature.aadl#monitor_temperature.Monitor_Temperature"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:NaturalLanguageExpression" id="ac31ad32-9e32-4432-8f5b-761112063b11" language="cst:NaturalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.core.natural" text="The Monitor Temperature Function shall set the value of the Monitor Status."/>
+    </requirements>
+  </requirementGroups>
+  <requirementGroups id="d9869218-5979-4978-a8d2-ecd14ee40898" name="A.5.2.1 Manage Monitor Interface Function" description="The Manage Monitor Interface function defines the interaction with the Operator Interface external entity. These include obtaining the Alarm Range and reporting back the status of the Monitor Temperature Function." tracedTo="../isolette_thermostat.jucm#350 ../isolette_thermostat.jucm#204">
+    <requirements xsi:type="core:Requirement" id="0afe2364-b2ff-4bac-9f7f-3e40dbe6c41d" name="REQ-MMI-1: Monitor Status Init when Manage Monitor Interface mode INIT" description="If the Manage Monitor Interface mode is INIT, the Monitor Status shall be set to Init." rationale="Obvious." containedRequirements="#bec51f2c-cb7f-4d30-bccb-a5f383ae7c86" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="2ddb5e3d-41ed-4441-9f5b-afae9d1e84b4">
+        <modelElementReferences id="50d6f056-c164-43d9-8ce0-33485c377ccd" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="9d4592de-197a-4624-9d4d-08be6b2c78c5" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="6a361943-1c44-4f7a-b9c3-4cae40cef5d0" name="REQ-MMI-2: Monitor Status On when Manage Monitor Interface mode NORMAL" description="If the Manage Monitor Interface mode is NORMAL, the Monitor Status shall be set to On." rationale="Obvious" containedRequirements="#3a035d4a-d6c7-43a2-bf43-73eefae7a381" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="46ec33cb-6a82-4cdc-81e4-a9c47f342fcf">
+        <modelElementReferences id="b445d9d4-9213-4d66-8e69-065185a85dab" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="26af7180-1a4b-45b8-9085-a7381d3a94b5" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="6d48db7a-f05d-448f-969b-c5aca56cccce" name="REQ-MMI-3: Monitor Status Failed when Manage Monitor Interface mode FAILED" description="If the Manage Monitor Interface mode is FAILED, the Monitor Status shall be set to Failed." rationale="Obvious." containedRequirements="#2b6db9a6-46f0-4ea3-af76-ca40d0e55c95 #b29f363f-0970-463b-b47c-5c7753f5c03b" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="3535f999-1133-4767-93e7-0481fc94786b">
+        <modelElementReferences id="5d3dfeea-8735-4e70-b296-cac2cfba6a86" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="5933333f-c78a-4666-a7d8-373ec911cd90" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="294bbbd4-4e8f-4a16-8f1a-e16a814973c0" name="REQ-MMI-4: Monitor Interface Failed when Status of Lower or Upper Alarm Temp Invalid" description="If the Status attribute of the Lower Alarm Temperature or the Upper Alarm Temperature is Invalid, the Monitor Interface Failure shall be set to True." rationale="Obvious" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="00553c99-1004-48dd-a5d8-3c98a9fe396a">
+        <modelElementReferences id="33becaa1-daf0-4ce6-9ca1-9a583bcbb976" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="72d53d7d-d1cb-4df1-b95f-a43ee53bb5fb" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false&#xD;&#xA;"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="d911d282-03d4-4877-ad4e-1fde021f2a47" name="REQ-MMI-5: Monitor Interface not Failed when Lower and Upper Alarm Temp Valid" description="If the Status attribute of the Lower Alarm Temperature and the Upper Alarm Temperature is Valid, the Monitor Interface Failure shall be set to False." rationale="The Monitor Interface Failure internal variable indicates if any errors have occurred in sensing the Operator Interface monitored variables needed by the Manage Temperature Function. Note that its initial value on power-up will always be True since the Status attribute of the Lower Alarm Temperature and the Upper Alarm Temperature will initially be Invalid." category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="0bca979e-4bb6-4bfd-b6ed-c80856e557ab">
+        <modelElementReferences id="637a7e13-8e49-4b2a-86c9-72dfc28d04ba" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="fe391987-fdd9-484f-a143-be46d3d8fbd2" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="a6ceb3f6-bb57-4872-9482-ad1101582012" name="REQ-MMI-6: Alarm Range set to Desired Temp Range when Monitor Interface not Failed" description="If the Monitor Interface Failure is False, the Alarm Range variable shall be set to the Desired Temperature Range." rationale="Obvious." containedRequirements="#d911d282-03d4-4877-ad4e-1fde021f2a47" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="782f0ce5-3a44-4f22-9e63-8de420e94707">
+        <modelElementReferences id="eecae767-1840-42ce-9668-41d7ad6f9c09" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="477409ab-18f4-457a-9bac-0357cc26948f" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="4e17a6b5-0f66-4f33-9ebb-ce961a92e225" name="REQ-MMI-7: Alarm Range UNSPECIFIED when Monitor Interface Failed" description="If the Monitor Interface Failure is True, the Alarm Range variable is UNSPECIFIED." rationale="The Alarm Range variable is only meaningful when there is not a Monitor Interface Failure. If there is, its value should not used and it can be set to any value." containedRequirements="#294bbbd4-4e8f-4a16-8f1a-e16a814973c0" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="da042a43-c2ec-4bad-a1aa-c153d3f9e80c">
+        <modelElementReferences id="0f530032-d9ae-4587-8e8f-eb0bcda905f1" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Interface"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="a4ec6e99-ca2c-4aa7-897b-1b38f19fef66" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+  </requirementGroups>
+  <requirementGroups id="b7bcaed6-fc4a-40c5-a043-b54d72f2bcd5" name="A.5.2.2 Manage Monitor Mode Function" description="The Manage Monitor Mode Function determines the mode of the Monitor Temperature Function." tracedTo="../isolette_thermostat.jucm#40 ../isolette_thermostat.jucm#200">
+    <requirements xsi:type="core:Requirement" id="bec51f2c-cb7f-4d30-bccb-a5f383ae7c86" name="REQ-MMM-1: Initial mode is INIT" description="The initial mode of the Thermostat Monitor function shall be INIT." rationale="Obvious." category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="95a7e410-f3c2-4368-9284-40206bd56ee3">
+        <modelElementReferences id="8d4a3419-748e-4a65-ba84-d1a889df3756" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Mode"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="8247e97b-e4ac-450d-a2ef-ef66d1c475dd" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="3a035d4a-d6c7-43a2-bf43-73eefae7a381" name="REQ-MMM-2: Mode NORMAL when Mode INIT and Monitor Status Valid" description="The Monitor shall enter the NORMAL mode when it is in INIT mode and the Monitor Status is Valid." rationale="Obvious." containedRequirements="#afe0e688-9b55-42e2-ab66-a43e5955fb65" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="3af53355-c084-416f-a313-dab653e3059a">
+        <modelElementReferences id="be7bcbcd-ac33-45fd-b3d1-4c282c0fc228" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Mode"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="f0160bf8-1bac-42a1-afdf-2dcc5f71ddf7" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="2b6db9a6-46f0-4ea3-af76-ca40d0e55c95" name="REQ-MMM-3: Mode FAILED when Mode NORMAL and Monitor Status not Valid" description="The Monitor shall enter the FAILED mode when it is in NORMAL mode and the Monitor Status variable is not Valid." rationale="Once the monitor has failed, the only way for it to re-enter normal operation is for it to be powered off and on. This ensures that the operators are made aware of any transient failures that the monitor may be experiencing." category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="e422ca70-4f84-4e0c-8130-31ba977151b2">
+        <modelElementReferences id="a9827fd6-bdd9-405f-a6f0-fb5d45f3ecb9" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Mode"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="5014d864-931a-4d4c-a677-1b2487dbf56d" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="b29f363f-0970-463b-b47c-5c7753f5c03b" name="REQ-MMM-4: Mode FAILED when MODE INIT and Monitor Init Time Exceeded" description="The Monitor shall enter the FAILED mode when it is in INIT mode and the Monitor Status variable does not become Valid before the Monitor Initialization Timeout." rationale="Once the monitor has failed, the only way for it to re-enter normal operation is for it to be powered off and on. This ensures that the operators are made aware of any transient failures that the monitor may be experiencing." containedRequirements="#bec51f2c-cb7f-4d30-bccb-a5f383ae7c86" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="0e8e1a03-03a8-4b2d-b213-54e38362ecbd">
+        <modelElementReferences id="4041c9fa-1458-4830-b38f-c107cb49d3ac" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Monitor_Mode"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="333595c8-1024-4270-b349-a6b4a7817339" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+  </requirementGroups>
+  <requirementGroups id="471d91d9-85bc-4938-bfaa-c447f0a1a702" name="A.5.2.3 Manage Alarm Function" description="The Manage Alarm Function turns the Alarm Control on when the Current Temperature of the Isolette falls below or rises above the Alarm Temperature Range." tracedTo="../isolette_thermostat.jucm#258">
+    <requirements xsi:type="core:Requirement" id="dc245205-04d4-42bf-acaa-4bd91182b8f6" name="REQ-MA-1: Alarm Control Off when Monitor Mode INIT" description="If the Monitor Mode is INIT, the Alarm Control shall be set to Off." rationale="A monitor that is initializing should not activate the alarm unless it enters the FAILED mode." containedRequirements="#bec51f2c-cb7f-4d30-bccb-a5f383ae7c86 #b29f363f-0970-463b-b47c-5c7753f5c03b" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="fdc842b3-1dbe-4881-8dbf-029053c91401">
+        <modelElementReferences id="74bfea79-b8ae-4f6d-9b7e-a2b28fd9149d" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Alarm"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="b1f6690a-822d-4f3c-95bc-604e0096bc10" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="648c5f6c-4c14-4139-9041-66a977167793" name="REQ-MA-2: Alarm Control On when Monitor Mode NORMAL and Current Temp &lt; Lower Alarm Temp or > Upper Alarm Temp" description="If the Monitor Mode is NORMAL and the Current Temperature is less than the Lower Alarm Temperature or greater than the Upper Alarm Temperature, the Alarm Control shall be set to On." rationale="Obvious." containedRequirements="#3a035d4a-d6c7-43a2-bf43-73eefae7a381 #2b6db9a6-46f0-4ea3-af76-ca40d0e55c95 #a6ceb3f6-bb57-4872-9482-ad1101582012" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="c1bebe11-3120-4a43-a77d-6803e7def469">
+        <modelElementReferences id="6fa4ed9e-49f6-4c32-b0bd-7360a59bedae" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Alarm"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="8d4bcfd4-7037-44b5-946a-4533c3bdad2e" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="f6a2673a-a175-4baf-9a43-1245ba472b6e" name="REQ-MA-3: Alarm Control not changed when Monitor Mode NORMAL and Current Temp >= Lower Alarm Temp and &lt; Lower Alarm Temp +0.5°, or Current Temp > Upper Alarm Temp -0.5° and &lt;= Upper Alarm Temp" description="If the Monitor Mode is NORMAL and the Current Temperature is greater than or equal to the Lower Alarm Temperature and less than the Lower Alarm Temperature +0.5°, or the Current Temperature is greater than the Upper Alarm Temperature -0.5° and less than or equal to the Upper Alarm Temperature, the value of the Alarm Control shall not be changed." rationale="This provides a hysteresis that prevents transient alarms. @source figure_a-7.png" containedRequirements="#3a035d4a-d6c7-43a2-bf43-73eefae7a381 #a6ceb3f6-bb57-4872-9482-ad1101582012" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="f77b04ef-eae9-40ab-aa71-483508ffc446">
+        <modelElementReferences id="f75b450e-1382-451e-9104-6e23e22cfa84" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Alarm"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="f20fc53d-8a8f-46f8-ab3d-c32bdd26ce27" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="203959fb-5931-45f7-b186-7a86cb3f08b4" name="REQ-MA-4: Alarm Control Off when Monitor Mode NORMAL and Current Temp >= Lower Alarm Temp +0.5° and &lt;= Upper Alarm Temp -0.5°" description="If the Monitor Mode is NORMAL and the value of the Current Temperature is greater than or equal to the Lower Alarm Temperature +0.5° and less than or equal to the Upper Alarm Temperature -0.5°, the Alarm Control shall be set to Off." rationale="This turns the alarm off at the same moment that the Displayed Temperature shows a value greater than the Lower Alarm Temperature and less than the Upper Alarm Temperature." containedRequirements="#3a035d4a-d6c7-43a2-bf43-73eefae7a381 #a6ceb3f6-bb57-4872-9482-ad1101582012" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="bf8ce456-8689-4fbc-ad0f-e88383587186">
+        <modelElementReferences id="6574729c-3c16-422d-86de-3774e95fc7c0" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Alarm"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="ac082969-2ec9-436b-886a-39d35c4afca4" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="919baed0-6065-432b-be9e-9685a37d6118" name="REQ-MA-5: Alarm Control On when Monitor Mode FAILED" description="If the Monitor Mode is FAILED, the Alarm Control shall be set to On." rationale="A failed monitor cannot monitor the Current Temperature of the Isolette and the Alarm should be turned on." containedRequirements="#2b6db9a6-46f0-4ea3-af76-ca40d0e55c95 #b29f363f-0970-463b-b47c-5c7753f5c03b" category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="e313dca8-06a9-4840-a97d-897ef0d047c6">
+        <modelElementReferences id="66f49e64-1225-4aa6-bbc3-cc6abefac633" modelElement="monitor_temperature.aadl#monitor_temperature.Manage_Alarm"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="b763e6cc-3615-4a7b-9b23-1005e2e10e2c" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+  </requirementGroups>
+  <requirementGroups id="09e5df26-7f97-44fb-8d64-22653d4f9424" name="A.5.2.4 Detect Monitor Failure Function" tracedTo="../isolette_thermostat.jucm#196">
+    <requirements xsi:type="core:Requirement" id="ac3de0d6-a88c-4c7f-ad67-a0cdce0fb781" name="REQ-DMF-1: Monitor Intern Failure True when Monitor malfunctions" description="If the Monitor internally fails, the Monitor Internal Failure shall be set to True." rationale="Obvious." category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="6c92b38a-f7ac-40fc-8271-1b2a6adcf9d1">
+        <modelElementReferences id="a70cb8ca-f811-483c-acae-040be57ed8e5" modelElement="monitor_temperature.aadl#monitor_temperature.Detect_Monitor_Failure"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="70f4a42b-f8a0-452e-b911-a9839bbfdd1b" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+    <requirements xsi:type="core:Requirement" id="afe0e688-9b55-42e2-ab66-a43e5955fb65" name="REQ-DMF-2: Monitor Intern Faillure False when Monitor functions normally" description="If the Monitor internally functions normally, the Monitor Internal Failure shall be set to False." rationale="Obvious." category="platform:/config/fr.openpeople.ide.settings/default.settings#cat_System_Function">
+      <satisfiedBy xsi:type="core:RefUserSelectedModelElements" id="2c893090-0ac0-4246-87c2-bce81b1397b4">
+        <modelElementReferences id="55263081-10bf-4942-bcf3-d37971861df6" modelElement="monitor_temperature.aadl#monitor_temperature.Detect_Monitor_Failure"/>
+      </satisfiedBy>
+      <expression xsi:type="cst:FormalLanguageExpression" id="c45f2516-fe1d-4d55-a93b-ad196a840676" language="cst:FormalConstraintLanguage platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#fr.labsticc.framework.constraints.bless" text="false"/>
+    </requirements>
+  </requirementGroups>
+</core:Specification>

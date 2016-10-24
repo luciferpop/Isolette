@@ -1,0 +1,6 @@
+Model statistics Report
+
+Model Statistics: 32 component type declarations, 17 component implementation declarations, 31 data type declarations.  
+Flow Statistics: 17 flow specifications, 3 end-to-end flows.  
+Application statistics: 8 threads, 2 processes, 41 semantic connections, 3 end-to-end flow instances.  
+Execution platform statistics: 0 processors, 0 virtual processors, 0 memory units, 0 buses, 0 virtual buses, 0 devices.  

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SKHierarchicalObject class="ADELE_DataPortConnectionImpl" name="DataPortConnection5">
+<DOC11/>
+<DOC12/>
+<DOC21/>
+<DOC235/>
+<DOC26/>
+<Allowed_Connection_Binding_Class/>
+<Allowed_Connection_Binding/>
+<Actual_Connection_Binding/>
+<Required_Virtual_Bus_Class/>
+<Required_Connection_Quality_Of_Service/>
+<Connection_Pattern/>
+<Connection_Set/>
+<Transmission_Type/>
+<Latency/>
+<Classifier_Matching_Rule/>
+</SKHierarchicalObject>

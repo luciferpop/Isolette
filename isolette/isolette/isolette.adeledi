@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_tG0gQBK0EeKCv5Zu_F0Jqg" activeDiagram="_7TMLAR97EeKdBoxMkQSsfQ">
+  <model href="isolette.adele#/"/>
+  <diagrams xmi:id="_tG-RQBK0EeKCv5Zu_F0Jqg" position="0,0" size="100,100" name="No name" viewport="0,0">
+    <property xmi:id="_tZSwUBK0EeKCv5Zu_F0Jqg" key="pageFormatName" value="A4"/>
+    <property xmi:id="_tZSwURK0EeKCv5Zu_F0Jqg" key="diagramWidth" value="840"/>
+    <property xmi:id="_tZSwUhK0EeKCv5Zu_F0Jqg" key="diagramHeight" value="1188"/>
+    <property xmi:id="_tZSwUxK0EeKCv5Zu_F0Jqg" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_tZSwVBK0EeKCv5Zu_F0Jqg" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_tZSwVRK0EeKCv5Zu_F0Jqg" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_tZSwVhK0EeKCv5Zu_F0Jqg" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_tZSwVxK0EeKCv5Zu_F0Jqg" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_tZSwWBK0EeKCv5Zu_F0Jqg" key="orientation" value="landscape"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tG-RQRK0EeKCv5Zu_F0Jqg" presentation="org.topcased.adele.editor.packages">
+      <element href="isolette.adele#/"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_tdKjsBK0EeKCv5Zu_F0Jqg" position="19,99" size="197,135">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tdKjsRK0EeKCv5Zu_F0Jqg" presentation="default">
+        <element href="isolette.adele#//@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_316y4R97EeKdBoxMkQSsfQ" position="9,23" size="179,78">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_316y4h97EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_tdUUthK0EeKCv5Zu_F0Jqg" position="238,8" size="373,489">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tdUUtxK0EeKCv5Zu_F0Jqg" presentation="default">
+        <element href="isolette.adele#//@children.1"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_NdtasB98EeKdBoxMkQSsfQ" position="1,14" size="203,379">
+        <property xmi:id="_NdtasR98EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ndtash98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.1/@features.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Tcu78EhPEeKP4v7Cvbvonw" position="1,9" size="192,181">
+          <property xmi:id="_Tcu78UhPEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Tcu78khPEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.0/@children.0"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_-c2WwEhQEeKP4v7Cvbvonw" position="1,7" size="93,68">
+            <property xmi:id="_-c2WwUhQEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-c2WwkhQEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.0"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_UxW6oEhREeKP4v7Cvbvonw" position="1,4" size="-1,-1">
+              <property xmi:id="_UxW6oUhREeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UxW6okhREeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.0/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_WGuyIEhREeKP4v7Cvbvonw" position="-4,25" size="-1,-1">
+              <property xmi:id="_WGuyIUhREeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WGuyIkhREeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.0/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Gxiw0EhREeKP4v7Cvbvonw" position="1,85" size="67,73">
+            <property xmi:id="_Gxiw0UhREeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Gxiw0khREeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.1"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_ulfAAEhREeKP4v7Cvbvonw" position="7,10" size="-1,-1">
+              <property xmi:id="_ulfAAUhREeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ulfAAkhREeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.1/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_wW4FIEhREeKP4v7Cvbvonw" position="2,27" size="-1,-1">
+              <property xmi:id="_wW4FIUhREeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wW4FIkhREeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.0/@children.1/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_cm6MgEhPEeKP4v7Cvbvonw" position="1,200" size="184,153">
+          <property xmi:id="_cm6MgUhPEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cm6MgkhPEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.0/@children.1"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_ALMScEhSEeKP4v7Cvbvonw" position="1,8" size="73,64">
+            <property xmi:id="_ALMScUhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ALMSckhSEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.0"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_Ig6nQEhSEeKP4v7Cvbvonw" position="-7,3" size="-1,-1">
+              <property xmi:id="_Ig6nQUhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ig6nQkhSEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.0/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_KJXLwEhSEeKP4v7Cvbvonw" position="6,30" size="-1,-1">
+              <property xmi:id="_KJXLwUhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KJXLwkhSEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.0/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_BUp04EhSEeKP4v7Cvbvonw" position="1,77" size="76,57">
+            <property xmi:id="_BUp04UhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BUp04khSEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.1"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_LL94QEhSEeKP4v7Cvbvonw" position="-19,3" size="-1,-1">
+              <property xmi:id="_LL94QUhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LL94QkhSEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.1/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_MIw3sEhSEeKP4v7Cvbvonw" position="-1,20" size="-1,-1">
+              <property xmi:id="_MIw3sUhSEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MIw3skhSEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.1/@features.0/@children.1/@children.1/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_QvpskB98EeKdBoxMkQSsfQ" position="210,18" size="162,131">
+        <property xmi:id="_QvpskR98EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Qvpskh98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.1/@features.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_O2o9wEhTEeKP4v7Cvbvonw" position="80,7" size="-1,-1">
+          <property xmi:id="_O2o9wUhTEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_O2o9wkhTEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.1/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ShdpsEhTEeKP4v7Cvbvonw" position="52,34" size="-1,-1">
+          <property xmi:id="_ShdpsUhTEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ShdpskhTEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.1/@children.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_WtXpcEhTEeKP4v7Cvbvonw" position="53,59" size="-1,-1">
+          <property xmi:id="_WtXpcUhTEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WtXpckhTEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.1/@children.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ZOlpAEhTEeKP4v7Cvbvonw" position="71,85" size="-1,-1">
+          <property xmi:id="_ZOlpAUhTEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZOlpAkhTEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.1/@children.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_qIrxYB98EeKdBoxMkQSsfQ" position="322,167" size="-1,-1">
+        <property xmi:id="_qIrxYR98EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qIrxYh98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.1/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_oEApUEhMEeKP4v7Cvbvonw" position="-22,397" size="142,70">
+        <property xmi:id="_oEApUUhMEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_oEApUkhMEeKP4v7Cvbvonw" presentation="default">
+          <element href="isolette.adele#//@children.1/@features.3"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_tGvjYEhMEeKP4v7Cvbvonw" position="-12,9" size="-1,-1">
+          <property xmi:id="_tGvjYUhMEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tGvjYkhMEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.3/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_t-6hgEhMEeKP4v7Cvbvonw" position="2,31" size="-1,-1">
+          <property xmi:id="_t-6hgUhMEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_t-6hgkhMEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.1/@features.3/@children.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_bAdOAB98EeKdBoxMkQSsfQ" position="628,26" size="368,457">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bAdOAR98EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.2"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_dCiagB98EeKdBoxMkQSsfQ" position="1,39" size="204,385">
+        <property xmi:id="_dCiagR98EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dCiagh98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.2/@features.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_vwCcsEhTEeKP4v7Cvbvonw" position="1,16" size="193,162">
+          <property xmi:id="_vwCcsUhTEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vwCcskhTEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.0/@children.0"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_0TojsEhTEeKP4v7Cvbvonw" position="1,7" size="68,60">
+            <property xmi:id="_0TojsUhTEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0TojskhTEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.0"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_9uMZoEhTEeKP4v7Cvbvonw" position="0,1" size="-1,-1">
+              <property xmi:id="_9uMZoUhTEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9uMZokhTEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.0/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="__JYlQEhTEeKP4v7Cvbvonw" position="-19,17" size="-1,-1">
+              <property xmi:id="__JYlQUhTEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__JYlQkhTEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.0/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_1wwpAEhTEeKP4v7Cvbvonw" position="1,72" size="65,68">
+            <property xmi:id="_1wwpAUhTEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1wwpAkhTEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.1"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_Gt770EhUEeKP4v7Cvbvonw" position="-5,11" size="-1,-1">
+              <property xmi:id="_Gt770UhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Gt770khUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.1/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_J-r64EhUEeKP4v7Cvbvonw" position="-7,27" size="-1,-1">
+              <property xmi:id="_J-r64UhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_J-r64khUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.0/@children.1/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_SwH7UEhUEeKP4v7Cvbvonw" position="1,184" size="187,176">
+          <property xmi:id="_SwH7UUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_SwH7UkhUEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.0/@children.1"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_WPeXEEhUEeKP4v7Cvbvonw" position="0,8" size="69,69">
+            <property xmi:id="_WPeXEUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WPeXEkhUEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.0"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_afHAQEhUEeKP4v7Cvbvonw" position="-2,11" size="-1,-1">
+              <property xmi:id="_afHAQUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_afHAQkhUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.0/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_gArycEhUEeKP4v7Cvbvonw" position="-11,30" size="-1,-1">
+              <property xmi:id="_gArycUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_gAryckhUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.0/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_XuZMIEhUEeKP4v7Cvbvonw" position="1,83" size="68,69">
+            <property xmi:id="_XuZMIUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_XuZMIkhUEeKP4v7Cvbvonw" presentation="default">
+              <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.1"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_pnBakEhUEeKP4v7Cvbvonw" position="-14,10" size="-1,-1">
+              <property xmi:id="_pnBakUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pnBakkhUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.1/@children.0"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_taMKMEhUEeKP4v7Cvbvonw" position="5,36" size="-1,-1">
+              <property xmi:id="_taMKMUhUEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_taMKMkhUEeKP4v7Cvbvonw" presentation="default">
+                <element href="isolette.adele#//@children.2/@features.0/@children.1/@children.1/@children.1"/>
+              </semanticModel>
+            </contained>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_h9re0B98EeKdBoxMkQSsfQ" position="213,40" size="154,147">
+        <property xmi:id="_h9re0R98EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_h9re0h98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.2/@features.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_y-JiAEhUEeKP4v7Cvbvonw" position="76,17" size="-1,-1">
+          <property xmi:id="_y-JiAUhUEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_y-JiAkhUEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.1/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_1HYfYEhUEeKP4v7Cvbvonw" position="42,43" size="-1,-1">
+          <property xmi:id="_1HYfYUhUEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1HYfYkhUEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.1/@children.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_27AZIEhUEeKP4v7Cvbvonw" position="60,74" size="-1,-1">
+          <property xmi:id="_27AZIUhUEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_27AZIkhUEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.1/@children.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_4aEYIEhUEeKP4v7Cvbvonw" position="88,100" size="-1,-1">
+          <property xmi:id="_4aEYIUhUEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4aEYIkhUEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.2/@features.1/@children.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zrcZsB9_EeKdBoxMkQSsfQ" position="249,360" size="-1,-1">
+        <property xmi:id="_zrcZsR9_EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zrcZsh9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.2/@features.2"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_yyYLEB98EeKdBoxMkQSsfQ" position="33,443" size="200,132">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yyYLER98EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.3"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_050YsB98EeKdBoxMkQSsfQ" position="13,79" size="-1,-1">
+        <property xmi:id="_050YsR98EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_050Ysh98EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.3/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_G5V0MUhMEeKP4v7Cvbvonw" position="59,20" size="140,64">
+        <property xmi:id="_G5V0MkhMEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G5V0M0hMEeKP4v7Cvbvonw" presentation="default">
+          <element href="isolette.adele#//@children.3/@features.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_aYn3YEhMEeKP4v7Cvbvonw" position="24,3" size="-1,-1">
+          <property xmi:id="_aYn3YUhMEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aYn3YkhMEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.3/@features.1/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_guqMYEhMEeKP4v7Cvbvonw" position="106,22" size="-1,-1">
+          <property xmi:id="_guqMYUhMEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_guqMYkhMEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.3/@features.1/@children.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_-3jNIB98EeKdBoxMkQSsfQ" position="73,251" size="149,78">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-3jNIR98EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.4"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_A3ZlAB99EeKdBoxMkQSsfQ" position="15,26" size="-1,-1">
+        <property xmi:id="_A3ZlAR99EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_A3ZlAh99EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.4/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_FVe54B99EeKdBoxMkQSsfQ" position="126,17" size="-1,-1">
+        <property xmi:id="_FVe54R99EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FVe54h99EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.4/@features.1"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_I8ljcB99EeKdBoxMkQSsfQ" position="70,339" size="148,99">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I8ljcR99EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.5"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_KM5UwB99EeKdBoxMkQSsfQ" position="87,20" size="-1,-1">
+        <property xmi:id="_KM5UwR99EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KM5Uwh99EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.5/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_LKSKEB99EeKdBoxMkQSsfQ" position="19,23" size="-1,-1">
+        <property xmi:id="_LKSKER99EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LKSKEh99EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.5/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_lwPDEB9_EeKdBoxMkQSsfQ" position="32,45" size="-1,-1">
+        <property xmi:id="_lwPDER9_EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lwPDEh9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.5/@features.2"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZFLXoB99EeKdBoxMkQSsfQ" position="261,642" size="90,41">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZFLXoR99EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.6"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_RLpksB9_EeKdBoxMkQSsfQ" position="355,625" size="112,58">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RLpksR9_EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.7"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_UGpWMB9_EeKdBoxMkQSsfQ" position="-5,10" size="-1,-1">
+        <property xmi:id="_UGpWMR9_EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UGpWMh9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.7/@features.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_X21qUB9_EeKdBoxMkQSsfQ" position="471,625" size="143,59">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_X21qUR9_EeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.8"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_Z-bo8B9_EeKdBoxMkQSsfQ" position="118,16" size="-1,-1">
+        <property xmi:id="_Z-bo8R9_EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Z-bo8h9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.8/@features.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_NuvjgB-AEeKdBoxMkQSsfQ" position="216,695" size="123,36">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_NuvjgR-AEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.9"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_E_FkYB-DEeKdBoxMkQSsfQ" position="346,690" size="182,38">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_E_FkYR-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.10"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_N9Mu4B-DEeKdBoxMkQSsfQ" position="531,690" size="112,38">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_N9Mu4R-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.11"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_PucDAB-DEeKdBoxMkQSsfQ" position="645,694" size="143,37">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PucDAR-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.12"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_VnReoB-DEeKdBoxMkQSsfQ" position="119,694" size="90,33">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VnReoR-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.13"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_6I1XEB-DEeKdBoxMkQSsfQ" position="122,740" size="181,35">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6I1XER-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.14"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_94uJMB-DEeKdBoxMkQSsfQ" position="317,745" size="127,32">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_94uJMR-DEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.15"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_AmKm4B-EEeKdBoxMkQSsfQ" position="455,741" size="116,33">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_AmKm4R-EEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette.adele#//@children.16"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_uRFToSBMEeKi4ZZNf9EOBw" position="588,740" size="110,35">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uRFToiBMEeKi4ZZNf9EOBw" presentation="default">
+        <element href="isolette.adele#//@children.17"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_Ri3XoEhMEeKP4v7Cvbvonw" position="108,610" size="148,38">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ri3XoUhMEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.18"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_VA4WoEhMEeKP4v7Cvbvonw" position="109,656" size="148,33">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VA4WoUhMEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.19"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_cIzpUEhREeKP4v7Cvbvonw" position="631,492" size="208,37">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cIzpUUhREeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.20"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_fqsbsEhREeKP4v7Cvbvonw" position="633,537" size="208,36">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fqsbsUhREeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.21"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_iwHUgEhREeKP4v7Cvbvonw" position="633,587" size="198,37">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iwHUgUhREeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.22"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_lj0LMEhREeKP4v7Cvbvonw" position="637,633" size="196,39">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lj0LMUhREeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.23"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_QF6CsEhSEeKP4v7Cvbvonw" position="851,487" size="175,43">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QF6CsUhSEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.24"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_TLyOgEhSEeKP4v7Cvbvonw" position="854,542" size="168,36">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TLyOgUhSEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.25"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_VZ7hEEhSEeKP4v7Cvbvonw" position="850,589" size="174,39">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VZ7hEUhSEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.26"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_Xn7CoEhSEeKP4v7Cvbvonw" position="851,640" size="173,34">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Xn7CoUhSEeKP4v7Cvbvonw" presentation="default">
+        <element href="isolette.adele#//@children.27"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+  <subdiagrams xmi:id="_7TMLAB97EeKdBoxMkQSsfQ">
+    <model href="isolette.adele#//@children.0/@children.0"/>
+    <diagrams xmi:id="_7TMLAR97EeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,130">
+      <property xmi:id="_7dKmYB97EeKdBoxMkQSsfQ" key="pageFormatName" value=""/>
+      <property xmi:id="_7dKmYR97EeKdBoxMkQSsfQ" key="diagramWidth" value="801"/>
+      <property xmi:id="_7dKmYh97EeKdBoxMkQSsfQ" key="diagramHeight" value="628"/>
+      <property xmi:id="_7dKmYx97EeKdBoxMkQSsfQ" key="pageMarginName" value=""/>
+      <property xmi:id="_7dKmZB97EeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_7dKmZR97EeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_7dKmZh97EeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_7dKmZx97EeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_7dKmaB97EeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7TMLAh97EeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.system">
+        <element href="isolette.adele#//@children.0/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_YVl4UB9-EeKdBoxMkQSsfQ" position="10,245" size="171,106">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YVl4UR9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_aNiRYB9-EeKdBoxMkQSsfQ" position="59,52" size="-1,-1">
+          <property xmi:id="_aNiRYR9-EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_IX-IkR9_EeKdBoxMkQSsfQ" graphEdge="_IX-Ikh9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aNiRYh9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_BIbwEEhNEeKP4v7Cvbvonw" position="25,18" size="145,32">
+          <property xmi:id="_BIbwEUhNEeKP4v7Cvbvonw" key="portPosition" value="4"/>
+          <property xmi:id="_xrntsEhVEeKP4v7Cvbvonw" key="foregroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_Psku8EhNEeKP4v7Cvbvonw" graphEdge="_Psku8khNEeKP4v7Cvbvonw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BIbwEkhNEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_a6F1YB9-EeKdBoxMkQSsfQ" position="230,221" size="312,148">
+        <property xmi:id="_2FXB8B-AEeKdBoxMkQSsfQ" key="backgroundColor" value="255,255,255"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_a6F1YR9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_cAHpUx9-EeKdBoxMkQSsfQ" position="12,0" size="128,30">
+          <property xmi:id="_cAHpVB9-EeKdBoxMkQSsfQ" key="portPosition" value="8"/>
+          <anchorage xmi:id="_rmb24R9-EeKdBoxMkQSsfQ" graphEdge="_rne_wB9-EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cAHpVR9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.1/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_cBwoEB9-EeKdBoxMkQSsfQ" position="168,0" size="140,28">
+          <property xmi:id="_cBwoER9-EeKdBoxMkQSsfQ" key="portPosition" value="8"/>
+          <anchorage xmi:id="_sWHnYR9-EeKdBoxMkQSsfQ" graphEdge="_sWHnYh9-EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cBwoEh9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.1/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_cBwoEx9-EeKdBoxMkQSsfQ" position="230,63" size="-1,-1">
+          <property xmi:id="_cBwoFB9-EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <property xmi:id="_ATcToB-OEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+          <property xmi:id="_AzoPkB-OEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_Bm9u0B9_EeKdBoxMkQSsfQ" graphEdge="_BnHf0B9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cBwoFR9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.1/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_BIbwE0hNEeKP4v7Cvbvonw" position="-31,53" size="149,35">
+          <property xmi:id="_BIbwFEhNEeKP4v7Cvbvonw" key="portPosition" value="1"/>
+          <property xmi:id="_yu0QEEhVEeKP4v7Cvbvonw" key="foregroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_Psku8UhNEeKP4v7Cvbvonw" graphEdge="_Psku8khNEeKP4v7Cvbvonw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BIbwFUhNEeKP4v7Cvbvonw" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.1/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_dJuVsB9-EeKdBoxMkQSsfQ" position="221,90" size="322,107">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dJuVsR9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.2"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_eoy7wB9-EeKdBoxMkQSsfQ" position="14,62" size="136,28">
+          <property xmi:id="_eoy7wR9-EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_rmb24B9-EeKdBoxMkQSsfQ" graphEdge="_rne_wB9-EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eoy7wh9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.2/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_eoy7wx9-EeKdBoxMkQSsfQ" position="171,61" size="134,29">
+          <property xmi:id="_eoy7xB9-EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_sWHnYB9-EeKdBoxMkQSsfQ" graphEdge="_sWHnYh9-EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eoy7xR9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.2/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_RU0SUB-AEeKdBoxMkQSsfQ" position="30,3" size="-1,-1">
+          <property xmi:id="_RU0SUR-AEeKdBoxMkQSsfQ" key="portPosition" value="8"/>
+          <anchorage xmi:id="_S3m6wR-AEeKdBoxMkQSsfQ" graphEdge="_S3m6wh-AEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RU0SUh-AEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.2/@features.2"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_rne_wB9-EeKdBoxMkQSsfQ" anchor="_rmb24B9-EeKdBoxMkQSsfQ _rmb24R9-EeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rne_wR9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@featureGroupConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_sWHnYh9-EeKdBoxMkQSsfQ" anchor="_sWHnYB9-EeKdBoxMkQSsfQ _sWHnYR9-EeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sWHnYx9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@featureGroupConnection.1"/>
+        </semanticModel>
+        <waypoints>[0, 60, -61, -55]</waypoints>
+        <waypoints>[61, 60, 0, -55]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_-XGgkB9-EeKdBoxMkQSsfQ" position="596,249" size="154,103">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-XGgkR9-EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.3"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="__k4iUB9-EeKdBoxMkQSsfQ" position="-31,23" size="-1,-1">
+          <property xmi:id="__k4iUR9-EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <property xmi:id="_ATcToR-OEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+          <property xmi:id="_AzyAkB-OEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_Bm9u0R9_EeKdBoxMkQSsfQ" graphEdge="_BnHf0B9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__k4iUh9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.3/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__k4iUx9-EeKdBoxMkQSsfQ" position="69,57" size="-1,-1">
+          <property xmi:id="__k4iVB9-EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_HiU6AB9_EeKdBoxMkQSsfQ" graphEdge="_HiU6Ah9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__k4iVR9-EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.3/@features.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_BnHf0B9_EeKdBoxMkQSsfQ" anchor="_Bm9u0B9_EeKdBoxMkQSsfQ _Bm9u0R9_EeKdBoxMkQSsfQ">
+        <property xmi:id="_Bb3UQB-OEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BnHf0R9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@dataPortConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Cv00UB9_EeKdBoxMkQSsfQ" position="319,387" size="141,94">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Cv00UR9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.4"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_DvAZYB9_EeKdBoxMkQSsfQ" position="-9,24" size="-1,-1">
+          <property xmi:id="_DvAZYR9_EeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_IX-IkB9_EeKdBoxMkQSsfQ" graphEdge="_IX-Ikh9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DvAZYh9_EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.4/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_DvAZYx9_EeKdBoxMkQSsfQ" position="144,17" size="-1,-1">
+          <property xmi:id="_DvAZZB9_EeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_HiU6AR9_EeKdBoxMkQSsfQ" graphEdge="_HiU6Ah9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DvAZZR9_EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.4/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_pGDvYB9_EeKdBoxMkQSsfQ" position="23,43" size="-1,-1">
+          <property xmi:id="_pGDvYR9_EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_rY1DQR9_EeKdBoxMkQSsfQ" graphEdge="_rY1DQh9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pGDvYh9_EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.4/@features.2"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_HiU6Ah9_EeKdBoxMkQSsfQ" anchor="_HiU6AB9_EeKdBoxMkQSsfQ _HiU6AR9_EeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_HiU6Ax9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@dataPortConnection.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_IX-Ikh9_EeKdBoxMkQSsfQ" anchor="_IX-IkB9_EeKdBoxMkQSsfQ _IX-IkR9_EeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_IX-Ikx9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@dataPortConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_LBYa0B9_EeKdBoxMkQSsfQ" position="316,503" size="153,61">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LBYa0R9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.5"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_jGhO0B9_EeKdBoxMkQSsfQ" position="16,0" size="-1,-1">
+          <property xmi:id="_jGhO0R9_EeKdBoxMkQSsfQ" key="portPosition" value="8"/>
+          <anchorage xmi:id="_rY1DQB9_EeKdBoxMkQSsfQ" graphEdge="_rY1DQh9_EeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jGhO0h9_EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.5/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_rY1DQh9_EeKdBoxMkQSsfQ" anchor="_rY1DQB9_EeKdBoxMkQSsfQ _rY1DQR9_EeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rY1DQx9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@dataPortConnection.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_vA0doB9_EeKdBoxMkQSsfQ" position="300,8" size="153,59">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vA0doR9_EeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@children.6"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_vuRZgB9_EeKdBoxMkQSsfQ" position="13,12" size="-1,-1">
+          <property xmi:id="_vuRZgR9_EeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_S3m6wB-AEeKdBoxMkQSsfQ" graphEdge="_S3m6wh-AEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vuRZgh9_EeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette.adele#//@children.0/@children.0/@children.6/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_S3m6wh-AEeKdBoxMkQSsfQ" anchor="_S3m6wB-AEeKdBoxMkQSsfQ _S3m6wR-AEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_S3m6wx-AEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@dataPortConnection.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Psku8khNEeKP4v7Cvbvonw" anchor="_Psku8EhNEeKP4v7Cvbvonw _Psku8UhNEeKP4v7Cvbvonw">
+        <property xmi:id="_R1NPYEhNEeKP4v7Cvbvonw" key="foregroundColor" value="255,0,0"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Psku80hNEeKP4v7Cvbvonw" presentation="default">
+          <element href="isolette.adele#//@children.0/@children.0/@featureGroupConnection.2"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+</diagrams:Diagrams>

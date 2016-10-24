@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SKHierarchicalObject class="ADELE_DataImpl" name="Upper_Desired_Temp_Value">
+<CLASSIFIER/>
+<EXTENDS/>
+<DOC11/>
+<DOC12/>
+<DOC21/>
+<DOC235/>
+<DOC26/>
+<Concurrency_Control_Protocol/>
+<Access_Right/>
+<Base_Address/>
+<Source_Code_Size/>
+<Source_Data_Size/>
+<Source_Language/>
+<Source_Name/>
+<Source_Text/>
+<Type_Source_Name/>
+<Classifier_Substitution_Rule/>
+<Prototype_Substitution_Rule/>
+</SKHierarchicalObject>

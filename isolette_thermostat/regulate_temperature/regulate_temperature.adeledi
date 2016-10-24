@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_ndfi8DiVEeKhAOkvhuj50Q" activeDiagram="_ndfi8TiVEeKhAOkvhuj50Q">
+  <model href="regulate_temperature.adele#/"/>
+  <diagrams xmi:id="_ndfi8TiVEeKhAOkvhuj50Q" position="0,0" size="100,100" name="No name" viewport="0,0">
+    <property xmi:id="_neFY0DiVEeKhAOkvhuj50Q" key="pageFormatName" value="A4"/>
+    <property xmi:id="_neFY0TiVEeKhAOkvhuj50Q" key="diagramWidth" value="840"/>
+    <property xmi:id="_neFY0jiVEeKhAOkvhuj50Q" key="diagramHeight" value="1188"/>
+    <property xmi:id="_neFY0ziVEeKhAOkvhuj50Q" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_neFY1DiVEeKhAOkvhuj50Q" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_neFY1TiVEeKhAOkvhuj50Q" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_neFY1jiVEeKhAOkvhuj50Q" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_neFY1ziVEeKhAOkvhuj50Q" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_neFY2DiVEeKhAOkvhuj50Q" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ndfi8jiVEeKhAOkvhuj50Q" presentation="org.topcased.adele.editor.packages">
+      <element href="regulate_temperature.adele#/"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_rqZoQDiVEeKhAOkvhuj50Q" position="9,10" size="126,44">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rqZoQTiVEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.0"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_WFjxUDiWEeKhAOkvhuj50Q" position="140,11" size="169,46">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WFjxUTiWEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.1"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_bg-4MDiWEeKhAOkvhuj50Q" position="316,13" size="173,42">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bg-4MTiWEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.2"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_fU3ZgDiWEeKhAOkvhuj50Q" position="495,17" size="68,38">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fU3ZgTiWEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.3"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ibnIADiWEeKhAOkvhuj50Q" position="54,201" size="336,205">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ibnIATiWEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.4"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_65AOgDiXEeKhAOkvhuj50Q" position="513,136" size="235,129">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_65AOgTiXEeKhAOkvhuj50Q" presentation="default">
+        <element href="regulate_temperature.adele#//@children.5"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_7rNukDiXEeKhAOkvhuj50Q" position="5,34" size="58,40">
+        <property xmi:id="_7rNukTiXEeKhAOkvhuj50Q" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7rNukjiXEeKhAOkvhuj50Q" presentation="default">
+          <element href="regulate_temperature.adele#//@children.5/@features.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_B39GMDivEeK4p6OwYTO5lQ" position="96,458" size="309,302">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B39GMTivEeK4p6OwYTO5lQ" presentation="default">
+        <element href="regulate_temperature.adele#//@children.6"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_CpkwYDivEeK4p6OwYTO5lQ" position="1,41" size="224,207">
+        <property xmi:id="_CpkwYTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CpkwYjivEeK4p6OwYTO5lQ" presentation="default">
+          <element href="regulate_temperature.adele#//@children.6/@features.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_PlzWQDivEeK4p6OwYTO5lQ" position="-1,99" size="207,82">
+          <property xmi:id="_PlzWQTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PlzWQjivEeK4p6OwYTO5lQ" presentation="default">
+            <element href="regulate_temperature.adele#//@children.6/@features.0/@children.0"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_TtXokDivEeK4p6OwYTO5lQ" position="-23,9" size="-1,-1">
+            <property xmi:id="_TtXokTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TtXokjivEeK4p6OwYTO5lQ" presentation="default">
+              <element href="regulate_temperature.adele#//@children.6/@features.0/@children.0/@children.0"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_X_EHQDivEeK4p6OwYTO5lQ" position="-5,33" size="-1,-1">
+            <property xmi:id="_X_EHQTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_X_EHQjivEeK4p6OwYTO5lQ" presentation="default">
+              <element href="regulate_temperature.adele#//@children.6/@features.0/@children.0/@children.1"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_dDRA8DivEeK4p6OwYTO5lQ" position="1,18" size="212,79">
+          <property xmi:id="_dDRA8TivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dDRA8jivEeK4p6OwYTO5lQ" presentation="default">
+            <element href="regulate_temperature.adele#//@children.6/@features.0/@children.1"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_in8KcDivEeK4p6OwYTO5lQ" position="-7,8" size="-1,-1">
+            <property xmi:id="_in8KcTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_in8KcjivEeK4p6OwYTO5lQ" presentation="default">
+              <element href="regulate_temperature.adele#//@children.6/@features.0/@children.1/@children.0"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_kMEPoDivEeK4p6OwYTO5lQ" position="-21,29" size="-1,-1">
+            <property xmi:id="_kMEPoTivEeK4p6OwYTO5lQ" key="portPosition" value="1"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kMEPojivEeK4p6OwYTO5lQ" presentation="default">
+              <element href="regulate_temperature.adele#//@children.6/@features.0/@children.1/@children.1"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_vXg0YDivEeK4p6OwYTO5lQ" position="502,493" size="158,76">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vXg0YTivEeK4p6OwYTO5lQ" presentation="default">
+        <element href="regulate_temperature.adele#//@children.7"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

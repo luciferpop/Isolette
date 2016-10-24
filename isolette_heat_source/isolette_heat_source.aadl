@@ -1,0 +1,11 @@
+package isolette_heat_source
+public
+	with isolette;
+	
+	system Heat_Source extends isolette::Heat_Source
+	end Heat_Source;
+
+	system implementation Heat_Source.impl
+	end Heat_Source.impl;
+	
+end isolette_heat_source;

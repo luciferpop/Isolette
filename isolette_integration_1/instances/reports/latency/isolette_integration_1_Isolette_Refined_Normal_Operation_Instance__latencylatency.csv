@@ -1,0 +1,68 @@
+Latency Analysis Report
+
+Flow analysis for end to end flow temp_sensor_to_heat_source_flow (Async)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component temperature_sensor,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+
+Flow analysis for end to end flow temp_sensor_to_heat_source_flow (Sync)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component temperature_sensor,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+
+Flow analysis for end to end flow op_interface_to_reg_status (Async)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component operator_interface,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+
+Flow analysis for end to end flow op_interface_to_reg_status (Sync)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component operator_interface,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+
+Flow analysis for end to end flow op_interface_to_mon_status (Async)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component operator_interface,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+
+Flow analysis for end to end flow op_interface_to_mon_status (Sync)
+Contributor,Min Specified,Min Value,Min Method,Max Specified,Max Value,Max Method,Comments,
+Component operator_interface,,0.0ms,no latency,,0.0ms,no latency,
+Latency Total,0.0ms,0.0ms,,0.0ms,0.0ms,,
+End to End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Minimum end to end latency is not pecified or zero,
+WARNING,End to end latency is not specified,
+
+
+

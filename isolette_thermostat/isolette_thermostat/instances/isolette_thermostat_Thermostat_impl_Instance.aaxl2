@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" xmi:id="_iwVdoFi_EeSMLtPxMUgG0A" name="Thermostat_impl_Instance" category="system">
+  <ownedPropertyAssociation xmi:id="_i4X_UFi_EeSMLtPxMUgG0A">
+    <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Failure_Probability"/>
+    <ownedValue xmi:id="_i4X_UVi_EeSMLtPxMUgG0A">
+      <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i4X_Uli_EeSMLtPxMUgG0A" value="5.0E-9">
+        <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.5/@ownedLiteral.1"/>
+      </ownedValue>
+    </ownedValue>
+  </ownedPropertyAssociation>
+  <featureInstance xmi:id="_i1RA8Fi_EeSMLtPxMUgG0A" name="current_temperature" srcFlowSpec="_i1VSYFi_EeSMLtPxMUgG0A" category="featureGroup">
+    <featureInstance xmi:id="_i1RA8Vi_EeSMLtPxMUgG0A" name="value">
+      <ownedPropertyAssociation xmi:id="_i4bCoFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+        <ownedValue xmi:id="_i4bCoVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i4bCo1i_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i4bCpFi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4bCpVi_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i4bpsFi_EeSMLtPxMUgG0A">
+        <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+        <ownedValue xmi:id="_i4bpsVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i4bpsli_EeSMLtPxMUgG0A" value="0.05">
+            <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i4cQwFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+        <ownedValue xmi:id="_i4cQwVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i4cQwli_EeSMLtPxMUgG0A">
+            <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i4cQw1i_EeSMLtPxMUgG0A" value="68.0"/>
+            <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i4cQxFi_EeSMLtPxMUgG0A" value="105.0"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1RA8li_EeSMLtPxMUgG0A" name="status">
+      <ownedPropertyAssociation xmi:id="_i4etAFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i4etAVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4etAli_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i4f7IFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i4f7IVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFeatureGroup.0"/>
+  </featureInstance>
+  <featureInstance xmi:id="_i1RoAFi_EeSMLtPxMUgG0A" name="operator_settings" category="featureGroup">
+    <featureInstance xmi:id="_i1RoAVi_EeSMLtPxMUgG0A" name="desired_temperature_range" srcFlowSpec="_i1VSYVi_EeSMLtPxMUgG0A" category="featureGroup">
+      <featureInstance xmi:id="_i1RoAli_EeSMLtPxMUgG0A" name="lower" category="featureGroup">
+        <featureInstance xmi:id="_i1RoA1i_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i4i-cFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i4i-cVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4jlgFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4jlgVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4jlgli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4kMkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i4kMkVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i4kMkli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4kMk1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4kMlFi_EeSMLtPxMUgG0A" value="99"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4kMlVi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i4kMlli_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i4kMl1i_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1RoBFi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i4lasFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4mBwFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4mBwVi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4mBwli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i4mBw1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1SPEFi_EeSMLtPxMUgG0A" name="upper" category="featureGroup">
+        <featureInstance xmi:id="_i1SPEVi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i4oeAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i4oeAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4oeAli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4oeA1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4oeBFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4pFEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i4pFEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i4pFEli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4pFE1i_EeSMLtPxMUgG0A" value="98"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4pFFFi_EeSMLtPxMUgG0A" value="100"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4pFFVi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i4psIFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i4psIVi_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1SPEli_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i4rhUFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4rhUVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4rhUli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4sIYFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i4sIYVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedFeatureGroup.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1SPE1i_EeSMLtPxMUgG0A" name="alarm_temperature_range" srcFlowSpec="_i1V5cFi_EeSMLtPxMUgG0A" category="featureGroup">
+      <featureInstance xmi:id="_i1SPFFi_EeSMLtPxMUgG0A" name="lower" category="featureGroup">
+        <featureInstance xmi:id="_i1S2IFi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i4vLsFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i4vLsVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4vywFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4vywVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4vywli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4wZ0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i4wZ0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i4wZ0li_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4wZ01i_EeSMLtPxMUgG0A" value="93"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i4wZ1Fi_EeSMLtPxMUgG0A" value="98"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4xA4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i4xA4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i4xA4li_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1S2IVi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i4y2EFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i4y2EVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4y2Eli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i4y2E1i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i4y2FFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.18/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1TdMFi_EeSMLtPxMUgG0A" name="upper" category="featureGroup">
+        <featureInstance xmi:id="_i1TdMVi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i41SUFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i41SUVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i415YFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i415YVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i415Yli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i43HgFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i43HgVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i43Hgli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i43Hg1i_EeSMLtPxMUgG0A" value="99"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i43HhFi_EeSMLtPxMUgG0A" value="103"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i43HhVi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i43Hhli_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i43Hh1i_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1TdMli_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i44VoFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i44VoVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i44Voli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i448sFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i448sVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.18/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedFeatureGroup.1"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFeatureGroup.1"/>
+  </featureInstance>
+  <featureInstance xmi:id="_i1TdM1i_EeSMLtPxMUgG0A" name="operator_feedback" category="featureGroup" direction="out">
+    <featureInstance xmi:id="_i1UEQFi_EeSMLtPxMUgG0A" name="regulator_status" dstConnectionInstance="_i2DEEFi_EeSMLtPxMUgG0A" dstFlowSpec="_i1VSYVi_EeSMLtPxMUgG0A" direction="out">
+      <ownedPropertyAssociation xmi:id="_i46x4Fi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i46x4Vi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i46x4li_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i47Y8Fi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i47Y8Vi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i47Y8li_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y81i_EeSMLtPxMUgG0A" value="Init"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Vi_EeSMLtPxMUgG0A" value="Failed"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1UEQVi_EeSMLtPxMUgG0A" name="display_temperature" dstConnectionInstance="_i2DrIFi_EeSMLtPxMUgG0A" direction="out">
+      <ownedPropertyAssociation xmi:id="_i48nEFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+        <ownedValue xmi:id="_i48nEVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i48nEli_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i48nE1i_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i48nFFi_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i49OIFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+        <ownedValue xmi:id="_i49OIVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i49OIli_EeSMLtPxMUgG0A">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i49OI1i_EeSMLtPxMUgG0A" value="68"/>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i49OJFi_EeSMLtPxMUgG0A" value="105"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i49OJVi_EeSMLtPxMUgG0A">
+        <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+        <ownedValue xmi:id="_i49OJli_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i49OJ1i_EeSMLtPxMUgG0A" value="1.0">
+            <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1UEQli_EeSMLtPxMUgG0A" name="monitor_status" dstFlowSpec="_i1V5cFi_EeSMLtPxMUgG0A" direction="out">
+      <ownedPropertyAssociation xmi:id="_i4-cQFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i4-cQVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i4-cQli_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i4_DUFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i4_DUVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i47Y8li_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y81i_EeSMLtPxMUgG0A" value="Init"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Vi_EeSMLtPxMUgG0A" value="Failed"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.2"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1UEQ1i_EeSMLtPxMUgG0A" name="alarm_control" direction="out">
+      <ownedPropertyAssociation xmi:id="_i4_qYFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i5ARcFi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5ARcVi_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5ARcli_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i5ARc1i_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i5ARdFi_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i5ARdVi_EeSMLtPxMUgG0A" value="Off"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.3"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFeatureGroup.2"/>
+  </featureInstance>
+  <featureInstance xmi:id="_i1UrUFi_EeSMLtPxMUgG0A" name="heat_control" dstConnectionInstance="_i189cFi_EeSMLtPxMUgG0A" dstFlowSpec="_i1VSYFi_EeSMLtPxMUgG0A" direction="out">
+    <ownedPropertyAssociation xmi:id="_i5BfkFi_EeSMLtPxMUgG0A">
+      <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+      <ownedValue xmi:id="_i5BfkVi_EeSMLtPxMUgG0A">
+        <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5Bfkli_EeSMLtPxMUgG0A">
+          <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+        </ownedValue>
+      </ownedValue>
+    </ownedPropertyAssociation>
+    <ownedPropertyAssociation xmi:id="_i5CGoFi_EeSMLtPxMUgG0A">
+      <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+      <ownedValue xmi:id="_i5CGoVi_EeSMLtPxMUgG0A">
+        <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i5ARdFi_EeSMLtPxMUgG0A">
+          <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+          <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i5ARdVi_EeSMLtPxMUgG0A" value="Off"/>
+        </ownedValue>
+      </ownedValue>
+    </ownedPropertyAssociation>
+    <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedDataPort.0"/>
+  </featureInstance>
+  <componentInstance xmi:id="_iz4g4Fi_EeSMLtPxMUgG0A" name="regulate_temperature" category="process">
+    <ownedPropertyAssociation xmi:id="_i5DUwFi_EeSMLtPxMUgG0A">
+      <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Failure_Probability"/>
+      <ownedValue xmi:id="_i5DUwVi_EeSMLtPxMUgG0A">
+        <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5DUwli_EeSMLtPxMUgG0A" value="0.005">
+          <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.5/@ownedLiteral.1"/>
+        </ownedValue>
+      </ownedValue>
+    </ownedPropertyAssociation>
+    <featureInstance xmi:id="_i1NWkVi_EeSMLtPxMUgG0A" name="desired_temperature_range" category="featureGroup">
+      <featureInstance xmi:id="_i1N9oFi_EeSMLtPxMUgG0A" name="lower" srcFlowSpec="_i1QZ4Vi_EeSMLtPxMUgG0A" category="featureGroup">
+        <featureInstance xmi:id="_i1OksFi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i5NFwFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i5NFwVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5NFwli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i5NFw1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5NFxFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5OT4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i5OT4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i5OT4li_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5OT41i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5OT5Fi_EeSMLtPxMUgG0A" value="99"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5OT5Vi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i5OT5li_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5OT51i_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1OksVi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i5QJEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i5QJEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5QJEli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5QwIFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i5QwIVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1Oksli_EeSMLtPxMUgG0A" name="upper" category="featureGroup">
+        <featureInstance xmi:id="_i1PLwFi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i5UagFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i5UagVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5Uagli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i5Uag1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5UahFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5VBkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i5VooFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i5VooVi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5Vooli_EeSMLtPxMUgG0A" value="98"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5Voo1i_EeSMLtPxMUgG0A" value="100"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5VopFi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i5VopVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5Vopli_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1PLwVi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i5Xd0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i5Xd0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5Xd0li_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5YE4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i5YE4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedFeatureGroup.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1PLwli_EeSMLtPxMUgG0A" name="current_temperature" srcFlowSpec="_i1QZ4Fi_EeSMLtPxMUgG0A" category="featureGroup">
+      <featureInstance xmi:id="_i1PLw1i_EeSMLtPxMUgG0A" name="value">
+        <ownedPropertyAssociation xmi:id="_i5c9YFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+          <ownedValue xmi:id="_i5c9YVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i5dkcFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i5dkcVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5dkcli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i5dkc1i_EeSMLtPxMUgG0A">
+          <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+          <ownedValue xmi:id="_i5dkdFi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5dkdVi_EeSMLtPxMUgG0A" value="0.05">
+              <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i5eLgFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+          <ownedValue xmi:id="_i5eLgVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i5eLgli_EeSMLtPxMUgG0A">
+              <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i5eLg1i_EeSMLtPxMUgG0A" value="68.0"/>
+              <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i5eLhFi_EeSMLtPxMUgG0A" value="105.0"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1Py0Fi_EeSMLtPxMUgG0A" name="status">
+        <ownedPropertyAssociation xmi:id="_i5gnwFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i5gnwVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5gnwli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i5hO0Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i5hO0Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedFeatureGroup.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1Py0Vi_EeSMLtPxMUgG0A" name="regulator_status" dstFlowSpec="_i1QZ4Vi_EeSMLtPxMUgG0A" direction="out">
+      <ownedPropertyAssociation xmi:id="_i5jEAFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i5jEAVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5jEAli_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5jrEFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i5jrEVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i47Y8li_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y81i_EeSMLtPxMUgG0A" value="Init"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Vi_EeSMLtPxMUgG0A" value="Failed"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1Py0li_EeSMLtPxMUgG0A" name="display_temperature" direction="out">
+      <ownedPropertyAssociation xmi:id="_i5lgQFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+        <ownedValue xmi:id="_i5lgQVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5lgQli_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i5mHUFi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5mHUVi_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5muYFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+        <ownedValue xmi:id="_i5muYVi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i5muYli_EeSMLtPxMUgG0A">
+            <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5muY1i_EeSMLtPxMUgG0A" value="68"/>
+            <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i5muZFi_EeSMLtPxMUgG0A" value="105"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5muZVi_EeSMLtPxMUgG0A">
+        <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+        <ownedValue xmi:id="_i5muZli_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5muZ1i_EeSMLtPxMUgG0A" value="1.0">
+            <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance xmi:id="_i1Py01i_EeSMLtPxMUgG0A" name="heat_control" dstFlowSpec="_i1QZ4Fi_EeSMLtPxMUgG0A" direction="out">
+      <ownedPropertyAssociation xmi:id="_i5ojkFi_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue xmi:id="_i5pKoFi_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i5pKoVi_EeSMLtPxMUgG0A">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xmi:id="_i5pKoli_EeSMLtPxMUgG0A">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue xmi:id="_i5pKo1i_EeSMLtPxMUgG0A">
+          <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i5ARdFi_EeSMLtPxMUgG0A">
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i5ARdVi_EeSMLtPxMUgG0A" value="Off"/>
+          </ownedValue>
+        </ownedValue>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedDataPort.2"/>
+    </featureInstance>
+    <componentInstance xmi:id="_i0wqoFi_EeSMLtPxMUgG0A" name="manage_heat_source" category="thread">
+      <featureInstance xmi:id="_i02KMFi_EeSMLtPxMUgG0A" name="desired_range" category="featureGroup">
+        <featureInstance xmi:id="_i02xQFi_EeSMLtPxMUgG0A" name="lower" dstConnectionInstance="_i2B18Fi_EeSMLtPxMUgG0A">
+          <ownedPropertyAssociation xmi:id="_i50JwFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i50JwVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i50w0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i50w0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i50w0li_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i51X4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i51X4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i51X4li_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i51X41i_EeSMLtPxMUgG0A" value="96"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i51X5Fi_EeSMLtPxMUgG0A" value="101"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i02xQVi_EeSMLtPxMUgG0A" name="upper" dstConnectionInstance="_i2B18li_EeSMLtPxMUgG0A">
+          <ownedPropertyAssociation xmi:id="_i530IFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i530IVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i54bMFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i54bMVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i54bMli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i55CQFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i55CQVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i55CQli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i55CQ1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i55CRFi_EeSMLtPxMUgG0A" value="102"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i03YUFi_EeSMLtPxMUgG0A" name="current_temperature" category="featureGroup">
+        <featureInstance xmi:id="_i03_YFi_EeSMLtPxMUgG0A" name="value" srcFlowSpec="_i07CsFi_EeSMLtPxMUgG0A">
+          <ownedPropertyAssociation xmi:id="_i596wFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i596wVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i596wli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i596w1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i596xFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5-h0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+            <ownedValue xmi:id="_i5-h0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i5-h0li_EeSMLtPxMUgG0A" value="0.05">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i5-h01i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i5-h1Fi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i5-h1Vi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i5-h1li_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i5-h11i_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i06boFi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i6A-EFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i6A-EVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i6A-Eli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6A-E1i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i6A-FFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i06boVi_EeSMLtPxMUgG0A" name="regulator_mode" dstConnectionInstance="_i2QfcFi_EeSMLtPxMUgG0A">
+        <ownedPropertyAssociation xmi:id="_i6CzQFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i6DaUFi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i6DaUVi_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i6DaUli_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i6DaU1i_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6DaVFi_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVVi_EeSMLtPxMUgG0A" value="INIT"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVli_EeSMLtPxMUgG0A" value="NORMAL"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaV1i_EeSMLtPxMUgG0A" value="FAILED"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i06boli_EeSMLtPxMUgG0A" name="heat_control" srcConnectionInstance="_i189cFi_EeSMLtPxMUgG0A" dstFlowSpec="_i07CsFi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i6F2kFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i6GdoFi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i6GdoVi_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i6HEsFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i6HrwFi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i5ARdFi_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i5ARdVi_EeSMLtPxMUgG0A" value="Off"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.1"/>
+      </featureInstance>
+      <componentInstance xmi:id="_i0xRsFi_EeSMLtPxMUgG0A" name="manage_heat_source_sub" category="subprogram">
+        <ownedPropertyAssociation xmi:id="_i6NyYFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+          <ownedValue xmi:id="_i6NyYVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i6iigFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Timing_Properties.aadl#Timing_Properties.Compute_Execution_Time"/>
+          <ownedValue xmi:id="_i6iigVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i6iigli_EeSMLtPxMUgG0A">
+              <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6iig1i_EeSMLtPxMUgG0A" value="50">
+                <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+              </minimum>
+              <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6iihFi_EeSMLtPxMUgG0A" value="60">
+                <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+              </maximum>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <featureInstance xmi:id="_i0zG4Fi_EeSMLtPxMUgG0A" name="desired_temp_lower" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i6jJkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i6jJkVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6jwoFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i6jwoVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i6jwoli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6jwo1i_EeSMLtPxMUgG0A" value="96"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6jwpFi_EeSMLtPxMUgG0A" value="101"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6mM4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i6mM4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0zt8Fi_EeSMLtPxMUgG0A" name="desired_temp_upper" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i6mz8Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i6mz8Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6nbAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i6nbAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i6nbAli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6nbA1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6nbBFi_EeSMLtPxMUgG0A" value="102"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6p3QFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i6p3QVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.1"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0zt8Vi_EeSMLtPxMUgG0A" name="current_temp_value" srcFlowSpec="_i01jIFi_EeSMLtPxMUgG0A" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i6qeUFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i6qeUVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6rFYFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i6rFYVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i6rFYli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i6rFY1i_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i6rFZFi_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6s6kFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i6thoFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.2"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0zt8li_EeSMLtPxMUgG0A" name="current_temp_status" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i6xMAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i6xMAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.3"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i00VAFi_EeSMLtPxMUgG0A" name="regulator_mode" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i6zoQFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i6zoQVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.4"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i00VAVi_EeSMLtPxMUgG0A" name="heat_control" dstFlowSpec="_i01jIFi_EeSMLtPxMUgG0A" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i61dcFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i61dcVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6NyYli_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6NyY1i_EeSMLtPxMUgG0A" value="manage_heat_source.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedParameter.5"/>
+        </featureInstance>
+        <flowSpecification xmi:id="_i01jIFi_EeSMLtPxMUgG0A" name="current_temp_heat_control" source="_i0zt8Vi_EeSMLtPxMUgG0A" destination="_i00VAVi_EeSMLtPxMUgG0A">
+          <ownedPropertyAssociation xmi:id="_i635sFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+            <ownedValue xmi:id="_i635sVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i635sli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i635s1i_EeSMLtPxMUgG0A" value="70">
+                  <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+                </minimum>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i635tFi_EeSMLtPxMUgG0A" value="90">
+                  <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+                </maximum>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.7/@ownedFlowSpecification.0"/>
+        </flowSpecification>
+        <subcomponent xsi:type="aadl2:SubprogramSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedSubprogramSubcomponent.0"/>
+        <index>0</index>
+      </componentInstance>
+      <flowSpecification xmi:id="_i07CsFi_EeSMLtPxMUgG0A" name="current_temp_heat_control" source="_i03_YFi_EeSMLtPxMUgG0A" destination="_i06boli_EeSMLtPxMUgG0A">
+        <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.8/@ownedFlowSpecification.0"/>
+      </flowSpecification>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedThreadSubcomponent.0"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_i07CsVi_EeSMLtPxMUgG0A" name="manage_regulator_interface" category="thread">
+      <featureInstance xmi:id="_i1CXcVi_EeSMLtPxMUgG0A" name="desired_temp_lower" srcFlowSpec="_i1Go4Fi_EeSMLtPxMUgG0A" category="featureGroup">
+        <featureInstance xmi:id="_i1C-gFi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i69ZQFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i69ZQVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6-AUFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i6-AUVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i6-AUli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6-nYFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i6-nYVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i6-nYli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6-nY1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i6-nZFi_EeSMLtPxMUgG0A" value="99"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i6_OcFi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i6_OcVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i6_Ocli_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1C-gVi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i7BDoFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7BDoVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7BDoli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7BqsFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i7BqsVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1DlkFi_EeSMLtPxMUgG0A" name="desired_temp_upper" category="featureGroup">
+        <featureInstance xmi:id="_i1DlkVi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i7FVEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7F8IFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7F8IVi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7F8Ili_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7F8I1i_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7F8JFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7GjMFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7GjMVi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7GjMli_EeSMLtPxMUgG0A" value="98"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7GjM1i_EeSMLtPxMUgG0A" value="100"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7GjNFi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+            <ownedValue xmi:id="_i7GjNVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i7GjNli_EeSMLtPxMUgG0A" value="1.0">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1EMoFi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i7IYYFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7IYYVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7IYYli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7IYY1i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i7IYZFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1EMoVi_EeSMLtPxMUgG0A" name="current_temperature" category="featureGroup">
+        <featureInstance xmi:id="_i1EMoli_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i7MCwFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7MCwVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7MCwli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7MCw1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7MCxFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7Mp0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+            <ownedValue xmi:id="_i7Mp0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i7Mp0li_EeSMLtPxMUgG0A" value="0.05">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7Mp01i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i7Mp1Fi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7Mp1Vi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i7Mp1li_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i7Mp11i_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1EzsFi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i7OfAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7OfAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7OfAli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7PGEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i7PGEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1EzsVi_EeSMLtPxMUgG0A" name="desired_range" category="featureGroup" direction="in out">
+        <featureInstance xmi:id="_i1Ezsli_EeSMLtPxMUgG0A" name="lower" srcConnectionInstance="_i2B18Fi_EeSMLtPxMUgG0A" direction="out">
+          <ownedPropertyAssociation xmi:id="_i7SJYFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7SJYVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7SwcFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7SwcVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7Swcli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7TXgFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7TXgVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7TXgli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7TXg1i_EeSMLtPxMUgG0A" value="96"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7TXhFi_EeSMLtPxMUgG0A" value="101"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1Ezs1i_EeSMLtPxMUgG0A" name="upper" srcConnectionInstance="_i2B18li_EeSMLtPxMUgG0A" direction="out">
+          <ownedPropertyAssociation xmi:id="_i7XB4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7XB4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7XB4li_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i7XB41i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7XB5Fi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7YQAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7YQAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7YQAli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7YQA1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7YQBFi_EeSMLtPxMUgG0A" value="102"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.3"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1FawFi_EeSMLtPxMUgG0A" name="regulator_mode" dstConnectionInstance="_i2PRUFi_EeSMLtPxMUgG0A">
+        <ownedPropertyAssociation xmi:id="_i7bTUFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i7bTUVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7bTUli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7b6YFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i7b6YVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6DaVFi_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVVi_EeSMLtPxMUgG0A" value="INIT"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVli_EeSMLtPxMUgG0A" value="NORMAL"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaV1i_EeSMLtPxMUgG0A" value="FAILED"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1FawVi_EeSMLtPxMUgG0A" name="regulator_status" srcConnectionInstance="_i2DEEFi_EeSMLtPxMUgG0A" dstFlowSpec="_i1Go4Fi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i7eWoFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i7eWoVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7eWoli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7e9sFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i7e9sVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i47Y8li_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y81i_EeSMLtPxMUgG0A" value="Init"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Fi_EeSMLtPxMUgG0A" value="On"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i47Y9Vi_EeSMLtPxMUgG0A" value="Failed"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1GB0Fi_EeSMLtPxMUgG0A" name="display_temperature" srcConnectionInstance="_i2DrIFi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i7gy4Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+          <ownedValue xmi:id="_i7gy4Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7hZ8Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i7hZ8Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7hZ8li_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7iBAFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+          <ownedValue xmi:id="_i7iBAVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7iBAli_EeSMLtPxMUgG0A">
+              <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7iBA1i_EeSMLtPxMUgG0A" value="68"/>
+              <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7iBBFi_EeSMLtPxMUgG0A" value="105"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7iBBVi_EeSMLtPxMUgG0A">
+          <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Increment"/>
+          <ownedValue xmi:id="_i7iBBli_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i7iBB1i_EeSMLtPxMUgG0A" value="1.0">
+              <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1GB0Vi_EeSMLtPxMUgG0A" name="regulator_interface_failure" srcConnectionInstance="_i2E5QFi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i7j2MFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i7j2MVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i7j2Mli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.3"/>
+      </featureInstance>
+      <componentInstance xmi:id="_i08Q0Fi_EeSMLtPxMUgG0A" name="manage_reg_interface_sub" category="subprogram">
+        <ownedPropertyAssociation xmi:id="_i7m5gFi_EeSMLtPxMUgG0A">
+          <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+          <ownedValue xmi:id="_i7m5gVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i7m5gli_EeSMLtPxMUgG0A" value="0.7">
+              <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7qj4Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+          <ownedValue xmi:id="_i7qj4Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i7rK8Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Timing_Properties.aadl#Timing_Properties.Compute_Execution_Time"/>
+          <ownedValue xmi:id="_i7rK8Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7rK8li_EeSMLtPxMUgG0A">
+              <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7rK81i_EeSMLtPxMUgG0A" value="15">
+                <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+              </minimum>
+              <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7rK9Fi_EeSMLtPxMUgG0A" value="20">
+                <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+              </maximum>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <featureInstance xmi:id="_i0834Fi_EeSMLtPxMUgG0A" name="desired_temp_lower_value" srcFlowSpec="_i1CXcFi_EeSMLtPxMUgG0A" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i7sZEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7sZEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7tAIFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7tAIVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7tAIli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7tAI1i_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7tAJFi_EeSMLtPxMUgG0A" value="99"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7u1UFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i7u1UVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i09e8Fi_EeSMLtPxMUgG0A" name="desired_temp_lower_status" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i7xRkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i7xRkVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.1"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i09e8Vi_EeSMLtPxMUgG0A" name="desired_temp_upper_value" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i7x4oFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7x4oVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7x4oli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7x4o1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7x4pFi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7x4pVi_EeSMLtPxMUgG0A" value="98"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7x4pli_EeSMLtPxMUgG0A" value="100"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7zt0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i7zt0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.2"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0-GAFi_EeSMLtPxMUgG0A" name="desired_temp_upper_status" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i72KEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i72KEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.3"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0-tEFi_EeSMLtPxMUgG0A" name="current_temp_value" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i72xIFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i72xIVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i72xIli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i72xI1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i72xJFi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i72xJVi_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i72xJli_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i74mUFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i74mUVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.4"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0-tEVi_EeSMLtPxMUgG0A" name="current_temp_status" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i77CkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i77CkVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.5"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0-tEli_EeSMLtPxMUgG0A" name="regulator_mode" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i783wFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i783wVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.6"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0-tE1i_EeSMLtPxMUgG0A" name="regulator_status" dstFlowSpec="_i1CXcFi_EeSMLtPxMUgG0A" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i7_UAFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i7_UAVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.7"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i0_7MFi_EeSMLtPxMUgG0A" name="display_temperature" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i7_UAli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i7_UA1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i7_7EFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i7_7EVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i7_7Eli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7_7E1i_EeSMLtPxMUgG0A" value="68"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i7_7FFi_EeSMLtPxMUgG0A" value="105"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8BwQFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i8CXUFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.8"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1BJUFi_EeSMLtPxMUgG0A" name="desired_range_lower" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i8CXUVi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i8CXUli_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8C-YFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i8C-YVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i8C-Yli_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8C-Y1i_EeSMLtPxMUgG0A" value="96"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8C-ZFi_EeSMLtPxMUgG0A" value="101"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8EzkFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i8EzkVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.9"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1BwYFi_EeSMLtPxMUgG0A" name="desired_range_upper" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i8FaoFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i8FaoVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8Faoli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
+            <ownedValue xmi:id="_i8GBsFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i8GBsVi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8GBsli_EeSMLtPxMUgG0A" value="97"/>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8GBs1i_EeSMLtPxMUgG0A" value="102"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8HP0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i8HP0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.10"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1BwYVi_EeSMLtPxMUgG0A" name="regulator_interface_failure" category="parameter" direction="out">
+          <ownedPropertyAssociation xmi:id="_i8JsEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Programming_Properties.aadl#Programming_Properties.Source_Text"/>
+            <ownedValue xmi:id="_i8JsEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i7qj4li_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i7qj41i_EeSMLtPxMUgG0A" value="manage_regulator_interface.smv"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedParameter.11"/>
+        </featureInstance>
+        <flowSpecification xmi:id="_i1CXcFi_EeSMLtPxMUgG0A" name="desired_temp_regulator_status" source="_i0834Fi_EeSMLtPxMUgG0A" destination="_i0-tE1i_EeSMLtPxMUgG0A">
+          <ownedPropertyAssociation xmi:id="_i8JsEli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Communication_Properties.aadl#Communication_Properties.Latency"/>
+            <ownedValue xmi:id="_i8KTIFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i8KTIVi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8KTIli_EeSMLtPxMUgG0A" value="70">
+                  <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+                </minimum>
+                <maximum xsi:type="aadl2:IntegerLiteral" xmi:id="_i8KTI1i_EeSMLtPxMUgG0A" value="90">
+                  <unit href="../../../Plugin_Resources/AADL_Project.aadl#//@ownedPropertyType.12/@ownedLiteral.3"/>
+                </maximum>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.10/@ownedFlowSpecification.0"/>
+        </flowSpecification>
+        <subcomponent xsi:type="aadl2:SubprogramSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.12/@ownedSubprogramSubcomponent.0"/>
+        <index>0</index>
+      </componentInstance>
+      <flowSpecification xmi:id="_i1Go4Fi_EeSMLtPxMUgG0A" name="desired_temp_regulator_status" source="_i1CXcVi_EeSMLtPxMUgG0A" destination="_i1FawVi_EeSMLtPxMUgG0A">
+        <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.11/@ownedFlowSpecification.0"/>
+      </flowSpecification>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedThreadSubcomponent.1"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_i1Go4Vi_EeSMLtPxMUgG0A" name="manage_regulator_mode" category="thread">
+      <featureInstance xmi:id="_i1KTQVi_EeSMLtPxMUgG0A" name="current_temperature" category="featureGroup">
+        <featureInstance xmi:id="_i1K6UFi_EeSMLtPxMUgG0A" name="value">
+          <ownedPropertyAssociation xmi:id="_i8QZwFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i8QZwVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8QZwli_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i8QZw1i_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8QZxFi_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8RA0Fi_EeSMLtPxMUgG0A">
+            <property href="../../../isolette/isolette/Isolette_Properties.aadl#Isolette_Properties.Temperature_Tolerance"/>
+            <ownedValue xmi:id="_i8RA0Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RealLiteral" xmi:id="_i8RA0li_EeSMLtPxMUgG0A" value="0.05">
+                <unit href="../../../isolette/isolette/Isolette_Properties.aadl#//@ownedPropertyType.2/@ownedLiteral.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8RA01i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i8RA1Fi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i8RA1Vi_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i8RA1li_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i8RA11i_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1K6UVi_EeSMLtPxMUgG0A" name="status">
+          <ownedPropertyAssociation xmi:id="_i8TdEFi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue xmi:id="_i8TdEVi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8TdEli_EeSMLtPxMUgG0A">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i8TdE1i_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue xmi:id="_i8TdFFi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i4f7Ili_EeSMLtPxMUgG0A">
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7I1i_EeSMLtPxMUgG0A" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i4f7JFi_EeSMLtPxMUgG0A" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1K6Uli_EeSMLtPxMUgG0A" name="regulator_interface_failure" dstConnectionInstance="_i2E5QFi_EeSMLtPxMUgG0A">
+        <ownedPropertyAssociation xmi:id="_i8VSQFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i8V5UFi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8V5UVi_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1K6U1i_EeSMLtPxMUgG0A" name="regulator_internal_failure" dstConnectionInstance="_i2YbQFi_EeSMLtPxMUgG0A">
+        <ownedPropertyAssociation xmi:id="_i8XugFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i8XugVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8Xugli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1LhYFi_EeSMLtPxMUgG0A" name="regulator_mode" srcConnectionInstance="_i2PRUFi_EeSMLtPxMUgG0A _i2QfcFi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i8bY4Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i8bY4Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8bY4li_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xmi:id="_i8b_8Fi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue xmi:id="_i8b_8Vi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:ListValue" xmi:id="_i6DaVFi_EeSMLtPxMUgG0A">
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVVi_EeSMLtPxMUgG0A" value="INIT"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaVli_EeSMLtPxMUgG0A" value="NORMAL"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" xmi:id="_i6DaV1i_EeSMLtPxMUgG0A" value="FAILED"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1LhYVi_EeSMLtPxMUgG0A" name="regulator_status_true" direction="out">
+        <ownedPropertyAssociation xmi:id="_i8gRYFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i8gRYVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8gRYli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.3"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1LhYli_EeSMLtPxMUgG0A" name="regulator_status_false" direction="out">
+        <ownedPropertyAssociation xmi:id="_i8jUsFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i8jUsVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i8jUsli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.4"/>
+      </featureInstance>
+      <featureInstance xmi:id="_i1MIcFi_EeSMLtPxMUgG0A" name="init_duration_greater_timeout" direction="out">
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.5"/>
+      </featureInstance>
+      <componentInstance xmi:id="_i1IeEFi_EeSMLtPxMUgG0A" name="manage_reg_mode_sub" category="subprogram">
+        <featureInstance xmi:id="_i1JFIFi_EeSMLtPxMUgG0A" name="regulator_interface_failure" category="parameter">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.0"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JFIVi_EeSMLtPxMUgG0A" name="regulator_internal_failure" category="parameter">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.1"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JFIli_EeSMLtPxMUgG0A" name="current_temp_value" category="parameter">
+          <ownedPropertyAssociation xmi:id="_i84r4Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue xmi:id="_i84r4Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:StringLiteral" xmi:id="_i4bColi_EeSMLtPxMUgG0A" value="Fahrenheit"/>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xmi:id="_i85S8Fi_EeSMLtPxMUgG0A">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue xmi:id="_i85S8Vi_EeSMLtPxMUgG0A">
+              <ownedValue xsi:type="aadl2:RangeValue" xmi:id="_i85S8li_EeSMLtPxMUgG0A">
+                <minimum xsi:type="aadl2:RealLiteral" xmi:id="_i85S81i_EeSMLtPxMUgG0A" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" xmi:id="_i85S9Fi_EeSMLtPxMUgG0A" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.2"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JFI1i_EeSMLtPxMUgG0A" name="current_temp_status" category="parameter">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.3"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JsMFi_EeSMLtPxMUgG0A" name="regulator_mode" category="parameter" direction="out">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.4"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JsMVi_EeSMLtPxMUgG0A" name="regulator_status_true" category="parameter" direction="out">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.5"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1JsMli_EeSMLtPxMUgG0A" name="regulator_status_false" category="parameter" direction="out">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.6"/>
+        </featureInstance>
+        <featureInstance xmi:id="_i1KTQFi_EeSMLtPxMUgG0A" name="init_duration_greater_timeout" category="parameter" direction="out">
+          <feature xsi:type="aadl2:Parameter" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.13/@ownedParameter.7"/>
+        </featureInstance>
+        <subcomponent xsi:type="aadl2:SubprogramSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.15/@ownedSubprogramSubcomponent.0"/>
+        <index>0</index>
+      </componentInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedThreadSubcomponent.2"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance xmi:id="_i1MIcVi_EeSMLtPxMUgG0A" name="detect_regulator_failure" category="thread">
+      <featureInstance xmi:id="_i1NWkFi_EeSMLtPxMUgG0A" name="regulator_internal_failure" srcConnectionInstance="_i2YbQFi_EeSMLtPxMUgG0A" direction="out">
+        <ownedPropertyAssociation xmi:id="_i9QfUFi_EeSMLtPxMUgG0A">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue xmi:id="_i9QfUVi_EeSMLtPxMUgG0A">
+            <ownedValue xsi:type="aadl2:NamedValue" xmi:id="_i9QfUli_EeSMLtPxMUgG0A">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#//@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+            </ownedValue>
+          </ownedValue>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedThreadSubcomponent.3"/>
+      <index>0</index>
+    </componentInstance>
+    <modeInstance xmi:id="_i0p88Fi_EeSMLtPxMUgG0A" name="INIT" srcModeTransition="_i0tnUFi_EeSMLtPxMUgG0A _i0vcgFi_EeSMLtPxMUgG0A" initial="true">
+      <mode href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedMode.0"/>
+    </modeInstance>
+    <modeInstance xmi:id="_i0p88Vi_EeSMLtPxMUgG0A" name="NORMAL" srcModeTransition="_i0wDkFi_EeSMLtPxMUgG0A" dstModeTransition="_i0tnUFi_EeSMLtPxMUgG0A">
+      <mode href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedMode.1"/>
+    </modeInstance>
+    <modeInstance xmi:id="_i0p88li_EeSMLtPxMUgG0A" name="FAILED" dstModeTransition="_i0vcgFi_EeSMLtPxMUgG0A _i0wDkFi_EeSMLtPxMUgG0A">
+      <mode href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedMode.2"/>
+    </modeInstance>
+    <modeTransitionInstance xmi:id="_i0tnUFi_EeSMLtPxMUgG0A" name="INIT.manage_regulator_mode.regulator_status_true.NORMAL" destination="_i0p88Vi_EeSMLtPxMUgG0A" source="_i0p88Fi_EeSMLtPxMUgG0A">
+      <modeTransition href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedModeTransition.0"/>
+    </modeTransitionInstance>
+    <modeTransitionInstance xmi:id="_i0vcgFi_EeSMLtPxMUgG0A" name="INIT.manage_regulator_mode.init_duration_greater_timeout.FAILED" destination="_i0p88li_EeSMLtPxMUgG0A" source="_i0p88Fi_EeSMLtPxMUgG0A">
+      <modeTransition href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedModeTransition.1"/>
+    </modeTransitionInstance>
+    <modeTransitionInstance xmi:id="_i0wDkFi_EeSMLtPxMUgG0A" name="NORMAL.manage_regulator_mode.regulator_status_false.FAILED" destination="_i0p88li_EeSMLtPxMUgG0A" source="_i0p88Vi_EeSMLtPxMUgG0A">
+      <modeTransition href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedModeTransition.2"/>
+    </modeTransitionInstance>
+    <flowSpecification xmi:id="_i1QZ4Fi_EeSMLtPxMUgG0A" name="current_temperature_heat_control" source="_i1PLwli_EeSMLtPxMUgG0A" destination="_i1Py01i_EeSMLtPxMUgG0A">
+      <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification xmi:id="_i1QZ4Vi_EeSMLtPxMUgG0A" name="desired_temp_regulator_status" source="_i1N9oFi_EeSMLtPxMUgG0A" destination="_i1Py0Vi_EeSMLtPxMUgG0A">
+      <flowSpecification href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.19/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <connectionInstance xmi:id="_i2B18Fi_EeSMLtPxMUgG0A" name="manage_regulator_interface.desired_range.lower -> manage_heat_source.desired_range.lower" complete="true" kind="portConnection" destination="_i02xQFi_EeSMLtPxMUgG0A" source="_i1Ezsli_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2B18Vi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1Ezsli_EeSMLtPxMUgG0A" destination="_i02xQFi_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:FeatureGroupConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedFeatureGroupConnection.2"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance xmi:id="_i2B18li_EeSMLtPxMUgG0A" name="manage_regulator_interface.desired_range.upper -> manage_heat_source.desired_range.upper" complete="true" kind="portConnection" destination="_i02xQVi_EeSMLtPxMUgG0A" source="_i1Ezs1i_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2B181i_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1Ezs1i_EeSMLtPxMUgG0A" destination="_i02xQVi_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:FeatureGroupConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedFeatureGroupConnection.2"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance xmi:id="_i2E5QFi_EeSMLtPxMUgG0A" name="manage_regulator_interface.regulator_interface_failure -> manage_regulator_mode.regulator_interface_failure" complete="true" kind="portConnection" destination="_i1K6Uli_EeSMLtPxMUgG0A" source="_i1GB0Vi_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2E5QVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1GB0Vi_EeSMLtPxMUgG0A" destination="_i1K6Uli_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.5"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance xmi:id="_i2PRUFi_EeSMLtPxMUgG0A" name="manage_regulator_mode.regulator_mode -> manage_regulator_interface.regulator_mode" complete="true" kind="portConnection" destination="_i1FawFi_EeSMLtPxMUgG0A" source="_i1LhYFi_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2PRUVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1LhYFi_EeSMLtPxMUgG0A" destination="_i1FawFi_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.3"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance xmi:id="_i2QfcFi_EeSMLtPxMUgG0A" name="manage_regulator_mode.regulator_mode -> manage_heat_source.regulator_mode" complete="true" kind="portConnection" destination="_i06boVi_EeSMLtPxMUgG0A" source="_i1LhYFi_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2QfcVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1LhYFi_EeSMLtPxMUgG0A" destination="_i06boVi_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.4"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance xmi:id="_i2YbQFi_EeSMLtPxMUgG0A" name="detect_regulator_failure.regulator_internal_failure -> manage_regulator_mode.regulator_internal_failure" complete="true" kind="portConnection" destination="_i1K6U1i_EeSMLtPxMUgG0A" source="_i1NWkFi_EeSMLtPxMUgG0A">
+      <connectionReference xmi:id="_i2YbQVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1NWkFi_EeSMLtPxMUgG0A" destination="_i1K6U1i_EeSMLtPxMUgG0A">
+        <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.6"/>
+      </connectionReference>
+    </connectionInstance>
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../isolette_thermostat.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedProcessSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <flowSpecification xmi:id="_i1VSYFi_EeSMLtPxMUgG0A" name="current_temperature_heat_control" source="_i1RA8Fi_EeSMLtPxMUgG0A" destination="_i1UrUFi_EeSMLtPxMUgG0A">
+    <flowSpecification href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFlowSpecification.0"/>
+  </flowSpecification>
+  <flowSpecification xmi:id="_i1VSYVi_EeSMLtPxMUgG0A" name="desired_temp_regulator_status" source="_i1RoAVi_EeSMLtPxMUgG0A" destination="_i1UEQFi_EeSMLtPxMUgG0A">
+    <flowSpecification href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFlowSpecification.1"/>
+  </flowSpecification>
+  <flowSpecification xmi:id="_i1V5cFi_EeSMLtPxMUgG0A" name="alarm_temp_monitor_status" source="_i1SPE1i_EeSMLtPxMUgG0A" destination="_i1UEQli_EeSMLtPxMUgG0A">
+    <flowSpecification href="../../../isolette/isolette/isolette.aadl#//@ownedPublicSection/@ownedClassifier.26/@ownedFlowSpecification.2"/>
+  </flowSpecification>
+  <connectionInstance xmi:id="_i189cFi_EeSMLtPxMUgG0A" name="regulate_temperature.manage_heat_source.heat_control -> heat_control" kind="portConnection" destination="_i1UrUFi_EeSMLtPxMUgG0A" source="_i06boli_EeSMLtPxMUgG0A">
+    <connectionReference xmi:id="_i189cVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i06boli_EeSMLtPxMUgG0A" destination="_i1Py01i_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.2"/>
+    </connectionReference>
+    <connectionReference xmi:id="_i189cli_EeSMLtPxMUgG0A" context="_iwVdoFi_EeSMLtPxMUgG0A" source="_i1Py01i_EeSMLtPxMUgG0A" destination="_i1UrUFi_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette_thermostat.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedPortConnection.2"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_i2DEEFi_EeSMLtPxMUgG0A" name="regulate_temperature.manage_regulator_interface.regulator_status -> operator_feedback.regulator_status" kind="portConnection" destination="_i1UEQFi_EeSMLtPxMUgG0A" source="_i1FawVi_EeSMLtPxMUgG0A">
+    <connectionReference xmi:id="_i2DEEVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1FawVi_EeSMLtPxMUgG0A" destination="_i1Py0Vi_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.0"/>
+    </connectionReference>
+    <connectionReference xmi:id="_i2DEEli_EeSMLtPxMUgG0A" context="_iwVdoFi_EeSMLtPxMUgG0A" source="_i1Py0Vi_EeSMLtPxMUgG0A" destination="_i1UEQFi_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette_thermostat.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedPortConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance xmi:id="_i2DrIFi_EeSMLtPxMUgG0A" name="regulate_temperature.manage_regulator_interface.display_temperature -> operator_feedback.display_temperature" kind="portConnection" destination="_i1UEQVi_EeSMLtPxMUgG0A" source="_i1GB0Fi_EeSMLtPxMUgG0A">
+    <connectionReference xmi:id="_i2DrIVi_EeSMLtPxMUgG0A" context="_iz4g4Fi_EeSMLtPxMUgG0A" source="_i1GB0Fi_EeSMLtPxMUgG0A" destination="_i1Py0li_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../../regulate_temperature/regulate_temperature.aadl#//@ownedPublicSection/@ownedClassifier.20/@ownedPortConnection.1"/>
+    </connectionReference>
+    <connectionReference xmi:id="_i2DrIli_EeSMLtPxMUgG0A" context="_iwVdoFi_EeSMLtPxMUgG0A" source="_i1Py0li_EeSMLtPxMUgG0A" destination="_i1UEQVi_EeSMLtPxMUgG0A">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette_thermostat.aadl#//@ownedPublicSection/@ownedClassifier.2/@ownedPortConnection.1"/>
+    </connectionReference>
+  </connectionInstance>
+  <systemOperationMode xmi:id="_i1ax8Fi_EeSMLtPxMUgG0A" name="regulate_temperature.INIT" currentMode="_i0p88Fi_EeSMLtPxMUgG0A"/>
+  <systemOperationMode xmi:id="_i1bZAFi_EeSMLtPxMUgG0A" name="regulate_temperature.NORMAL" currentMode="_i0p88Vi_EeSMLtPxMUgG0A"/>
+  <systemOperationMode xmi:id="_i1bZAVi_EeSMLtPxMUgG0A" name="regulate_temperature.FAILED" currentMode="_i0p88li_EeSMLtPxMUgG0A"/>
+  <systemImplementation href="../isolette_thermostat.aadl#isolette_thermostat.Thermostat.impl"/>
+</instance:SystemInstance>

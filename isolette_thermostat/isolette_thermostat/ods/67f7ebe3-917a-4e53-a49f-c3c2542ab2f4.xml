@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SKHierarchicalObject class="ADELE_SubprogramImpl" name="Manage_Regulator_Interface">
+<CLASSIFIER/>
+<EXTENDS/>
+<DOC11/>
+<DOC12/>
+<DOC21/>
+<DOC235/>
+<DOC26/>
+<Allowed_Memory_Binding_Class/>
+<Allowed_Memory_Binding/>
+<Actual_Memory_Binding/>
+<Allowed_Subprogram_Call/>
+<Actual_Subprogram_Call/>
+<Allowed_Subprogram_Call_Binding/>
+<Actual_Subprogram_Call_Binding/>
+<Urgency/>
+<Subprogram_Call_Type/>
+<Compute_Deadline/>
+<Compute_Execution_Time/>
+<Client_Subprogram_Execution_Time/>
+<Source_Code_Size/>
+<Source_Data_Size/>
+<Source_Heap_Size/>
+<Source_Stack_Size/>
+<Source_Language/>
+<Source_Name/>
+<Source_Text/>
+<Type_Source_Name/>
+<Classifier_Substitution_Rule/>
+<Prototype_Substitution_Rule/>
+</SKHierarchicalObject>

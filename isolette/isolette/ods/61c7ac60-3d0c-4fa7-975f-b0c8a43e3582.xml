@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SKHierarchicalObject class="ADELE_DataPortImpl" name="monitor_status">
+<CLASSIFIER/>
+<DOC11/>
+<DOC12/>
+<DOC21/>
+<DOC235/>
+<DOC26/>
+<Allowed_Memory_Binding_Class/>
+<Allowed_Memory_Binding/>
+<Actual_Memory_Binding/>
+<Allowed_Connection_Binding_Class/>
+<Allowed_Connection_Binding/>
+<Actual_Connection_Binding/>
+<Required_Virtual_Bus_Class/>
+<Required_Connection_Quality_Of_Service/>
+<Urgency/>
+<Fan_Out_Policy/>
+<Required_Connection/>
+<Timing/>
+<Transmission_Type/>
+<Input_Rate/>
+<Input_Time/>
+<Output_Rate/>
+<Output_Time/>
+<Base_Address/>
+<Device_Register_Address/>
+<Source_Name/>
+<Source_Text/>
+<Type_Source_Name/>
+<Acceptable_Array_Size/>
+</SKHierarchicalObject>

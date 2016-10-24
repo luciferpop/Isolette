@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADELE_Components:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ADELE_Components="http://ADELE_Components" xmlns:ADELE_Features="http://ADELE_Features" name="isolette" id="isolette">
+  <children xsi:type="ADELE_Components:System" name="Isolette" id="isolette-Isolette" level="1" parent="/">
+    <children xsi:type="ADELE_Components:System" name="Isolette.normal_operation" id="9ef3d41a-fe46-4305-b233-b56b55cbac25" level="2" parent="//@children.0" type="//@children.0" featuresLock="true">
+      <dataPortConnection name="DataPortConnection2" id="ba566380-2350-4eba-968d-3d418934ef94" objects="//@children.0/@children.0/@children.1/@features.2 //@children.0/@children.0/@children.3/@features.0"/>
+      <dataPortConnection name="DataPortConnection3" id="b2ae2f33-8e2e-468b-8f3f-b9da0e76575c" objects="//@children.0/@children.0/@children.3/@features.1 //@children.0/@children.0/@children.4/@features.1"/>
+      <dataPortConnection name="DataPortConnection4" id="2437a8c0-6cb6-4e82-800c-1a18b1e43787" objects="//@children.0/@children.0/@children.4/@features.0 //@children.0/@children.0/@children.0/@features.0"/>
+      <dataPortConnection name="DataPortConnection5" id="fd33ae2a-4922-404f-9cfe-b2f089ba5847" objects="//@children.0/@children.0/@children.5/@features.0 //@children.0/@children.0/@children.4/@features.2"/>
+      <dataPortConnection name="DataPortConnection6" id="1281c602-5b72-4d67-9b70-9ae2de84d12e" objects="//@children.0/@children.0/@children.6/@features.0 //@children.0/@children.0/@children.2/@features.2"/>
+      <children xsi:type="ADELE_Components:System" name="temperature_sensor" id="7c674ffa-22b0-4e1e-b22d-1ac18394ecb7" level="3" parent="//@children.0/@children.0" type="//@children.3" implementation="//@children.3" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="heat" id="48ccff73-85e7-4c11-811d-fb33334cdfe4" level="4" component="//@children.0/@children.0/@children.0" classifier="//@children.6"/>
+        <features xsi:type="ADELE_Features:FeatureGroup" name="current_temperature" id="03ac45c1-7942-42bf-93f2-0b86badcafcb" level="4" component="//@children.0/@children.0/@children.0"/>
+      </children>
+      <children xsi:type="ADELE_Components:System" name="thermostat" id="153a01b7-acc9-4044-b6c9-c3a73d9ba36d" level="3" parent="//@children.0/@children.0" type="//@children.1" implementation="//@children.1" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:FeatureGroup" name="operator_settings" id="650277e0-5122-42e6-89d1-17b826962f6d" level="4" component="//@children.0/@children.0/@children.1"/>
+        <features xsi:type="ADELE_Features:FeatureGroup" name="operator_feedback" id="51a55932-c1bf-488c-ac58-639885e5a6dd" level="4" component="//@children.0/@children.0/@children.1"/>
+        <features xsi:type="ADELE_Features:DataPort" name="heat_control" id="0042ef5e-841c-4fc8-afe7-ee23ddba5c31" level="4" component="//@children.0/@children.0/@children.1" classifier="//@children.13" direction="out"/>
+        <features xsi:type="ADELE_Features:FeatureGroup" name="current_temperature" id="3d0e1ba1-b425-4572-9240-a8e80787f62d" level="4" component="//@children.0/@children.0/@children.1"/>
+      </children>
+      <children xsi:type="ADELE_Components:System" name="operator_interface" id="e7c32c84-fc32-4940-aa35-1ea72db4056e" level="3" parent="//@children.0/@children.0" type="//@children.2" implementation="//@children.2" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:FeatureGroup" name="operator_settings" id="5a7b4bc5-8ac8-403d-8eca-53fb79cbeb71" level="4" component="//@children.0/@children.0/@children.2"/>
+        <features xsi:type="ADELE_Features:FeatureGroup" name="operator_feedback" id="ce8b67f7-8fe6-4128-aa29-2c06ef548586" level="4" component="//@children.0/@children.0/@children.2"/>
+        <features xsi:type="ADELE_Features:DataPort" name="operator_interaction" id="03896764-b3fd-4833-8b61-47ee9fa5cfea" level="4" component="//@children.0/@children.0/@children.2" classifier="//@children.9" direction="inout"/>
+      </children>
+      <children xsi:type="ADELE_Components:System" name="heat_source" id="6b6451c9-dfda-461e-b185-fea115a83da2" level="3" parent="//@children.0/@children.0" type="//@children.4" implementation="//@children.4" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="heat_control" id="a1cf9579-86ac-4709-96d2-d9101e49de5a" level="4" component="//@children.0/@children.0/@children.3" classifier="//@children.13"/>
+        <features xsi:type="ADELE_Features:DataPort" name="heat" id="9ea2e29c-5d1e-4691-a75f-d1b90e9f8ed5" level="4" component="//@children.0/@children.0/@children.3" classifier="//@children.6" direction="out"/>
+      </children>
+      <children xsi:type="ADELE_Components:System" name="air" id="6cb03a58-78ab-4fba-91e5-931e3edd7a7c" level="3" parent="//@children.0/@children.0" type="//@children.5" implementation="//@children.5" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="heat_out" id="ed8dacd6-dbe4-43ed-904f-f078969966e3" level="4" component="//@children.0/@children.0/@children.4" classifier="//@children.6" direction="out"/>
+        <features xsi:type="ADELE_Features:DataPort" name="heat_in" id="0c8f9803-7644-4e36-b6db-6a3a8b4f32a3" level="4" component="//@children.0/@children.0/@children.4" classifier="//@children.6"/>
+        <features xsi:type="ADELE_Features:DataPort" name="infant_interaction" id="5970b489-9f15-4173-a937-6049492f3c7a" level="4" component="//@children.0/@children.0/@children.4" classifier="//@children.6" direction="inout"/>
+      </children>
+      <children xsi:type="ADELE_Components:Abstract" name="infant" id="1136ea24-df1c-4adf-b1ff-d5cffeaa7644" level="3" parent="//@children.0/@children.0" type="//@children.7" implementation="//@children.7" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="air_interaction" id="404ce737-0ae4-49a7-8a87-6d49c4e26263" level="4" component="//@children.0/@children.0/@children.5" classifier="//@children.6" direction="inout"/>
+      </children>
+      <children xsi:type="ADELE_Components:Abstract" name="nurse" id="f22bde61-f57c-4cce-8758-62814300b870" level="3" parent="//@children.0/@children.0" type="//@children.8" implementation="//@children.8" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="interface_interaction" id="0a9d6248-c545-4a87-82d0-6712b8cbcd0c" level="4" component="//@children.0/@children.0/@children.6" direction="inout"/>
+      </children>
+      <featureGroupConnection name="FeatureGroupConnection1" id="5e39afd5-80a8-480f-a7c5-01227df0fb8c" objects="//@children.0/@children.0/@children.2/@features.0 //@children.0/@children.0/@children.1/@features.0"/>
+      <featureGroupConnection name="FeatureGroupConnection2" id="6fc69f14-cba2-4323-9472-cd4c8662263b" objects="//@children.0/@children.0/@children.2/@features.1 //@children.0/@children.0/@children.1/@features.1"/>
+      <featureGroupConnection name="FeatureGroupConnection3" id="44204606-b4b4-4a77-99c1-376b75965bd0" objects="//@children.0/@children.0/@children.0/@features.1 //@children.0/@children.0/@children.1/@features.3"/>
+    </children>
+  </children>
+  <children xsi:type="ADELE_Components:System" name="Thermostat" id="isolette-Thermostat" level="1" parent="/">
+    <features xsi:type="ADELE_Features:FeatureGroup" name="operator_settings" id="650277e0-5122-42e6-89d1-17b826962f6d" level="2" component="//@children.1">
+      <children xsi:type="ADELE_Features:FeatureGroup" name="desired_temperature_range" id="d32ebfd0-c4a8-486c-8632-d80672dab44c" level="3" component="//@children.1" parent="//@children.1/@features.0">
+        <children xsi:type="ADELE_Features:FeatureGroup" name="lower" id="adbcd42b-efc0-4677-b40e-00991f45d84e" level="4" component="//@children.1" parent="//@children.1/@features.0/@children.0">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="c2c1cbff-7e3b-4c0e-8ab4-97b56571a86d" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.0/@children.0" classifier="//@children.20"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="403e848d-d9c7-4f52-ad3b-8056a7e2a816" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.0/@children.0" classifier="//@children.21"/>
+        </children>
+        <children xsi:type="ADELE_Features:FeatureGroup" name="upper" id="a2eeb67f-b463-48f2-a389-d5de2844d68d" level="4" component="//@children.1" parent="//@children.1/@features.0/@children.0">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="169cb0c2-b91c-4127-bb16-e41f317df0f3" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.0/@children.1" classifier="//@children.22"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="eaa11867-94cc-4a93-af54-127d34e8436b" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.0/@children.1" classifier="//@children.23"/>
+        </children>
+      </children>
+      <children xsi:type="ADELE_Features:FeatureGroup" name="alarm_temperature_range" id="b13f5f9f-30b0-43fe-81c0-ac0a2e1d9164" level="3" component="//@children.1" parent="//@children.1/@features.0">
+        <children xsi:type="ADELE_Features:FeatureGroup" name="lower" id="7fbeba2a-8673-4884-a9bb-02359b0e4a9b" level="4" component="//@children.1" parent="//@children.1/@features.0/@children.1">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="3ca135d7-3920-462f-a6a6-927f69b6a593" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.1/@children.0" classifier="//@children.24"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="c55372e2-a107-4a7a-ac95-7378b410cdfc" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.1/@children.0" classifier="//@children.25"/>
+        </children>
+        <children xsi:type="ADELE_Features:FeatureGroup" name="upper" id="f347ea5a-9c65-4682-ad85-1f4bd8943f2d" level="4" component="//@children.1" parent="//@children.1/@features.0/@children.1">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="cfc5e397-b567-4a37-95c6-40ddf654a335" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.1/@children.1" classifier="//@children.26"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="a554bee6-1ae2-49d4-a4da-0dd8b403b451" level="5" component="//@children.1" parent="//@children.1/@features.0/@children.1/@children.1" classifier="//@children.27"/>
+        </children>
+      </children>
+    </features>
+    <features xsi:type="ADELE_Features:FeatureGroup" name="operator_feedback" id="51a55932-c1bf-488c-ac58-639885e5a6dd" level="2" component="//@children.1">
+      <children xsi:type="ADELE_Features:DataPort" name="regulator_status" id="5cdf1747-3687-418d-8d80-dcaafcff4a57" level="3" component="//@children.1" parent="//@children.1/@features.1" classifier="//@children.11" direction="out"/>
+      <children xsi:type="ADELE_Features:DataPort" name="display_temperature" id="3afe9faf-d35b-4bf1-89cc-c1947c6a76d1" level="3" component="//@children.1" parent="//@children.1/@features.1" classifier="//@children.12" direction="out"/>
+      <children xsi:type="ADELE_Features:DataPort" name="monitor_status" id="0d37e806-ef5c-43b7-8fbd-7313af9392ad" level="3" component="//@children.1" parent="//@children.1/@features.1" classifier="//@children.15" direction="out"/>
+      <children xsi:type="ADELE_Features:DataPort" name="alarm_control" id="a9a22719-12a3-45b2-90b7-ec7580908cb5" level="3" component="//@children.1" parent="//@children.1/@features.1" classifier="//@children.16" direction="out"/>
+    </features>
+    <features xsi:type="ADELE_Features:DataPort" name="heat_control" id="0042ef5e-841c-4fc8-afe7-ee23ddba5c31" level="2" component="//@children.1" classifier="//@children.13" direction="out"/>
+    <features xsi:type="ADELE_Features:FeatureGroup" name="current_temperature" id="3d0e1ba1-b425-4572-9240-a8e80787f62d" level="2" component="//@children.1">
+      <children xsi:type="ADELE_Features:DataPort" name="value" id="2ff74fe3-5388-46fd-82ad-3995e30b392a" level="3" component="//@children.1" parent="//@children.1/@features.3"/>
+      <children xsi:type="ADELE_Features:DataPort" name="status" id="ac286c2f-bbd0-4bef-9fd6-fd1ae22333e9" level="3" component="//@children.1" parent="//@children.1/@features.3"/>
+    </features>
+  </children>
+  <children xsi:type="ADELE_Components:System" name="Operator_Interface" id="d200aac0-6e0f-49f3-a105-2ff960920e82" level="1" parent="/">
+    <features xsi:type="ADELE_Features:FeatureGroup" name="operator_settings" id="5a7b4bc5-8ac8-403d-8eca-53fb79cbeb71" level="2" component="//@children.2">
+      <children xsi:type="ADELE_Features:FeatureGroup" name="desired_temperature_range" id="849bc53a-b7b2-4640-81a8-3a0e86c10669" level="3" component="//@children.2" parent="//@children.2/@features.0">
+        <children xsi:type="ADELE_Features:FeatureGroup" name="lower" id="42c7d56b-a7a1-4e4a-8c14-54357c46628a" level="4" component="//@children.2" parent="//@children.2/@features.0/@children.0">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="04dbb68b-c139-4086-a78f-5f73ebf6a91a" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.0/@children.0" classifier="//@children.20" direction="out"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="ec819c04-7924-4456-968b-b16dd71cdd36" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.0/@children.0" classifier="//@children.21" direction="out"/>
+        </children>
+        <children xsi:type="ADELE_Features:FeatureGroup" name="upper" id="98c45d6a-4ab9-43e2-a603-70491d75c714" level="4" component="//@children.2" parent="//@children.2/@features.0/@children.0">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="9539cd26-e009-40cd-881b-c79335bd3919" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.0/@children.1" classifier="//@children.22" direction="out"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="3eb28ce2-7b33-4420-8d04-78de67fd7a00" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.0/@children.1" classifier="//@children.23" direction="out"/>
+        </children>
+      </children>
+      <children xsi:type="ADELE_Features:FeatureGroup" name="alarm_temperature_range" id="283ede32-1159-4cc5-b968-a0579fc5f4f2" level="3" component="//@children.2" parent="//@children.2/@features.0">
+        <children xsi:type="ADELE_Features:FeatureGroup" name="lower" id="f0a95d1f-063d-496e-ae67-740db574cf1b" level="4" component="//@children.2" parent="//@children.2/@features.0/@children.1">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="480051e8-78c4-4f2b-ba35-e5a692879509" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.1/@children.0" classifier="//@children.24" direction="out"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="ef38419d-5a59-4df6-9c3f-c8d3ca101239" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.1/@children.0" classifier="//@children.25" direction="out"/>
+        </children>
+        <children xsi:type="ADELE_Features:FeatureGroup" name="upper" id="7545b0d9-e55a-4feb-8ab6-a96eb093588c" level="4" component="//@children.2" parent="//@children.2/@features.0/@children.1">
+          <children xsi:type="ADELE_Features:DataPort" name="value" id="82ae2ed8-ca80-42e6-9e07-3a2d66eb6f66" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.1/@children.1" classifier="//@children.26" direction="out"/>
+          <children xsi:type="ADELE_Features:DataPort" name="status" id="ebc358fb-707c-42d4-bee8-d73154db7496" level="5" component="//@children.2" parent="//@children.2/@features.0/@children.1/@children.1" classifier="//@children.27" direction="out"/>
+        </children>
+      </children>
+    </features>
+    <features xsi:type="ADELE_Features:FeatureGroup" name="operator_feedback" id="ce8b67f7-8fe6-4128-aa29-2c06ef548586" level="2" component="//@children.2">
+      <children xsi:type="ADELE_Features:DataPort" name="regulator_status" id="6467d498-c656-44f6-89d9-39657ebd8d2f" level="3" component="//@children.2" parent="//@children.2/@features.1" classifier="//@children.11"/>
+      <children xsi:type="ADELE_Features:DataPort" name="display_temperature" id="c816391b-8049-46f8-a247-1b2699d7f6bf" level="3" component="//@children.2" parent="//@children.2/@features.1" classifier="//@children.12"/>
+      <children xsi:type="ADELE_Features:DataPort" name="monitor_status" id="61c7ac60-3d0c-4fa7-975f-b0c8a43e3582" level="3" component="//@children.2" parent="//@children.2/@features.1" classifier="//@children.15"/>
+      <children xsi:type="ADELE_Features:DataPort" name="alarm_control" id="cbaa3468-5e39-4312-81f2-ba2d40af930f" level="3" component="//@children.2" parent="//@children.2/@features.1" classifier="//@children.16"/>
+    </features>
+    <features xsi:type="ADELE_Features:DataPort" name="operator_interaction" id="03896764-b3fd-4833-8b61-47ee9fa5cfea" level="2" component="//@children.2" classifier="//@children.9" direction="inout"/>
+  </children>
+  <children xsi:type="ADELE_Components:System" name="Temperature_Sensor" id="28e683c5-be28-463c-a8cd-2282e5ef3150" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="heat" id="48ccff73-85e7-4c11-811d-fb33334cdfe4" level="2" component="//@children.3" classifier="//@children.6"/>
+    <features xsi:type="ADELE_Features:FeatureGroup" name="current_temperature" id="03ac45c1-7942-42bf-93f2-0b86badcafcb" level="2" component="//@children.3">
+      <children xsi:type="ADELE_Features:DataPort" name="value" id="0edd63fd-8bca-479c-9903-974159ac2ef0" level="3" component="//@children.3" parent="//@children.3/@features.1" classifier="//@children.18" direction="out"/>
+      <children xsi:type="ADELE_Features:DataPort" name="status" id="6be0be23-ef85-4ab9-95aa-599d10bc858c" level="3" component="//@children.3" parent="//@children.3/@features.1" classifier="//@children.19" direction="out"/>
+    </features>
+  </children>
+  <children xsi:type="ADELE_Components:System" name="Heat_Source" id="a8214025-ea9c-4627-8f10-00a29d628ef4" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="heat_control" id="a1cf9579-86ac-4709-96d2-d9101e49de5a" level="2" component="//@children.4" classifier="//@children.13"/>
+    <features xsi:type="ADELE_Features:DataPort" name="heat" id="9ea2e29c-5d1e-4691-a75f-d1b90e9f8ed5" level="2" component="//@children.4" classifier="//@children.6" direction="out"/>
+  </children>
+  <children xsi:type="ADELE_Components:System" name="Air" id="3403a1cc-4d7c-4a77-88f7-d3cce8e7c343" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="heat_out" id="ed8dacd6-dbe4-43ed-904f-f078969966e3" level="2" component="//@children.5" classifier="//@children.6" direction="out"/>
+    <features xsi:type="ADELE_Features:DataPort" name="heat_in" id="0c8f9803-7644-4e36-b6db-6a3a8b4f32a3" level="2" component="//@children.5" classifier="//@children.6"/>
+    <features xsi:type="ADELE_Features:DataPort" name="infant_interaction" id="5970b489-9f15-4173-a937-6049492f3c7a" level="2" component="//@children.5" classifier="//@children.17" direction="inout"/>
+  </children>
+  <children xsi:type="ADELE_Components:Data" name="Heat" id="ba9cb849-933d-42b0-b5c1-13829e742c4b" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Abstract" name="Infant" id="6faa948d-fb85-4e5c-983f-9ef7ec9e57c8" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="air_interaction" id="404ce737-0ae4-49a7-8a87-6d49c4e26263" level="2" component="//@children.7" classifier="//@children.17" direction="inout"/>
+  </children>
+  <children xsi:type="ADELE_Components:Abstract" name="Nurse" id="96dd78cf-e79e-4bf5-b5fe-e1cd211392d6" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="interface_interaction" id="0a9d6248-c545-4a87-82d0-6712b8cbcd0c" level="2" component="//@children.8" classifier="//@children.9" direction="inout"/>
+  </children>
+  <children xsi:type="ADELE_Components:Data" name="Interface_Interaction" id="7460f90c-8de0-4c2e-bb0a-5f321386cd2e" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Desired_Temperature_Range" id="057f0724-fa87-417e-95c2-3052f674d8d5" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Regulator_Status" id="34de87ee-c5c6-40a7-b8cb-f3fcffb97112" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Display_Temperature" id="08ef6a7e-f800-47eb-a04c-29321f1b42e5" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Heat_Control" id="e30710ba-0fe9-45b4-a31d-34b26397dfb0" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Alarm_Temperature_Range" id="4b8ec10c-87fd-4ef2-9914-99723fb1ce32" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Monitor_Status" id="e3337a18-8e0f-4cc7-9407-52c635ff3d23" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Alarm_Control" id="5d1778e7-71f4-4d64-8f57-f1f0bb7fa699" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Air_Interaction" id="5c7960ab-1f8d-4cd3-8661-65175a03651e" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Current_Temp_Value" id="d0a68435-854d-4fca-a9c0-b38e5479d76c" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Current_Temp_Status" id="585ae521-7a0d-4a1c-ba8b-20e770bd2f90" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Lower_Desired_Temp_Value" id="b0e369c8-5b0d-484f-b3b7-ada852181943" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Lower_Desired_Temp_Status" id="ae7b924b-2bd0-4e6c-be73-92ccd6dd0ca4" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Upper_Desired_Temp_Value" id="e49e4bfc-81a2-4fb3-a92e-822e6e680796" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Upper_Desired_Temp_Status" id="3d5781f6-1397-4ac0-9a82-e2d8996c0b14" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Lower_Alarm_Temp_Value" id="9fbae69d-7e44-404d-bb12-644bd1f5df08" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Lower_Alarm_Temp_Status" id="343e084d-6c7a-44fb-99e2-4c1eba82bf13" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Upper_Alarm_Temp_Value" id="3f07e5d9-6f28-439f-aaeb-952a69b8f1b6" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Upper_Alarm_temp_Status" id="cb34243a-1d61-406e-b591-81ea909bae7e" level="1" parent="/"/>
+</ADELE_Components:Package>

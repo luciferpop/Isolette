@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADELE_Components:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ADELE_Components="http://ADELE_Components" xmlns:ADELE_Features="http://ADELE_Features" name="regulate_temperature" id="005162dd-cbf9-4da8-ae2b-5ceca9483892">
+  <children xsi:type="ADELE_Components:Data" name="Regulator_Mode" id="08be24c0-d839-4346-b134-c3be772463cf" level="1" parent="/" implementationName="impl"/>
+  <children xsi:type="ADELE_Components:Data" name="Regulator_Interface_Failure" id="67905858-c3a6-4b3a-b7f6-8ebf397f1a7a" level="1" parent="/" implementationName="impl"/>
+  <children xsi:type="ADELE_Components:Data" name="Regulator_Internal_Failure" id="7a45de4e-ae06-41e4-b7fc-847adf88b894" level="1" parent="/" implementationName="impl"/>
+  <children xsi:type="ADELE_Components:Data" name="Boolean" id="ac53a961-8e36-4111-a8f0-1dc740cdf4b7" level="1" parent="/" implementationName="impl"/>
+  <children xsi:type="ADELE_Components:Subprogram" name="Manage_Heat_Source" id="34f95f83-842f-4328-bd36-6dc98c205b2e" level="1" parent="/" implementationName="impl"/>
+  <children xsi:type="ADELE_Components:Subprogram" name="Subprogram1" id="8ccc2480-f15b-4f9a-88c2-3eb6dab5670e" level="1" parent="/" implementationName="impl">
+    <features xsi:type="ADELE_Features:FeatureGroup" name="FeatureGroup1" id="8d5e87b9-6b10-49e3-9ae2-500e4de09feb" level="2" component="//@children.5"/>
+  </children>
+  <children xsi:type="ADELE_Components:Process" name="Process1" id="eb4b5bb8-aea5-47f9-92af-a4421c69746d" level="1" parent="/" implementationName="impl">
+    <features xsi:type="ADELE_Features:FeatureGroup" name="Desired_Temperature_Range" id="49ce8104-d3b1-45f4-abbd-f4f613670d37" level="2" component="//@children.6">
+      <children xsi:type="ADELE_Features:FeatureGroup" name="Upper_Desired_Temperature" id="5257e7ab-5359-4212-b214-f402809c3fe8" level="3" component="//@children.6" parent="//@children.6/@features.0">
+        <children xsi:type="ADELE_Features:DataPort" name="Upper_Desired_Temp_Value" id="9dd6633e-c52d-4621-a827-2d225c3cbb1d" level="4" component="//@children.6" parent="//@children.6/@features.0/@children.0"/>
+        <children xsi:type="ADELE_Features:DataPort" name="Upper_Desired_Temp_Status" id="758d5ba5-46c2-4ebe-ba38-f742786d5fba" level="4" component="//@children.6" parent="//@children.6/@features.0/@children.0"/>
+      </children>
+      <children xsi:type="ADELE_Features:FeatureGroup" name="Lower_Desired_Temperature" id="d9067ae4-40b3-4500-8125-8ea83fe7af61" level="3" component="//@children.6" parent="//@children.6/@features.0">
+        <children xsi:type="ADELE_Features:DataPort" name="Lower_Desired_Temp_Value" id="272307c9-a838-4625-b8f3-5ed0e66d212b" level="4" component="//@children.6" parent="//@children.6/@features.0/@children.1"/>
+        <children xsi:type="ADELE_Features:DataPort" name="Lower_Desired_Temp_Status" id="5c16e60a-21a8-4347-bc28-e42aa89be6c7" level="4" component="//@children.6" parent="//@children.6/@features.0/@children.1"/>
+      </children>
+    </features>
+  </children>
+  <children xsi:type="ADELE_Components:Thread" name="Thread1" id="ddf1b0c7-c11b-4684-9aec-6b2146bb4a9c" level="1" parent="/" implementationName="impl"/>
+</ADELE_Components:System>

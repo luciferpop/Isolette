@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core:Specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http:///www.open-people.fr/rdal/core" id="_xUe-MFY7EeSJwv-xzQZWGw" constraintLanguagesSpecification="platform:/config/fr.openpeople.ide.settings/defaultConstraintsLanguages.constraints#20903345">
+  <actors xsi:type="core:StakeHolder" id="_hcTvIFY8EeSJwv-xzQZWGw" name="driver" contractualElements="#_9Kzr8FY7EeSJwv-xzQZWGw"/>
+  <requirementGroups id="_zX19EFY7EeSJwv-xzQZWGw" name="OBD">
+    <requirements xsi:type="core:Requirement" id="_9Kzr8FY7EeSJwv-xzQZWGw" name="The OBD Dongle shall allow access to the CAN bus" stakeHolders="#_hcTvIFY8EeSJwv-xzQZWGw"/>
+    <requirements xsi:type="core:Assumption" id="_EtJmkFY9EeSJwv-xzQZWGw" name="using OBD 2.0"/>
+  </requirementGroups>
+  <requirementGroups id="_3RS64FY7EeSJwv-xzQZWGw" name="SmartDevice"/>
+  <requirementGroups id="_54aHEFY7EeSJwv-xzQZWGw" name="Cloud"/>
+</core:Specification>

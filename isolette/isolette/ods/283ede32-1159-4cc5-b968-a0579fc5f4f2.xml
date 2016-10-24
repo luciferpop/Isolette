@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SKHierarchicalObject class="ADELE_FeatureGroupImpl" name="alarm_temperature_range">
+<CLASSIFIER/>
+<DOC11/>
+<DOC12/>
+<DOC21/>
+<DOC235/>
+<DOC26/>
+<Allowed_Connection_Binding_Class/>
+<Allowed_Connection_Binding/>
+<Actual_Connection_Binding/>
+<Device_Register_Address/>
+<Source_Text/>
+<Acceptable_Array_Size/>
+</SKHierarchicalObject>

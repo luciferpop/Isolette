@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_N9k0QB-BEeKdBoxMkQSsfQ" activeDiagram="_m4e9MB-CEeKdBoxMkQSsfQ">
+  <model href="isolette_thermostat.adele#/"/>
+  <diagrams xmi:id="_N9k0QR-BEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="isolette_thermostat" viewport="0,0">
+    <property xmi:id="_N93vMB-BEeKdBoxMkQSsfQ" key="pageFormatName" value="A3"/>
+    <property xmi:id="_N93vMR-BEeKdBoxMkQSsfQ" key="diagramWidth" value="1188"/>
+    <property xmi:id="_N93vMh-BEeKdBoxMkQSsfQ" key="diagramHeight" value="1680"/>
+    <property xmi:id="_N93vMx-BEeKdBoxMkQSsfQ" key="pageMarginName" value="A4"/>
+    <property xmi:id="_N93vNB-BEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_N93vNR-BEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_N93vNh-BEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_N93vNx-BEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_N93vOB-BEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_N9k0Qh-BEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.packages">
+      <element href="isolette_thermostat.adele#/"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_Pl4O0B-BEeKdBoxMkQSsfQ" position="9,7" size="325,299">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Pl4O0R-BEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_OqiygB-CEeKdBoxMkQSsfQ" position="1,198" size="-1,-1">
+        <property xmi:id="_OqiygR-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Oqiygh-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Oqiygx-CEeKdBoxMkQSsfQ" position="-1,110" size="209,80">
+        <property xmi:id="_OqiyhB-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <property xmi:id="_EGOewCJtEeKRrpg-x-qKpA" key="openSizeInComponent" value="80,209"/>
+        <property xmi:id="_EGOewSJtEeKRrpg-x-qKpA" key="openClosedStateInComponent" value="true"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OqiyhR-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@features.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_nIJl4CJsEeKRrpg-x-qKpA" position="-67,12" size="-1,-1">
+          <property xmi:id="_nIJl4SJsEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nIJl4iJsEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.1/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_5fqIsCJsEeKRrpg-x-qKpA" position="16,42" size="-1,-1">
+          <property xmi:id="_5fqIsSJsEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5fqIsiJsEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.1/@children.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Oqiyhh-CEeKdBoxMkQSsfQ" position="136,6" size="188,111">
+        <property xmi:id="_Oqiyhx-CEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OqiyiB-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@features.2"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Mtsq4CJtEeKRrpg-x-qKpA" position="113,20" size="-1,-1">
+          <property xmi:id="_Mtsq4SJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Mtsq4iJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.2/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Q9fFECJtEeKRrpg-x-qKpA" position="79,60" size="-1,-1">
+          <property xmi:id="_Q9fFESJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Q9fFEiJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.2/@children.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_VbI8ICJtEeKRrpg-x-qKpA" position="-6,37" size="-1,-1">
+          <property xmi:id="_VbI8ISJtEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VbI8IiJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.2/@children.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_cYqu8CJtEeKRrpg-x-qKpA" position="18,11" size="-1,-1">
+          <property xmi:id="_cYqu8SJtEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cYqu8iJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@features.2/@children.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_OqiyiR-CEeKdBoxMkQSsfQ" position="230,189" size="-1,-1">
+        <property xmi:id="_Oqiyih-CEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Oqiyix-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_eTZ9wB-CEeKdBoxMkQSsfQ" position="35,225" size="253,46">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eTZ9wR-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_rnZjYB-CEeKdBoxMkQSsfQ" position="351,8" size="196,212">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rnZjYR-CEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.1"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_yMfBAB-CEeKdBoxMkQSsfQ" position="11,141" size="172,43">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yMfBAR-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_4prG4B-CEeKdBoxMkQSsfQ" position="-55,14" size="-1,-1">
+        <property xmi:id="_4prG4R-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4prG4h-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8KXmcB-CEeKdBoxMkQSsfQ" position="6,33" size="-1,-1">
+        <property xmi:id="_8KXmcR-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8KXmch-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_mNN9MB-DEeKdBoxMkQSsfQ" position="86,55" size="-1,-1">
+        <property xmi:id="_mNN9MR-DEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mNN9Mh-DEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_pYTZIB-DEeKdBoxMkQSsfQ" position="56,77" size="-1,-1">
+        <property xmi:id="_pYTZIR-DEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pYTZIh-DEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_sCnqUB-DEeKdBoxMkQSsfQ" position="105,97" size="-1,-1">
+        <property xmi:id="_sCnqUR-DEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sCnqUh-DEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@features.4"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_FaAJUB-EEeKdBoxMkQSsfQ" position="755,6" size="195,183">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FaAJUR-EEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.2"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_In7d4B-EEeKdBoxMkQSsfQ" position="32,19" size="-1,-1">
+        <property xmi:id="_In7d4R-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_In7d4h-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Mi2bUB-EEeKdBoxMkQSsfQ" position="20,43" size="-1,-1">
+        <property xmi:id="_Mi2bUR-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Mi2bUh-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_TEp7cB-EEeKdBoxMkQSsfQ" position="89,66" size="-1,-1">
+        <property xmi:id="_TEp7cR-EEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TEp7ch-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_V5Fx8B-EEeKdBoxMkQSsfQ" position="93,86" size="-1,-1">
+        <property xmi:id="_V5Fx8R-EEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V5Fx8h-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZR45wB-EEeKdBoxMkQSsfQ" position="16,114" size="158,44">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZR45wR-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_vTKYkB-EEeKdBoxMkQSsfQ" position="11,715" size="270,155">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vTKYkR-EEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.3"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ymJzUB-EEeKdBoxMkQSsfQ" position="-4,12" size="-1,-1">
+        <property xmi:id="_ymJzUR-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ymJzUh-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_2VvqgB-EEeKdBoxMkQSsfQ" position="-55,30" size="-1,-1">
+        <property xmi:id="_2VvqgR-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2Vvqgh-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_6cSpIB-EEeKdBoxMkQSsfQ" position="19,57" size="-1,-1">
+        <property xmi:id="_6cSpIR-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6cSpIh-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_CwO1QB-FEeKdBoxMkQSsfQ" position="159,62" size="-1,-1">
+        <property xmi:id="_CwO1QR-FEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CwO1Qh-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_fWJFwB-FEeKdBoxMkQSsfQ" position="14,85" size="237,44">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fWJFwR-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_-Cpr0B-EEeKdBoxMkQSsfQ" position="557,21" size="117,46">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-Cpr0R-EEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.4"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_LVA5wB-FEeKdBoxMkQSsfQ" position="346,721" size="216,168">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LVA5wR-FEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.5"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_OujocB-FEeKdBoxMkQSsfQ" position="17,33" size="-1,-1">
+        <property xmi:id="_OujocR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Oujoch-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.5/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_SbBTIB-FEeKdBoxMkQSsfQ" position="-43,60" size="-1,-1">
+        <property xmi:id="_SbBTIR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_SbBTIh-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.5/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_V3s1YB-FEeKdBoxMkQSsfQ" position="-3,84" size="-1,-1">
+        <property xmi:id="_V3s1YR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V3s1Yh-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.5/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_YwBGUB-FEeKdBoxMkQSsfQ" position="57,110" size="-1,-1">
+        <property xmi:id="_YwBGUR-FEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YwBGUh-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.5/@features.3"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_WIoX4B-GEeKdBoxMkQSsfQ" position="12,317" size="306,190">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WIoX4R-GEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.6"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_eLR_sB-GEeKdBoxMkQSsfQ" position="-8,15" size="-1,-1">
+        <property xmi:id="_eLR_sR-GEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eLR_sh-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_hW-foB-GEeKdBoxMkQSsfQ" position="-2,38" size="-1,-1">
+        <property xmi:id="_hW-foR-GEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hW-foh-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_kpXdcB-GEeKdBoxMkQSsfQ" position="-1,59" size="-1,-1">
+        <property xmi:id="_kpXdcR-GEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kpXdch-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_naYMgB-GEeKdBoxMkQSsfQ" position="208,34" size="-1,-1">
+        <property xmi:id="_naYMgR-GEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_naYMgh-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ui68gB-GEeKdBoxMkQSsfQ" position="114,76" size="-1,-1">
+        <property xmi:id="_ui68gR-GEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ui68gh-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_xXhLEB-GEeKdBoxMkQSsfQ" position="175,95" size="-1,-1">
+        <property xmi:id="_xXhLER-GEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_xXhLEh-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_2HRpUB-HEeKdBoxMkQSsfQ" position="18,117" size="270,50">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2HRpUR-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_pv1A8B-GEeKdBoxMkQSsfQ" position="167,58" size="-1,-1">
+        <property xmi:id="_pv1A8R-GEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pv1A8h-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@features.4"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_4fxAIB-GEeKdBoxMkQSsfQ" position="559,80" size="172,47">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4fxAIR-GEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.7"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_-JY7EB-GEeKdBoxMkQSsfQ" position="352,321" size="232,207">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-JY7ER-GEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.8"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_Nu-I0B-HEeKdBoxMkQSsfQ" position="-12,22" size="-1,-1">
+        <property xmi:id="_Nu-I0R-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Nu-I0h-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_fVlaMB-HEeKdBoxMkQSsfQ" position="3,43" size="-1,-1">
+        <property xmi:id="_fVlaMR-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fVlaMh-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_h6iDMB-HEeKdBoxMkQSsfQ" position="0,66" size="-1,-1">
+        <property xmi:id="_h6iDMR-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_h6iDMh-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_k5ZoEB-HEeKdBoxMkQSsfQ" position="133,87" size="-1,-1">
+        <property xmi:id="_k5ZoER-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_k5ZoEh-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_nOZwkB-HEeKdBoxMkQSsfQ" position="63,109" size="-1,-1">
+        <property xmi:id="_nOZwkR-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nOZwkh-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_vf0NIB-HEeKdBoxMkQSsfQ" position="65,130" size="-1,-1">
+        <property xmi:id="_vf0NIR-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vf0NIh-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_y_dj0B-HEeKdBoxMkQSsfQ" position="65,147" size="-1,-1">
+        <property xmi:id="_y_dj0R-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_y_dj0h-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.8/@features.6"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_W3v1wB-IEeKdBoxMkQSsfQ" position="16,521" size="321,187">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_W3v1wR-IEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.9"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_bIIF0B-IEeKdBoxMkQSsfQ" position="-55,13" size="-1,-1">
+        <property xmi:id="_bIIF0R-IEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bIIF0h-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_eGZ00B-IEeKdBoxMkQSsfQ" position="22,38" size="-1,-1">
+        <property xmi:id="_eGZ00R-IEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eGZ00h-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_mpP_oB-IEeKdBoxMkQSsfQ" position="3,57" size="-1,-1">
+        <property xmi:id="_mpP_oR-IEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mpP_oh-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_pyZh4B-IEeKdBoxMkQSsfQ" position="230,15" size="-1,-1">
+        <property xmi:id="_pyZh4R-IEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pyZh4h-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="__bFhkB-IEeKdBoxMkQSsfQ" position="212,38" size="-1,-1">
+        <property xmi:id="__bFhkR-IEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__bFhkh-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_EOCTMB-JEeKdBoxMkQSsfQ" position="223,59" size="-1,-1">
+        <property xmi:id="_EOCTMR-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EOCTMh-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_I34zMB-JEeKdBoxMkQSsfQ" position="177,84" size="-1,-1">
+        <property xmi:id="_I34zMR-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I34zMh-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@features.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_QnxQAB-JEeKdBoxMkQSsfQ" position="28,114" size="263,48">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QnxQAR-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_hvcYEB-IEeKdBoxMkQSsfQ" position="560,136" size="169,47">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hvcYER-IEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.10"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_8p7BgB-IEeKdBoxMkQSsfQ" position="1037,170" size="99,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8p7BgR-IEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.11"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_TbLLwB-JEeKdBoxMkQSsfQ" position="345,532" size="278,177">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TbLLwR-JEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.12"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_Xk_g0B-JEeKdBoxMkQSsfQ" position="-20,13" size="-1,-1">
+        <property xmi:id="_Xk_g0R-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Xk_g0h-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_aQWT0B-JEeKdBoxMkQSsfQ" position="-2,37" size="-1,-1">
+        <property xmi:id="_aQWT0R-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aQWT0h-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_dLyxQB-JEeKdBoxMkQSsfQ" position="1,56" size="-1,-1">
+        <property xmi:id="_dLyxQR-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dLyxQh-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_movz4B-JEeKdBoxMkQSsfQ" position="168,56" size="-1,-1">
+        <property xmi:id="_movz4R-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_movz4h-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_oqiFcB-JEeKdBoxMkQSsfQ" position="189,76" size="-1,-1">
+        <property xmi:id="_oqiFcR-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_oqiFch-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_roN-kB-JEeKdBoxMkQSsfQ" position="169,97" size="-1,-1">
+        <property xmi:id="_roN-kR-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_roN-kh-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_tpQCMB-JEeKdBoxMkQSsfQ" position="133,118" size="-1,-1">
+        <property xmi:id="_tpQCMR-JEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tpQCMh-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.12/@features.6"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_QaLDcB-KEeKdBoxMkQSsfQ" position="12,880" size="276,130">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QaLDcR-KEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.13"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_X9PMQB-KEeKdBoxMkQSsfQ" position="159,26" size="-1,-1">
+        <property xmi:id="_X9PMQR-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_X9PMQh-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.13/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_eGUDUB-KEeKdBoxMkQSsfQ" position="10,51" size="251,48">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eGUDUR-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.13/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_frLvYB-KEeKdBoxMkQSsfQ" position="363,900" size="175,113">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_frLvYR-KEeKdBoxMkQSsfQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.14"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_mcfEEB-KEeKdBoxMkQSsfQ" position="45,37" size="-1,-1">
+        <property xmi:id="_mcfEER-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mcfEEh-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.14/@features.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_prY_cCzEEeKu_JWrb89wUQ" position="612,323" size="298,177">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_prY_cSzEEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.15"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_sZb6ECzEEeKu_JWrb89wUQ" position="12,104" size="271,50">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sZb6ESzEEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yAaJoCzEEeKu_JWrb89wUQ" position="17,25" size="-1,-1">
+        <property xmi:id="_yAaJoSzEEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yAaJoizEEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_aKTBYCzKEeKu_JWrb89wUQ" position="1,51" size="-1,-1">
+        <property xmi:id="_aKTBYSzKEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aKTBYizKEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_fy6PsCzKEeKu_JWrb89wUQ" position="0,79" size="-1,-1">
+        <property xmi:id="_fy6PsSzKEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fy6PsizKEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yCJAQCzKEeKu_JWrb89wUQ" position="206,20" size="-1,-1">
+        <property xmi:id="_yCJAQSzKEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yCJAQizKEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_218tgCzKEeKu_JWrb89wUQ" position="210,39" size="-1,-1">
+        <property xmi:id="_218tgSzKEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_218tgizKEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_9jMBkCzKEeKu_JWrb89wUQ" position="261,77" size="-1,-1">
+        <property xmi:id="_9jMBkSzKEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9jMBkizKEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@features.5"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_jp-n4CzKEeKu_JWrb89wUQ" position="1038,16" size="101,41">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jp-n4SzKEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.16"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_CZ-xYCzLEeKu_JWrb89wUQ" position="981,65" size="163,46">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CZ-xYSzLEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.17"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_L0CRACzLEeKu_JWrb89wUQ" position="631,547" size="255,167">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_L0CRASzLEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.18"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_PPMwUCzLEeKu_JWrb89wUQ" position="10,19" size="-1,-1">
+        <property xmi:id="_PPMwUSzLEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PPMwUizLEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_iVY-ECzLEeKu_JWrb89wUQ" position="-11,38" size="-1,-1">
+        <property xmi:id="_iVY-ESzLEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iVY-EizLEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_o0g9oCzLEeKu_JWrb89wUQ" position="-1,58" size="-1,-1">
+        <property xmi:id="_o0g9oSzLEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_o0g9oizLEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_2svRsCzLEeKu_JWrb89wUQ" position="170,76" size="-1,-1">
+        <property xmi:id="_2svRsSzLEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2svRsizLEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_9k6DYCzLEeKu_JWrb89wUQ" position="14,98" size="223,47">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9k6DYSzLEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_sifEMCzLEeKu_JWrb89wUQ" position="989,118" size="154,42">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sifEMSzLEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.19"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_fVQYcCzMEeKu_JWrb89wUQ" position="929,324" size="199,175">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fVQYcSzMEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.20"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_rLbVMCzMEeKu_JWrb89wUQ" position="44,23" size="-1,-1">
+        <property xmi:id="_rLbVMSzMEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rLbVMizMEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_xDiYECzMEeKu_JWrb89wUQ" position="-3,43" size="-1,-1">
+        <property xmi:id="_xDiYESzMEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_xDiYEizMEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_4jEEsCzMEeKu_JWrb89wUQ" position="-1,61" size="-1,-1">
+        <property xmi:id="_4jEEsSzMEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4jEEsizMEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8-7zECzMEeKu_JWrb89wUQ" position="97,78" size="-1,-1">
+        <property xmi:id="_8-7zESzMEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8-7zEizMEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_-8jWUCzMEeKu_JWrb89wUQ" position="127,97" size="-1,-1">
+        <property xmi:id="_-8jWUSzMEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-8jWUizMEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_B2EhICzNEeKu_JWrb89wUQ" position="76,113" size="-1,-1">
+        <property xmi:id="_B2EhISzNEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B2EhIizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.20/@features.5"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_G7EsECzNEeKu_JWrb89wUQ" position="923,550" size="206,143">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G7EsESzNEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.21"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_KOXo0CzNEeKu_JWrb89wUQ" position="-22,18" size="-1,-1">
+        <property xmi:id="_KOXo0SzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KOXo0izNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.21/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Nct0ICzNEeKu_JWrb89wUQ" position="-3,38" size="-1,-1">
+        <property xmi:id="_Nct0ISzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Nct0IizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.21/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_P_jkUCzNEeKu_JWrb89wUQ" position="-10,57" size="-1,-1">
+        <property xmi:id="_P_jkUSzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_P_jkUizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.21/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_TX4yECzNEeKu_JWrb89wUQ" position="131,82" size="-1,-1">
+        <property xmi:id="_TX4yESzNEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TX4yEizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.21/@features.3"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_blNY0CzNEeKu_JWrb89wUQ" position="641,731" size="231,158">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_blNY0SzNEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.22"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_eaXoECzNEeKu_JWrb89wUQ" position="4,16" size="-1,-1">
+        <property xmi:id="_eaXoESzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eaXoEizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_hj8oICzNEeKu_JWrb89wUQ" position="5,39" size="-1,-1">
+        <property xmi:id="_hj8oISzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hj8oIizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_kFv2gCzNEeKu_JWrb89wUQ" position="-14,61" size="-1,-1">
+        <property xmi:id="_kFv2gSzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kFv2gizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_rBbPMCzNEeKu_JWrb89wUQ" position="229,17" size="-1,-1">
+        <property xmi:id="_rBbPMSzNEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rBbPMizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_vEzlECzNEeKu_JWrb89wUQ" position="11,88" size="209,47">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vEzlESzNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_1cuJYCzNEeKu_JWrb89wUQ" position="900,733" size="227,129">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1cuJYSzNEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.23"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_5CU-ICzNEeKu_JWrb89wUQ" position="-15,26" size="-1,-1">
+        <property xmi:id="_5CU-ISzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5CU-IizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.23/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_77PsACzNEeKu_JWrb89wUQ" position="20,52" size="-1,-1">
+        <property xmi:id="_77PsASzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_77PsAizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.23/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_-ZVfECzNEeKu_JWrb89wUQ" position="-7,76" size="-1,-1">
+        <property xmi:id="_-ZVfESzNEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-ZVfEizNEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.23/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_BlnN0CzOEeKu_JWrb89wUQ" position="136,32" size="-1,-1">
+        <property xmi:id="_BlnN0SzOEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BlnN0izOEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.23/@features.3"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_oELlgCzOEeKu_JWrb89wUQ" position="618,899" size="261,115">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_oELlgSzOEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.24"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_t97AECzOEeKu_JWrb89wUQ" position="156,16" size="-1,-1">
+        <property xmi:id="_t97AESzOEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_t97AEizOEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.24/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yarfQCzOEeKu_JWrb89wUQ" position="22,43" size="217,46">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yarfQSzOEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.24/@children.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_2JsHoCzOEeKu_JWrb89wUQ" position="915,902" size="189,111">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2JsHoSzOEeKu_JWrb89wUQ" presentation="default">
+        <element href="isolette_thermostat.adele#//@children.25"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_5UpAsCzOEeKu_JWrb89wUQ" position="103,27" size="-1,-1">
+        <property xmi:id="_5UpAsSzOEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5UpAsizOEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.25/@features.0"/>
+        </semanticModel>
+      </contained>
+    </contained>
+  </diagrams>
+  <subdiagrams xmi:id="_m4VMMB-CEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.0/@children.0"/>
+    <diagrams xmi:id="_m4e9MB-CEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_m4oHLB-CEeKdBoxMkQSsfQ" key="pageFormatName" value=""/>
+      <property xmi:id="_m4oHLR-CEeKdBoxMkQSsfQ" key="diagramWidth" value="856"/>
+      <property xmi:id="_m4oHLh-CEeKdBoxMkQSsfQ" key="diagramHeight" value="508"/>
+      <property xmi:id="_m4oHLx-CEeKdBoxMkQSsfQ" key="pageMarginName" value=""/>
+      <property xmi:id="_m4oHMB-CEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_m4oHMR-CEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_m4oHMh-CEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_m4oHMx-CEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_m4oHNB-CEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m4e9MR-CEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.system">
+        <element href="isolette_thermostat.adele#//@children.0/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_m4oHIB-CEeKdBoxMkQSsfQ" position="1,55" size="-1,-1">
+        <property xmi:id="_m4oHIR-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_szSZMCJrEeKRrpg-x-qKpA" graphEdge="_szSZMiJrEeKRrpg-x-qKpA _DU8WUSJuEeKRrpg-x-qKpA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m4oHIh-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_m4oHIx-CEeKdBoxMkQSsfQ" position="5,201" size="204,112">
+        <property xmi:id="_m4oHJB-CEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m4oHJR-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX8CJtEeKRrpg-x-qKpA" position="1,35" size="-1,-1">
+          <property xmi:id="_m5bX8SJtEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_2xW58CJtEeKRrpg-x-qKpA" graphEdge="_2xW58iJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bX8iJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.1/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX8yJtEeKRrpg-x-qKpA" position="1,60" size="-1,-1">
+          <property xmi:id="_m5bX9CJtEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_37RIUCJtEeKRrpg-x-qKpA" graphEdge="_37RIUiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bX9SJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.1/@children.1"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_m4oHJh-CEeKdBoxMkQSsfQ" position="661,246" size="136,161">
+        <property xmi:id="_m4oHJx-CEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m4oHKB-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.2"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX9iJtEeKRrpg-x-qKpA" position="87,35" size="-1,-1">
+          <property xmi:id="_m5bX9yJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_x3GmcSJtEeKRrpg-x-qKpA" graphEdge="_x3GmciJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bX-CJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.2/@children.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX-SJtEeKRrpg-x-qKpA" position="87,60" size="-1,-1">
+          <property xmi:id="_m5bX-iJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_uoR6ASJtEeKRrpg-x-qKpA" graphEdge="_uoR6AiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bX-yJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.2/@children.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX_CJtEeKRrpg-x-qKpA" position="87,85" size="-1,-1">
+          <property xmi:id="_m5bX_SJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_8_DLQSJtEeKRrpg-x-qKpA" graphEdge="_8_DLQiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bX_iJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.2/@children.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_m5bX_yJtEeKRrpg-x-qKpA" position="87,110" size="-1,-1">
+          <property xmi:id="_m5bYACJtEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_69tloSJtEeKRrpg-x-qKpA" graphEdge="_693WoCJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m5bYASJtEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.2/@children.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_m4oHKR-CEeKdBoxMkQSsfQ" position="697,150" size="-1,-1">
+        <property xmi:id="_m4oHKh-CEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_qCRqISJrEeKRrpg-x-qKpA" graphEdge="_qCRqIiJrEeKRrpg-x-qKpA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_m4oHKx-CEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Z7KcoSJrEeKRrpg-x-qKpA" position="288,32" size="272,197">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Z7KcoiJrEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_drzcsCJrEeKRrpg-x-qKpA" position="1,47" size="-1,-1">
+          <property xmi:id="_drzcsSJrEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_2xW58SJtEeKRrpg-x-qKpA" graphEdge="_2xW58iJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_drzcsiJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_drzcsyJrEeKRrpg-x-qKpA" position="-56,15" size="-1,-1">
+          <property xmi:id="_drzctCJrEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_szSZMSJrEeKRrpg-x-qKpA" graphEdge="_szSZMiJrEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_drzctSJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_drzctiJrEeKRrpg-x-qKpA" position="179,99" size="-1,-1">
+          <property xmi:id="_drzctyJrEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_x3GmcCJtEeKRrpg-x-qKpA" graphEdge="_x3GmciJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_drzcuCJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_drzcuSJrEeKRrpg-x-qKpA" position="160,128" size="-1,-1">
+          <property xmi:id="_drzcuiJrEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_uoR6ACJtEeKRrpg-x-qKpA" graphEdge="_uoR6AiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_drzcuyJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_drzcvCJrEeKRrpg-x-qKpA" position="228,75" size="-1,-1">
+          <property xmi:id="_drzcvSJrEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_qCRqICJrEeKRrpg-x-qKpA" graphEdge="_qCRqIiJrEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_drzcviJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.0/@features.4"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_eiMSICJrEeKRrpg-x-qKpA" position="272,298" size="279,146">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eiMSISJrEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_f_xDYCJrEeKRrpg-x-qKpA" position="2,84" size="-1,-1">
+          <property xmi:id="_f_xDYSJrEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_37RIUSJtEeKRrpg-x-qKpA" graphEdge="_37RIUiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_f_xDYiJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.1/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_f_xDYyJrEeKRrpg-x-qKpA" position="-9,51" size="-1,-1">
+          <property xmi:id="_f_xDZCJrEeKRrpg-x-qKpA" key="portPosition" value="1"/>
+          <anchorage xmi:id="_DU8WUCJuEeKRrpg-x-qKpA" graphEdge="_DU8WUSJuEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_f_xDZSJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.1/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_f_xDZiJrEeKRrpg-x-qKpA" position="220,30" size="-1,-1">
+          <property xmi:id="_f_xDZyJrEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_8_DLQCJtEeKRrpg-x-qKpA" graphEdge="_8_DLQiJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_f_xDaCJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.1/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_f_xDaSJrEeKRrpg-x-qKpA" position="192,75" size="-1,-1">
+          <property xmi:id="_f_xDaiJrEeKRrpg-x-qKpA" key="portPosition" value="4"/>
+          <anchorage xmi:id="_69tloCJtEeKRrpg-x-qKpA" graphEdge="_693WoCJtEeKRrpg-x-qKpA"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_f_xDayJrEeKRrpg-x-qKpA" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.0/@children.0/@children.1/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_qCRqIiJrEeKRrpg-x-qKpA" anchor="_qCRqICJrEeKRrpg-x-qKpA _qCRqISJrEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qCRqIyJrEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.0"/>
+        </semanticModel>
+        <waypoints>[243, 0, -11, -27]</waypoints>
+        <waypoints>[243, 27, -11, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_szSZMiJrEeKRrpg-x-qKpA" anchor="_szSZMCJrEeKRrpg-x-qKpA _szSZMSJrEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_szSZMyJrEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.1"/>
+        </semanticModel>
+        <waypoints>[10, 0, -278, -8]</waypoints>
+        <waypoints>[10, -15, -278, -23]</waypoints>
+        <waypoints>[165, -15, -123, -23]</waypoints>
+        <waypoints>[165, 8, -123, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_uoR6AiJtEeKRrpg-x-qKpA" anchor="_uoR6ACJtEeKRrpg-x-qKpA _uoR6ASJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uoR6AyJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_x3GmciJtEeKRrpg-x-qKpA" anchor="_x3GmcCJtEeKRrpg-x-qKpA _x3GmcSJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_x3GmcyJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.3"/>
+        </semanticModel>
+        <waypoints>[361, 0, 126, -117]</waypoints>
+        <waypoints>[361, 117, 126, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_2xW58iJtEeKRrpg-x-qKpA" anchor="_2xW58CJtEeKRrpg-x-qKpA _2xW58SJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2xW58yJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.4"/>
+        </semanticModel>
+        <waypoints>[8, 0, -278, 158]</waypoints>
+        <waypoints>[8, -14, -278, 144]</waypoints>
+        <waypoints>[135, -14, -151, 144]</waypoints>
+        <waypoints>[135, -158, -151, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_37RIUiJtEeKRrpg-x-qKpA" anchor="_37RIUCJtEeKRrpg-x-qKpA _37RIUSJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_37RIUyJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.5"/>
+        </semanticModel>
+        <waypoints>[12, 0, -258, -120]</waypoints>
+        <waypoints>[12, 22, -258, -98]</waypoints>
+        <waypoints>[128, 22, -142, -98]</waypoints>
+        <waypoints>[128, 120, -142, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_693WoCJtEeKRrpg-x-qKpA" anchor="_69tloCJtEeKRrpg-x-qKpA _69tloSJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_693WoSJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_8_DLQiJtEeKRrpg-x-qKpA" anchor="_8_DLQCJtEeKRrpg-x-qKpA _8_DLQSJtEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8_DLQyJtEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.7"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_DU8WUSJuEeKRrpg-x-qKpA" anchor="_szSZMCJrEeKRrpg-x-qKpA _DU8WUCJuEeKRrpg-x-qKpA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DU8WUiJuEeKRrpg-x-qKpA" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.0/@children.0/@dataPortConnection.8"/>
+        </semanticModel>
+        <waypoints>[10, 0, -262, -310]</waypoints>
+        <waypoints>[10, 25, -262, -285]</waypoints>
+        <waypoints>[223, 25, -49, -285]</waypoints>
+        <waypoints>[223, 310, -49, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_9fwB8Ud3EeKqgIdIUxVcYQ" position="587,19" size="188,62">
+        <property xmi:id="_9fwB8kd3EeKqgIdIUxVcYQ" key="noteValue" value="Independent functions represented by independent AADL processes."/>
+        <semanticModel xsi:type="di:SimpleSemanticModelElement" xmi:id="_9fwB80d3EeKqgIdIUxVcYQ" presentation="default" typeInfo="Note"/>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_bqB10B-EEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.1/@children.0"/>
+    <diagrams xmi:id="_bqB10R-EEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,38">
+      <property xmi:id="_byq0fx-EEeKdBoxMkQSsfQ" key="pageFormatName" value=""/>
+      <property xmi:id="_byq0gB-EEeKdBoxMkQSsfQ" key="diagramWidth" value="848"/>
+      <property xmi:id="_byq0gR-EEeKdBoxMkQSsfQ" key="diagramHeight" value="680"/>
+      <property xmi:id="_byq0gh-EEeKdBoxMkQSsfQ" key="pageMarginName" value="A4"/>
+      <property xmi:id="_byq0gx-EEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_byq0hB-EEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_byq0hR-EEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_byq0hh-EEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_byq0hx-EEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bqB10h-EEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.process">
+        <element href="isolette_thermostat.adele#//@children.1/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_byq0cB-EEeKdBoxMkQSsfQ" position="10,517" size="-1,-1">
+        <property xmi:id="_byq0cR-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_I6kzcB-MEeKdBoxMkQSsfQ" graphEdge="_I6kzch-MEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_byq0ch-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_byq0cx-EEeKdBoxMkQSsfQ" position="0,136" size="-1,-1">
+        <property xmi:id="_byq0dB-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <property xmi:id="_bxI0UB-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <property xmi:id="_cXlJQB-NEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+        <anchorage xmi:id="_Q4n20B-GEeKdBoxMkQSsfQ" graphEdge="_Q4n20h-GEeKdBoxMkQSsfQ _-jQ20R-KEeKdBoxMkQSsfQ _fKvp4B-MEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_byq0dR-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_byq0dh-EEeKdBoxMkQSsfQ" position="-11,418" size="-1,-1">
+        <property xmi:id="_byq0dx-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_btoCwB-MEeKdBoxMkQSsfQ" graphEdge="_btoCwh-MEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_byq0eB-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_byq0eR-EEeKdBoxMkQSsfQ" position="0,335" size="-1,-1">
+        <property xmi:id="_byq0eh-EEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_WwGY0R-MEeKdBoxMkQSsfQ" graphEdge="_WwGY0h-MEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_byq0ex-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_byq0fB-EEeKdBoxMkQSsfQ" position="684,145" size="-1,-1">
+        <property xmi:id="_byq0fR-EEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <property xmi:id="_hK010R-NEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+        <property xmi:id="_jXycoB-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <anchorage xmi:id="_RukAUB-GEeKdBoxMkQSsfQ" graphEdge="_RutxUB-GEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_byq0fh-EEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_JHs4MB-GEeKdBoxMkQSsfQ" position="435,29" size="207,166">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JHs4MR-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_PBRToB-GEeKdBoxMkQSsfQ" position="-29,86" size="-1,-1">
+          <property xmi:id="_PBRToR-GEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_1eGMoR-LEeKdBoxMkQSsfQ" graphEdge="_1eGMoh-LEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PBRToh-GEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_PBRTox-GEeKdBoxMkQSsfQ" position="-16,23" size="-1,-1">
+          <property xmi:id="_PBRTpB-GEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <property xmi:id="_eA7ssB-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+          <property xmi:id="_ec8TQB-NEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_Q4n20R-GEeKdBoxMkQSsfQ" graphEdge="_Q4n20h-GEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PBRTpR-GEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_PBRTph-GEeKdBoxMkQSsfQ" position="17,127" size="-1,-1">
+          <property xmi:id="_PBRTpx-GEeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_Uimb8R-LEeKdBoxMkQSsfQ" graphEdge="_Uimb8h-LEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PBRTqB-GEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_PBRTqR-GEeKdBoxMkQSsfQ" position="116,47" size="-1,-1">
+          <property xmi:id="_PBRTqh-GEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <property xmi:id="_gNlxgB-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+          <property xmi:id="_hK010B-NEeKdBoxMkQSsfQ" key="backgroundColor" value="255,0,0"/>
+          <anchorage xmi:id="_RukAUR-GEeKdBoxMkQSsfQ" graphEdge="_RutxUB-GEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PBRTqx-GEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Q4n20h-GEeKdBoxMkQSsfQ" anchor="_Q4n20B-GEeKdBoxMkQSsfQ _Q4n20R-GEeKdBoxMkQSsfQ">
+        <property xmi:id="_a0Mq8B-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Q4n20x-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.0"/>
+        </semanticModel>
+        <waypoints>[155, 0, -280, 68]</waypoints>
+        <waypoints>[155, -68, -280, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_RutxUB-GEeKdBoxMkQSsfQ" anchor="_RukAUB-GEeKdBoxMkQSsfQ _RukAUR-GEeKdBoxMkQSsfQ">
+        <property xmi:id="_gNlxgR-NEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RutxUR-GEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.1"/>
+        </semanticModel>
+        <waypoints>[-198, 0, 215, 10]</waypoints>
+        <waypoints>[-198, -10, 215, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Il0dsB-HEeKdBoxMkQSsfQ" position="489,267" size="207,241">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Il0dsR-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYegB-KEeKdBoxMkQSsfQ" position="-107,78" size="-1,-1">
+          <property xmi:id="_CCYegR-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_EP30UR-LEeKdBoxMkQSsfQ" graphEdge="_EP30Uh-LEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYegh-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYegx-KEeKdBoxMkQSsfQ" position="15,206" size="-1,-1">
+          <property xmi:id="_CCYehB-KEeKdBoxMkQSsfQ" key="portPosition" value="32"/>
+          <anchorage xmi:id="_7FsjwR-KEeKdBoxMkQSsfQ" graphEdge="_7Fsjwh-KEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYehR-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYehh-KEeKdBoxMkQSsfQ" position="-11,44" size="-1,-1">
+          <property xmi:id="_CCYehx-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_-jQ20B-KEeKdBoxMkQSsfQ" graphEdge="_-jQ20R-KEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYeiB-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYeiR-KEeKdBoxMkQSsfQ" position="35,34" size="-1,-1">
+          <property xmi:id="_CCYeih-KEeKdBoxMkQSsfQ" key="portPosition" value="8"/>
+          <anchorage xmi:id="_Uimb8B-LEeKdBoxMkQSsfQ" graphEdge="_Uimb8h-LEeKdBoxMkQSsfQ _130ewR-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYeix-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYejB-KEeKdBoxMkQSsfQ" position="79,142" size="-1,-1">
+          <property xmi:id="_CCYejR-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYejh-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYejx-KEeKdBoxMkQSsfQ" position="61,165" size="-1,-1">
+          <property xmi:id="_CCYekB-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYekR-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.5"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_CCYekh-KEeKdBoxMkQSsfQ" position="-43,110" size="-1,-1">
+          <property xmi:id="_CCYekx-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CCYelB-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.1/@features.6"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_GTDpgB-KEeKdBoxMkQSsfQ" position="159,200" size="227,298">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GTDpgR-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFcB-KEeKdBoxMkQSsfQ" position="1,238" size="-1,-1">
+          <property xmi:id="_LdGFcR-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_I6kzcR-MEeKdBoxMkQSsfQ" graphEdge="_I6kzch-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFch-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFcx-KEeKdBoxMkQSsfQ" position="-50,60" size="-1,-1">
+          <property xmi:id="_LdGFdB-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_fKJM8B-MEeKdBoxMkQSsfQ" graphEdge="_fKvp4B-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFdR-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFdh-KEeKdBoxMkQSsfQ" position="133,75" size="-1,-1">
+          <property xmi:id="_LdGFdx-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_130ewB-MEeKdBoxMkQSsfQ" graphEdge="_130ewR-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFeB-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFeR-KEeKdBoxMkQSsfQ" position="1,185" size="-1,-1">
+          <property xmi:id="_LdGFeh-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_btoCwR-MEeKdBoxMkQSsfQ" graphEdge="_btoCwh-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFex-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFfB-KEeKdBoxMkQSsfQ" position="3,97" size="-1,-1">
+          <property xmi:id="_LdGFfR-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_WwGY0B-MEeKdBoxMkQSsfQ" graphEdge="_WwGY0h-MEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFfh-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFfx-KEeKdBoxMkQSsfQ" position="81,26" size="-1,-1">
+          <property xmi:id="_LdGFgB-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_1eGMoB-LEeKdBoxMkQSsfQ" graphEdge="_1eGMoh-LEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFgR-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.5"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_LdGFgh-KEeKdBoxMkQSsfQ" position="53,134" size="-1,-1">
+          <property xmi:id="_LdGFgx-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_EP30UB-LEeKdBoxMkQSsfQ" graphEdge="_EP30Uh-LEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LdGFhB-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.2/@features.6"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yzZWYB-KEeKdBoxMkQSsfQ" position="326,520" size="185,96">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yzZWYR-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.3"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_1xOZcB-KEeKdBoxMkQSsfQ" position="134,19" size="-1,-1">
+          <property xmi:id="_1xOZcR-KEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_7FsjwB-KEeKdBoxMkQSsfQ" graphEdge="_7Fsjwh-KEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1xOZch-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.1/@children.0/@children.3/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_7Fsjwh-KEeKdBoxMkQSsfQ" anchor="_7FsjwB-KEeKdBoxMkQSsfQ _7FsjwR-KEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7Fsjwx-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.2"/>
+        </semanticModel>
+        <waypoints>[74, 0, 0, 72]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_-jQ20R-KEeKdBoxMkQSsfQ" anchor="_Q4n20B-GEeKdBoxMkQSsfQ _-jQ20B-KEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-jQ20h-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.3"/>
+        </semanticModel>
+        <waypoints>[155, 0, -334, -191]</waypoints>
+        <waypoints>[155, 32, -334, -159]</waypoints>
+        <waypoints>[387, 32, -102, -159]</waypoints>
+        <waypoints>[387, 191, -102, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_EP30Uh-LEeKdBoxMkQSsfQ" anchor="_EP30UB-LEeKdBoxMkQSsfQ _EP30UR-LEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EP30Ux-LEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.4"/>
+        </semanticModel>
+        <waypoints>[58, 0, -68, 3]</waypoints>
+        <waypoints>[58, -3, -68, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Uimb8h-LEeKdBoxMkQSsfQ" anchor="_Uimb8B-LEeKdBoxMkQSsfQ _Uimb8R-LEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Uimb8x-LEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.5"/>
+        </semanticModel>
+        <waypoints>[0, -36, 72, 69]</waypoints>
+        <waypoints>[-72, -36, 0, 69]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_1eGMoh-LEeKdBoxMkQSsfQ" anchor="_1eGMoB-LEeKdBoxMkQSsfQ _1eGMoR-LEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1eGMox-LEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_I6kzch-MEeKdBoxMkQSsfQ" anchor="_I6kzcB-MEeKdBoxMkQSsfQ _I6kzcR-MEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I6kzcx-MEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.7"/>
+        </semanticModel>
+        <waypoints>[15, 0, -145, 64]</waypoints>
+        <waypoints>[15, -64, -145, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_WwGY0h-MEeKdBoxMkQSsfQ" anchor="_WwGY0B-MEeKdBoxMkQSsfQ _WwGY0R-MEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WwGY0x-MEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.8"/>
+        </semanticModel>
+        <waypoints>[-148, 0, 11, -22]</waypoints>
+        <waypoints>[-148, 22, 11, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_btoCwh-MEeKdBoxMkQSsfQ" anchor="_btoCwB-MEeKdBoxMkQSsfQ _btoCwR-MEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_btoCwx-MEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.9"/>
+        </semanticModel>
+        <waypoints>[18, 0, -141, 28]</waypoints>
+        <waypoints>[18, -28, -141, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_fKvp4B-MEeKdBoxMkQSsfQ" anchor="_Q4n20B-GEeKdBoxMkQSsfQ _fKJM8B-MEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fKvp4R-MEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.10"/>
+        </semanticModel>
+        <waypoints>[89, 0, -70, -140]</waypoints>
+        <waypoints>[89, 140, -70, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_130ewR-MEeKdBoxMkQSsfQ" anchor="_Uimb8B-LEeKdBoxMkQSsfQ _130ewB-MEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_130ewh-MEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.1/@children.0/@dataPortConnection.11"/>
+        </semanticModel>
+        <waypoints>[0, -36, 194, -43]</waypoints>
+        <waypoints>[-112, -36, 82, -43]</waypoints>
+        <waypoints>[-112, 7, 82, 0]</waypoints>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_mUG9cB-FEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.3/@children.0"/>
+    <diagrams xmi:id="_mUQHYB-FEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_me1mzB-FEeKdBoxMkQSsfQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_me1mzR-FEeKdBoxMkQSsfQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_me1mzh-FEeKdBoxMkQSsfQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_me1mzx-FEeKdBoxMkQSsfQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_me1m0B-FEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_me1m0R-FEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_me1m0h-FEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_me1m0x-FEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_me1m1B-FEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mUQHYR-FEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.3/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_me1mwB-FEeKdBoxMkQSsfQ" position="1,55" size="-1,-1">
+        <property xmi:id="_me1mwR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_vGvQsB-FEeKdBoxMkQSsfQ" graphEdge="_vHyZkB-FEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_me1mwh-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_me1mwx-FEeKdBoxMkQSsfQ" position="1,100" size="-1,-1">
+        <property xmi:id="_me1mxB-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_voRQcB-FEeKdBoxMkQSsfQ" graphEdge="_voRQch-FEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_me1mxR-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_me1mxh-FEeKdBoxMkQSsfQ" position="1,145" size="-1,-1">
+        <property xmi:id="_me1mxx-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_wJfuMB-FEeKdBoxMkQSsfQ" graphEdge="_wJfuMh-FEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_me1myB-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_me1myR-FEeKdBoxMkQSsfQ" position="1,190" size="-1,-1">
+        <property xmi:id="_me1myh-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_wsz2oB-FEeKdBoxMkQSsfQ" graphEdge="_wsz2oh-FEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_me1myx-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_nMungB-FEeKdBoxMkQSsfQ" position="284,23" size="203,233">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nMungR-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_qpjTsB-FEeKdBoxMkQSsfQ" position="-8,33" size="-1,-1">
+          <property xmi:id="_qpjTsR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_vGvQsR-FEeKdBoxMkQSsfQ" graphEdge="_vHyZkB-FEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qpjTsh-FEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.3/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_qql1gB-FEeKdBoxMkQSsfQ" position="-5,63" size="-1,-1">
+          <property xmi:id="_qql1gR-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_voRQcR-FEeKdBoxMkQSsfQ" graphEdge="_voRQch-FEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qql1gh-FEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.3/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_qql1gx-FEeKdBoxMkQSsfQ" position="-4,90" size="-1,-1">
+          <property xmi:id="_qql1hB-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_wJfuMR-FEeKdBoxMkQSsfQ" graphEdge="_wJfuMh-FEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qql1hR-FEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.3/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_qql1hh-FEeKdBoxMkQSsfQ" position="-17,136" size="-1,-1">
+          <property xmi:id="_qql1hx-FEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_wsz2oR-FEeKdBoxMkQSsfQ" graphEdge="_wsz2oh-FEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qql1iB-FEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.3/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_vHyZkB-FEeKdBoxMkQSsfQ" anchor="_vGvQsB-FEeKdBoxMkQSsfQ _vGvQsR-FEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vHyZkR-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_voRQch-FEeKdBoxMkQSsfQ" anchor="_voRQcB-FEeKdBoxMkQSsfQ _voRQcR-FEeKdBoxMkQSsfQ">
+        <property xmi:id="_122SkB-FEeKdBoxMkQSsfQ" key="foregroundColor" value="255,0,0"/>
+        <property xmi:id="_3zHyAB-FEeKdBoxMkQSsfQ" key="font" value="-regular-10"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_voRQcx-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_wJfuMh-FEeKdBoxMkQSsfQ" anchor="_wJfuMB-FEeKdBoxMkQSsfQ _wJfuMR-FEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wJfuMx-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_wsz2oh-FEeKdBoxMkQSsfQ" anchor="_wsz2oB-FEeKdBoxMkQSsfQ _wsz2oR-FEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wsz2ox-FEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.3/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_3PP-AB-HEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.6/@children.0"/>
+    <diagrams xmi:id="_3PP-AR-HEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_3P1z9R-HEeKdBoxMkQSsfQ" key="pageFormatName" value=""/>
+      <property xmi:id="_3P1z9h-HEeKdBoxMkQSsfQ" key="diagramWidth" value="848"/>
+      <property xmi:id="_3P1z9x-HEeKdBoxMkQSsfQ" key="diagramHeight" value="375"/>
+      <property xmi:id="_3P1z-B-HEeKdBoxMkQSsfQ" key="pageMarginName" value="A4"/>
+      <property xmi:id="_3P1z-R-HEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_3P1z-h-HEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_3P1z-x-HEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_3P1z_B-HEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_3P1z_R-HEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3PP-Ah-HEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.6/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z4B-HEeKdBoxMkQSsfQ" position="1,55" size="-1,-1">
+        <property xmi:id="_3P1z4R-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_9NSpwB-HEeKdBoxMkQSsfQ" graphEdge="_9NSpwh-HEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z4h-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z4x-HEeKdBoxMkQSsfQ" position="1,100" size="-1,-1">
+        <property xmi:id="_3P1z5B-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <property xmi:id="_JZBm0B-IEeKdBoxMkQSsfQ" key="foregroundColor" value=""/>
+        <property xmi:id="_KGUxsB-IEeKdBoxMkQSsfQ" key="backgroundColor" value=""/>
+        <anchorage xmi:id="_-bErgB-HEeKdBoxMkQSsfQ" graphEdge="_-bErgh-HEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z5R-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z5h-HEeKdBoxMkQSsfQ" position="1,145" size="-1,-1">
+        <property xmi:id="_3P1z5x-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="__6ugYB-HEeKdBoxMkQSsfQ" graphEdge="__7U9UB-HEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z6B-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z6R-HEeKdBoxMkQSsfQ" position="682,116" size="-1,-1">
+        <property xmi:id="_3P1z6h-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_Ajja8B-IEeKdBoxMkQSsfQ" graphEdge="_Ajja8h-IEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z6x-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z7B-HEeKdBoxMkQSsfQ" position="648,151" size="-1,-1">
+        <property xmi:id="_3P1z7R-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_B_MSgB-IEeKdBoxMkQSsfQ" graphEdge="_B_MSgh-IEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z7h-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z7x-HEeKdBoxMkQSsfQ" position="585,234" size="-1,-1">
+        <property xmi:id="_3P1z8B-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_CnbXMB-IEeKdBoxMkQSsfQ" graphEdge="_CnkhIB-IEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z8R-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3P1z8h-HEeKdBoxMkQSsfQ" position="625,282" size="-1,-1">
+        <property xmi:id="_3P1z8x-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_DF-UYB-IEeKdBoxMkQSsfQ" graphEdge="_DF-UYh-IEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3P1z9B-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@features.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_35aVUB-HEeKdBoxMkQSsfQ" position="321,41" size="238,270">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_35aVUR-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fLiIB-HEeKdBoxMkQSsfQ" position="1,35" size="-1,-1">
+          <property xmi:id="_7fLiIR-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_9NSpwR-HEeKdBoxMkQSsfQ" graphEdge="_9NSpwh-HEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fLiIh-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fLiIx-HEeKdBoxMkQSsfQ" position="1,60" size="-1,-1">
+          <property xmi:id="_7fLiJB-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <property xmi:id="_H1VmgB-IEeKdBoxMkQSsfQ" key="backgroundColor" value="0,0,0"/>
+          <property xmi:id="_Ig_yoB-IEeKdBoxMkQSsfQ" key="foregroundColor" value="0,0,0"/>
+          <anchorage xmi:id="_-bErgR-HEeKdBoxMkQSsfQ" graphEdge="_-bErgh-HEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fLiJR-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fUsEB-HEeKdBoxMkQSsfQ" position="1,85" size="-1,-1">
+          <property xmi:id="_7fUsER-HEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="__6ugYR-HEeKdBoxMkQSsfQ" graphEdge="__7U9UB-HEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fUsEh-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fUsEx-HEeKdBoxMkQSsfQ" position="114,107" size="-1,-1">
+          <property xmi:id="_7fUsFB-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_Ajja8R-IEeKdBoxMkQSsfQ" graphEdge="_Ajja8h-IEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fUsFR-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fUsFh-HEeKdBoxMkQSsfQ" position="117,136" size="-1,-1">
+          <property xmi:id="_7fUsFx-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_B_MSgR-IEeKdBoxMkQSsfQ" graphEdge="_B_MSgh-IEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fUsGB-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fUsGR-HEeKdBoxMkQSsfQ" position="55,163" size="-1,-1">
+          <property xmi:id="_7fUsGh-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_CnbXMR-IEeKdBoxMkQSsfQ" graphEdge="_CnkhIB-IEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fUsGx-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.5"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7fUsHB-HEeKdBoxMkQSsfQ" position="98,192" size="-1,-1">
+          <property xmi:id="_7fUsHR-HEeKdBoxMkQSsfQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_DF-UYR-IEeKdBoxMkQSsfQ" graphEdge="_DF-UYh-IEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7fUsHh-HEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.6/@children.0/@children.0/@features.6"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_9NSpwh-HEeKdBoxMkQSsfQ" anchor="_9NSpwB-HEeKdBoxMkQSsfQ _9NSpwR-HEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9NSpwx-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_-bErgh-HEeKdBoxMkQSsfQ" anchor="_-bErgB-HEeKdBoxMkQSsfQ _-bErgR-HEeKdBoxMkQSsfQ">
+        <property xmi:id="_GVPFsB-IEeKdBoxMkQSsfQ" key="foregroundColor" value="0,0,0"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-bErgx-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="__7U9UB-HEeKdBoxMkQSsfQ" anchor="__6ugYB-HEeKdBoxMkQSsfQ __6ugYR-HEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__7U9UR-HEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Ajja8h-IEeKdBoxMkQSsfQ" anchor="_Ajja8B-IEeKdBoxMkQSsfQ _Ajja8R-IEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ajja8x-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+        <waypoints>[-197, 0, 42, -15]</waypoints>
+        <waypoints>[-197, 15, 42, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_B_MSgh-IEeKdBoxMkQSsfQ" anchor="_B_MSgB-IEeKdBoxMkQSsfQ _B_MSgR-IEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B_MSgx-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.4"/>
+        </semanticModel>
+        <waypoints>[167, 0, -154, 43]</waypoints>
+        <waypoints>[167, -43, -154, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_CnkhIB-IEeKdBoxMkQSsfQ" anchor="_CnbXMB-IEeKdBoxMkQSsfQ _CnbXMR-IEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CnkhIR-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.5"/>
+        </semanticModel>
+        <waypoints>[-220, 0, 240, 2]</waypoints>
+        <waypoints>[-220, -2, 240, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_DF-UYh-IEeKdBoxMkQSsfQ" anchor="_DF-UYB-IEeKdBoxMkQSsfQ _DF-UYR-IEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DF-UYx-IEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.6/@children.0/@parameterConnection.6"/>
+        </semanticModel>
+        <waypoints>[-111, 0, 128, 33]</waypoints>
+        <waypoints>[-111, -33, 128, 0]</waypoints>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_zHtO8B-JEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.9/@children.0"/>
+    <diagrams xmi:id="_zHtO8R-JEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_zIc15R-JEeKdBoxMkQSsfQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_zIc15h-JEeKdBoxMkQSsfQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_zIc15x-JEeKdBoxMkQSsfQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_zIc16B-JEeKdBoxMkQSsfQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_zIc16R-JEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_zIc16h-JEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_zIc16x-JEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_zIc17B-JEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_zIc17R-JEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zHtO8h-JEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.9/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc10B-JEeKdBoxMkQSsfQ" position="1,55" size="-1,-1">
+        <property xmi:id="_zIc10R-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_619UEB-JEeKdBoxMkQSsfQ" graphEdge="_619UEh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc10h-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc10x-JEeKdBoxMkQSsfQ" position="1,100" size="-1,-1">
+        <property xmi:id="_zIc11B-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_7X7YsB-JEeKdBoxMkQSsfQ" graphEdge="_7X7Ysh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc11R-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc11h-JEeKdBoxMkQSsfQ" position="1,145" size="-1,-1">
+        <property xmi:id="_zIc11x-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_71SDEB-JEeKdBoxMkQSsfQ" graphEdge="_71SDEh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc12B-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc12R-JEeKdBoxMkQSsfQ" position="1,190" size="-1,-1">
+        <property xmi:id="_zIc12h-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_8PqR8B-JEeKdBoxMkQSsfQ" graphEdge="_8PqR8h-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc12x-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc13B-JEeKdBoxMkQSsfQ" position="1,235" size="-1,-1">
+        <property xmi:id="_zIc13R-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_8tdBMB-JEeKdBoxMkQSsfQ" graphEdge="_8tdBMh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc13h-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc13x-JEeKdBoxMkQSsfQ" position="1,280" size="-1,-1">
+        <property xmi:id="_zIc14B-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_9Y-DYB-JEeKdBoxMkQSsfQ" graphEdge="_9Y-DYh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc14R-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zIc14h-JEeKdBoxMkQSsfQ" position="1,325" size="-1,-1">
+        <property xmi:id="_zIc14x-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_9wXPsB-JEeKdBoxMkQSsfQ" graphEdge="_9wXPsh-JEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zIc15B-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@features.6"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_zzEgIB-JEeKdBoxMkQSsfQ" position="381,75" size="264,250">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zzEgIR-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXIB-JEeKdBoxMkQSsfQ" position="-36,27" size="-1,-1">
+          <property xmi:id="_2LgXIR-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_619UER-JEeKdBoxMkQSsfQ" graphEdge="_619UEh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXIh-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXIx-JEeKdBoxMkQSsfQ" position="1,60" size="-1,-1">
+          <property xmi:id="_2LgXJB-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_7X7YsR-JEeKdBoxMkQSsfQ" graphEdge="_7X7Ysh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXJR-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXJh-JEeKdBoxMkQSsfQ" position="1,85" size="-1,-1">
+          <property xmi:id="_2LgXJx-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_71SDER-JEeKdBoxMkQSsfQ" graphEdge="_71SDEh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXKB-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXKR-JEeKdBoxMkQSsfQ" position="1,110" size="-1,-1">
+          <property xmi:id="_2LgXKh-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_8PqR8R-JEeKdBoxMkQSsfQ" graphEdge="_8PqR8h-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXKx-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXLB-JEeKdBoxMkQSsfQ" position="1,135" size="-1,-1">
+          <property xmi:id="_2LgXLR-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_8tdBMR-JEeKdBoxMkQSsfQ" graphEdge="_8tdBMh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXLh-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXLx-JEeKdBoxMkQSsfQ" position="1,160" size="-1,-1">
+          <property xmi:id="_2LgXMB-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_9Y-DYR-JEeKdBoxMkQSsfQ" graphEdge="_9Y-DYh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXMR-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.5"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2LgXMh-JEeKdBoxMkQSsfQ" position="-5,184" size="-1,-1">
+          <property xmi:id="_2LgXMx-JEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_9wXPsR-JEeKdBoxMkQSsfQ" graphEdge="_9wXPsh-JEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2LgXNB-JEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.9/@children.0/@children.0/@features.6"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_619UEh-JEeKdBoxMkQSsfQ" anchor="_619UEB-JEeKdBoxMkQSsfQ _619UER-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_619UEx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+        <waypoints>[215, 0, -166, -63]</waypoints>
+        <waypoints>[215, 63, -166, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_7X7Ysh-JEeKdBoxMkQSsfQ" anchor="_7X7YsB-JEeKdBoxMkQSsfQ _7X7YsR-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7X7Ysx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+        <waypoints>[202, 0, -179, -51]</waypoints>
+        <waypoints>[202, 51, -179, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_71SDEh-JEeKdBoxMkQSsfQ" anchor="_71SDEB-JEeKdBoxMkQSsfQ _71SDER-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_71SDEx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_8PqR8h-JEeKdBoxMkQSsfQ" anchor="_8PqR8B-JEeKdBoxMkQSsfQ _8PqR8R-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8PqR8x-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_8tdBMh-JEeKdBoxMkQSsfQ" anchor="_8tdBMB-JEeKdBoxMkQSsfQ _8tdBMR-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8tdBMx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_9Y-DYh-JEeKdBoxMkQSsfQ" anchor="_9Y-DYB-JEeKdBoxMkQSsfQ _9Y-DYR-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9Y-DYx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_9wXPsh-JEeKdBoxMkQSsfQ" anchor="_9wXPsB-JEeKdBoxMkQSsfQ _9wXPsR-JEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9wXPsx-JEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.9/@children.0/@parameterConnection.6"/>
+        </semanticModel>
+        <waypoints>[210, 0, -171, 50]</waypoints>
+        <waypoints>[210, -50, -171, 0]</waypoints>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_rCnhsB-KEeKdBoxMkQSsfQ">
+    <model href="isolette_thermostat.adele#//@children.13/@children.0"/>
+    <diagrams xmi:id="_rCnhsR-KEeKdBoxMkQSsfQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_rDg5kx-KEeKdBoxMkQSsfQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_rDg5lB-KEeKdBoxMkQSsfQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_rDg5lR-KEeKdBoxMkQSsfQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_rDg5lh-KEeKdBoxMkQSsfQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_rDg5lx-KEeKdBoxMkQSsfQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_rDg5mB-KEeKdBoxMkQSsfQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_rDg5mR-KEeKdBoxMkQSsfQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_rDg5mh-KEeKdBoxMkQSsfQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_rDg5mx-KEeKdBoxMkQSsfQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rCnhsh-KEeKdBoxMkQSsfQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.13/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_rDg5kB-KEeKdBoxMkQSsfQ" position="1,55" size="-1,-1">
+        <property xmi:id="_rDg5kR-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_vciIQB-KEeKdBoxMkQSsfQ" graphEdge="_vciIQh-KEeKdBoxMkQSsfQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rDg5kh-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.13/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_r0-ywB-KEeKdBoxMkQSsfQ" position="267,36" size="181,126">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_r0-ywR-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.13/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_uoh4cB-KEeKdBoxMkQSsfQ" position="1,35" size="-1,-1">
+          <property xmi:id="_uoh4cR-KEeKdBoxMkQSsfQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_vciIQR-KEeKdBoxMkQSsfQ" graphEdge="_vciIQh-KEeKdBoxMkQSsfQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uoh4ch-KEeKdBoxMkQSsfQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.13/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_vciIQh-KEeKdBoxMkQSsfQ" anchor="_vciIQB-KEeKdBoxMkQSsfQ _vciIQR-KEeKdBoxMkQSsfQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vciIQx-KEeKdBoxMkQSsfQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.13/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_VK_tQSyzEeKu_JWrb89wUQ">
+    <model href="isolette_thermostat.adele#//@children.2/@children.0"/>
+    <diagrams xmi:id="_VLJeQCyzEeKu_JWrb89wUQ" position="0,0" size="100,100" name="unnamed" viewport="0,80">
+      <property xmi:id="_VR18LCyzEeKu_JWrb89wUQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_VR18LSyzEeKu_JWrb89wUQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_VR18LiyzEeKu_JWrb89wUQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_VR18LyyzEeKu_JWrb89wUQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_VR18MCyzEeKu_JWrb89wUQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_VR18MSyzEeKu_JWrb89wUQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_VR18MiyzEeKu_JWrb89wUQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_VR18MyyzEeKu_JWrb89wUQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_VR18NCyzEeKu_JWrb89wUQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VLJeQSyzEeKu_JWrb89wUQ" presentation="org.topcased.adele.editor.process">
+        <element href="isolette_thermostat.adele#//@children.2/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_VR18ICyzEeKu_JWrb89wUQ" position="-10,205" size="-1,-1">
+        <property xmi:id="_VR18ISyzEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_XruXECzTEeKu_JWrb89wUQ" graphEdge="_Xsd98CzTEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VR18IiyzEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_VR18IyyzEeKu_JWrb89wUQ" position="3,303" size="-1,-1">
+        <property xmi:id="_VR18JCyzEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_lSrU8CzTEeKu_JWrb89wUQ" graphEdge="_lSrU8izTEeKu_JWrb89wUQ _Dz3mYSzUEeKu_JWrb89wUQ _Q1H2MSzUEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VR18JSyzEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_VR18JiyzEeKu_JWrb89wUQ" position="6,513" size="-1,-1">
+        <property xmi:id="_VR18JyyzEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_pHylUSzTEeKu_JWrb89wUQ" graphEdge="_pHylUizTEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VR18KCyzEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_VR18KSyzEeKu_JWrb89wUQ" position="729,189" size="-1,-1">
+        <property xmi:id="_VR18KiyzEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_BSWE0SzUEeKu_JWrb89wUQ" graphEdge="_BSWE0izUEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VR18KyyzEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_0fKDACzPEeKu_JWrb89wUQ" position="152,356" size="220,186">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0fKDASzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_3y4dkCzPEeKu_JWrb89wUQ" position="-32,15" size="-1,-1">
+          <property xmi:id="_3y4dkSzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_XruXESzTEeKu_JWrb89wUQ" graphEdge="_Xsd98CzTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3y4dkizPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3zCOkCzPEeKu_JWrb89wUQ" position="-7,85" size="-1,-1">
+          <property xmi:id="_3zCOkSzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_lSrU8SzTEeKu_JWrb89wUQ" graphEdge="_lSrU8izTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3zCOkizPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3zCOkyzPEeKu_JWrb89wUQ" position="119,62" size="-1,-1">
+          <property xmi:id="_3zCOlCzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_wARiQCziEeKu_JWrb89wUQ" graphEdge="_wARiQSziEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3zCOlSzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3zCOlizPEeKu_JWrb89wUQ" position="-1,109" size="-1,-1">
+          <property xmi:id="_3zCOlyzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_pHylUCzTEeKu_JWrb89wUQ" graphEdge="_pHylUizTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3zCOmCzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3zCOmSzPEeKu_JWrb89wUQ" position="130,33" size="-1,-1">
+          <property xmi:id="_3zCOmizPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_0YsR0CzTEeKu_JWrb89wUQ" graphEdge="_0YsR0izTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3zCOmyzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3zCOnCzPEeKu_JWrb89wUQ" position="86,139" size="-1,-1">
+          <property xmi:id="_3zCOnSzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_ORgp8CzUEeKu_JWrb89wUQ" graphEdge="_ORgp8izUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3zCOnizPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.0/@features.5"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Cyjv0CzTEeKu_JWrb89wUQ" position="448,352" size="236,186">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Cyjv0SzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.1"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_FBwLQCzTEeKu_JWrb89wUQ" position="-104,127" size="-1,-1">
+          <property xmi:id="_FBwLQSzTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_ORgp8SzUEeKu_JWrb89wUQ" graphEdge="_ORgp8izUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FBwLQizTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.1/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_FBwLQyzTEeKu_JWrb89wUQ" position="-39,25" size="-1,-1">
+          <property xmi:id="_FBwLRCzTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_Q1H2MCzUEeKu_JWrb89wUQ" graphEdge="_Q1H2MSzUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FBwLRSzTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.1/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_FBwLRizTEeKu_JWrb89wUQ" position="142,91" size="-1,-1">
+          <property xmi:id="_FBwLRyzTEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_mMZ80SzUEeKu_JWrb89wUQ" graphEdge="_mMZ80izUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FBwLSCzTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.1/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_FBwLSSzTEeKu_JWrb89wUQ" position="1,53" size="-1,-1">
+          <property xmi:id="_FBwLSizTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_869N0CzTEeKu_JWrb89wUQ" graphEdge="_87s0sCzTEeKu_JWrb89wUQ _wARiQSziEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FBwLSyzTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.1/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_GE9UsCzTEeKu_JWrb89wUQ" position="435,124" size="169,184">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GE9UsSzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.2"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_MuDvoCzTEeKu_JWrb89wUQ" position="-7,110" size="-1,-1">
+          <property xmi:id="_MuDvoSzTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_0YsR0SzTEeKu_JWrb89wUQ" graphEdge="_0YsR0izTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MuDvoizTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.2/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_MuNgoCzTEeKu_JWrb89wUQ" position="-30,137" size="-1,-1">
+          <property xmi:id="_MuNgoSzTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_869N0SzTEeKu_JWrb89wUQ" graphEdge="_87s0sCzTEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MuNgoizTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.2/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_MuNgoyzTEeKu_JWrb89wUQ" position="-5,40" size="-1,-1">
+          <property xmi:id="_MuNgpCzTEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_Dz3mYCzUEeKu_JWrb89wUQ" graphEdge="_Dz3mYSzUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MuNgpSzTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.2/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_MuNgpizTEeKu_JWrb89wUQ" position="81,61" size="-1,-1">
+          <property xmi:id="_MuNgpyzTEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_BSWE0CzUEeKu_JWrb89wUQ" graphEdge="_BSWE0izUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MuNgqCzTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.2/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_HqH7sCzTEeKu_JWrb89wUQ" position="472,555" size="199,81">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_HqH7sSzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.3"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_LMKfECzTEeKu_JWrb89wUQ" position="109,27" size="-1,-1">
+          <property xmi:id="_LMKfESzTEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_mMZ80CzUEeKu_JWrb89wUQ" graphEdge="_mMZ80izUEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LMKfEizTEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.2/@children.0/@children.3/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Xsd98CzTEeKu_JWrb89wUQ" anchor="_XruXECzTEeKu_JWrb89wUQ _XruXESzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Xsd98SzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_lSrU8izTEeKu_JWrb89wUQ" anchor="_lSrU8CzTEeKu_JWrb89wUQ _lSrU8SzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lSrU8yzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.1"/>
+        </semanticModel>
+        <waypoints>[43, 0, -105, -246]</waypoints>
+        <waypoints>[43, 246, -105, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_pHylUizTEeKu_JWrb89wUQ" anchor="_pHylUCzTEeKu_JWrb89wUQ _pHylUSzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pHylUyzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.2"/>
+        </semanticModel>
+        <waypoints>[-47, 0, 101, 49]</waypoints>
+        <waypoints>[-47, -49, 101, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_0YsR0izTEeKu_JWrb89wUQ" anchor="_0YsR0CzTEeKu_JWrb89wUQ _0YsR0SzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0YsR0yzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.3"/>
+        </semanticModel>
+        <waypoints>[30, 0, -54, 209]</waypoints>
+        <waypoints>[30, -209, -54, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_87s0sCzTEeKu_JWrb89wUQ" anchor="_869N0CzTEeKu_JWrb89wUQ _869N0SzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_87s0sSzTEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.4"/>
+        </semanticModel>
+        <waypoints>[-50, 0, -34, 174]</waypoints>
+        <waypoints>[-50, -174, -34, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_BSWE0izUEeKu_JWrb89wUQ" anchor="_BSWE0CzUEeKu_JWrb89wUQ _BSWE0SzUEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BSWE0yzUEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Dz3mYSzUEeKu_JWrb89wUQ" anchor="_lSrU8CzTEeKu_JWrb89wUQ _Dz3mYCzUEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Dz3mYizUEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.6"/>
+        </semanticModel>
+        <waypoints>[242, 0, -193, 35]</waypoints>
+        <waypoints>[242, -35, -193, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_ORgp8izUEeKu_JWrb89wUQ" anchor="_ORgp8CzUEeKu_JWrb89wUQ _ORgp8SzUEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ORgp8yzUEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.7"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Q1H2MSzUEeKu_JWrb89wUQ" anchor="_lSrU8CzTEeKu_JWrb89wUQ _Q1H2MCzUEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Q1H2MizUEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.8"/>
+        </semanticModel>
+        <waypoints>[172, 0, -280, -184]</waypoints>
+        <waypoints>[172, 71, -280, -113]</waypoints>
+        <waypoints>[424, 71, -28, -113]</waypoints>
+        <waypoints>[424, 184, -28, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_mMZ80izUEeKu_JWrb89wUQ" anchor="_mMZ80CzUEeKu_JWrb89wUQ _mMZ80SzUEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mMZ80yzUEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.9"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_wARiQSziEeKu_JWrb89wUQ" anchor="_wARiQCziEeKu_JWrb89wUQ _869N0CzTEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wARiQiziEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.2/@children.0/@dataPortConnection.10"/>
+        </semanticModel>
+        <waypoints>[45, 0, -50, 8]</waypoints>
+        <waypoints>[45, -8, -50, 0]</waypoints>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_8P6pkCzPEeKu_JWrb89wUQ">
+    <model href="isolette_thermostat.adele#//@children.15/@children.0"/>
+    <diagrams xmi:id="_8QDzgCzPEeKu_JWrb89wUQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_8RjoYizPEeKu_JWrb89wUQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_8RjoYyzPEeKu_JWrb89wUQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_8RjoZCzPEeKu_JWrb89wUQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_8RjoZSzPEeKu_JWrb89wUQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_8RjoZizPEeKu_JWrb89wUQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_8RjoZyzPEeKu_JWrb89wUQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_8RjoaCzPEeKu_JWrb89wUQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_8RjoaSzPEeKu_JWrb89wUQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_8RjoaizPEeKu_JWrb89wUQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8QDzgSzPEeKu_JWrb89wUQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.15/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoUCzPEeKu_JWrb89wUQ" position="1,55" size="-1,-1">
+        <property xmi:id="_8RjoUSzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_DHwEECzQEeKu_JWrb89wUQ" graphEdge="_DHwEEizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoUizPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoUyzPEeKu_JWrb89wUQ" position="1,100" size="-1,-1">
+        <property xmi:id="_8RjoVCzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_DqngkCzQEeKu_JWrb89wUQ" graphEdge="_DqngkizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoVSzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoVizPEeKu_JWrb89wUQ" position="1,145" size="-1,-1">
+        <property xmi:id="_8RjoVyzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_EJmioCzQEeKu_JWrb89wUQ" graphEdge="_EJmioizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoWCzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoWSzPEeKu_JWrb89wUQ" position="745,131" size="-1,-1">
+        <property xmi:id="_8RjoWizPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_EtNmASzQEeKu_JWrb89wUQ" graphEdge="_EtNmAizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoWyzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoXCzPEeKu_JWrb89wUQ" position="674,167" size="-1,-1">
+        <property xmi:id="_8RjoXSzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_FW74cSzQEeKu_JWrb89wUQ" graphEdge="_FW74cizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoXizPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8RjoXyzPEeKu_JWrb89wUQ" position="703,209" size="-1,-1">
+        <property xmi:id="_8RjoYCzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_GKCwYSzQEeKu_JWrb89wUQ" graphEdge="_GKCwYizQEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8RjoYSzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@features.5"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_8zq24CzPEeKu_JWrb89wUQ" position="308,45" size="266,212">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8zq24SzPEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqACzPEeKu_JWrb89wUQ" position="1,35" size="-1,-1">
+          <property xmi:id="__EfqASzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_DHwEESzQEeKu_JWrb89wUQ" graphEdge="_DHwEEizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqAizPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqAyzPEeKu_JWrb89wUQ" position="1,60" size="-1,-1">
+          <property xmi:id="__EfqBCzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_DqngkSzQEeKu_JWrb89wUQ" graphEdge="_DqngkizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqBSzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqBizPEeKu_JWrb89wUQ" position="1,85" size="-1,-1">
+          <property xmi:id="__EfqByzPEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_EJmioSzQEeKu_JWrb89wUQ" graphEdge="_EJmioizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqCCzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqCSzPEeKu_JWrb89wUQ" position="171,65" size="-1,-1">
+          <property xmi:id="__EfqCizPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_EtNmACzQEeKu_JWrb89wUQ" graphEdge="_EtNmAizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqCyzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqDCzPEeKu_JWrb89wUQ" position="208,97" size="-1,-1">
+          <property xmi:id="__EfqDSzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_FW74cCzQEeKu_JWrb89wUQ" graphEdge="_FW74cizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqDizPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.4"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__EfqDyzPEeKu_JWrb89wUQ" position="158,129" size="-1,-1">
+          <property xmi:id="__EfqECzPEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_GKCwYCzQEeKu_JWrb89wUQ" graphEdge="_GKCwYizQEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__EfqESzPEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.15/@children.0/@children.0/@features.5"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_DHwEEizQEeKu_JWrb89wUQ" anchor="_DHwEECzQEeKu_JWrb89wUQ _DHwEESzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DHwEEyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_DqngkizQEeKu_JWrb89wUQ" anchor="_DqngkCzQEeKu_JWrb89wUQ _DqngkSzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DqngkyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_EJmioizQEeKu_JWrb89wUQ" anchor="_EJmioCzQEeKu_JWrb89wUQ _EJmioSzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EJmioyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_EtNmAizQEeKu_JWrb89wUQ" anchor="_EtNmACzQEeKu_JWrb89wUQ _EtNmASzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EtNmAyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_FW74cizQEeKu_JWrb89wUQ" anchor="_FW74cCzQEeKu_JWrb89wUQ _FW74cSzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FW74cyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.4"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_GKCwYizQEeKu_JWrb89wUQ" anchor="_GKCwYCzQEeKu_JWrb89wUQ _GKCwYSzQEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GKCwYyzQEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.15/@children.0/@parameterConnection.5"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_ybLHICzREeKu_JWrb89wUQ">
+    <model href="isolette_thermostat.adele#//@children.18/@children.0"/>
+    <diagrams xmi:id="_ybw9ACzREeKu_JWrb89wUQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_yc0F7CzREeKu_JWrb89wUQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_yc0F7SzREeKu_JWrb89wUQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_yc0F7izREeKu_JWrb89wUQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_yc0F7yzREeKu_JWrb89wUQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_yc0F8CzREeKu_JWrb89wUQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_yc0F8SzREeKu_JWrb89wUQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_yc0F8izREeKu_JWrb89wUQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_yc0F8yzREeKu_JWrb89wUQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_yc0F9CzREeKu_JWrb89wUQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ybw9ASzREeKu_JWrb89wUQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.18/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_yc0F4CzREeKu_JWrb89wUQ" position="1,55" size="-1,-1">
+        <property xmi:id="_yc0F4SzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_62JIUCzREeKu_JWrb89wUQ" graphEdge="_62JIUizREeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yc0F4izREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yc0F4yzREeKu_JWrb89wUQ" position="1,100" size="-1,-1">
+        <property xmi:id="_yc0F5CzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_7VIxcCzREeKu_JWrb89wUQ" graphEdge="_7VIxcizREeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yc0F5SzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yc0F5izREeKu_JWrb89wUQ" position="1,145" size="-1,-1">
+        <property xmi:id="_yc0F5yzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_7xvN4CzREeKu_JWrb89wUQ" graphEdge="_7xvN4izREeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yc0F6CzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yc0F6SzREeKu_JWrb89wUQ" position="680,137" size="-1,-1">
+        <property xmi:id="_yc0F6izREeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_9RZCwSzREeKu_JWrb89wUQ" graphEdge="_9RZCwizREeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yc0F6yzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_z0bZECzREeKu_JWrb89wUQ" position="266,55" size="297,166">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_z0bZESzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_4WG0gCzREeKu_JWrb89wUQ" position="25,35" size="-1,-1">
+          <property xmi:id="_4WG0gSzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_62JIUSzREeKu_JWrb89wUQ" graphEdge="_62JIUizREeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4WG0gizREeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.18/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_4WG0gyzREeKu_JWrb89wUQ" position="25,60" size="-1,-1">
+          <property xmi:id="_4WG0hCzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_7VIxcSzREeKu_JWrb89wUQ" graphEdge="_7VIxcizREeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4WG0hSzREeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.18/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_4WG0hizREeKu_JWrb89wUQ" position="25,85" size="-1,-1">
+          <property xmi:id="_4WG0hyzREeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_7xvN4SzREeKu_JWrb89wUQ" graphEdge="_7xvN4izREeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4WG0iCzREeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.18/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_4WG0iSzREeKu_JWrb89wUQ" position="232,64" size="-1,-1">
+          <property xmi:id="_4WG0iizREeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_9RZCwCzREeKu_JWrb89wUQ" graphEdge="_9RZCwizREeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_4WG0iyzREeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.18/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_62JIUizREeKu_JWrb89wUQ" anchor="_62JIUCzREeKu_JWrb89wUQ _62JIUSzREeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_62JIUyzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+        <waypoints>[174, 0, -92, -51]</waypoints>
+        <waypoints>[174, 51, -92, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_7VIxcizREeKu_JWrb89wUQ" anchor="_7VIxcCzREeKu_JWrb89wUQ _7VIxcSzREeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7VIxcyzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+        <waypoints>[162, 0, -104, -31]</waypoints>
+        <waypoints>[162, 31, -104, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_7xvN4izREeKu_JWrb89wUQ" anchor="_7xvN4CzREeKu_JWrb89wUQ _7xvN4SzREeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7xvN4yzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_9RZCwizREeKu_JWrb89wUQ" anchor="_9RZCwCzREeKu_JWrb89wUQ _9RZCwSzREeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9RZCwyzREeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.18/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_B9BEYCzSEeKu_JWrb89wUQ">
+    <model href="isolette_thermostat.adele#//@children.22/@children.0"/>
+    <diagrams xmi:id="_B9BEYSzSEeKu_JWrb89wUQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_B-DmPCzSEeKu_JWrb89wUQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_B-DmPSzSEeKu_JWrb89wUQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_B-DmPizSEeKu_JWrb89wUQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_B-DmPyzSEeKu_JWrb89wUQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_B-DmQCzSEeKu_JWrb89wUQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_B-DmQSzSEeKu_JWrb89wUQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_B-DmQizSEeKu_JWrb89wUQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_B-DmQyzSEeKu_JWrb89wUQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_B-DmRCzSEeKu_JWrb89wUQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B9BEYizSEeKu_JWrb89wUQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.22/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_B-DmMCzSEeKu_JWrb89wUQ" position="1,55" size="-1,-1">
+        <property xmi:id="_B-DmMSzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_F4gpkCzSEeKu_JWrb89wUQ" graphEdge="_F4gpkizSEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B-DmMizSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_B-DmMyzSEeKu_JWrb89wUQ" position="1,100" size="-1,-1">
+        <property xmi:id="_B-DmNCzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_GZ44UCzSEeKu_JWrb89wUQ" graphEdge="_GZ44UizSEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B-DmNSzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@features.1"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_B-DmNizSEeKu_JWrb89wUQ" position="1,145" size="-1,-1">
+        <property xmi:id="_B-DmNyzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+        <anchorage xmi:id="_G7aRACzSEeKu_JWrb89wUQ" graphEdge="_G7aRAizSEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B-DmOCzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@features.2"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_B-DmOSzSEeKu_JWrb89wUQ" position="710,101" size="-1,-1">
+        <property xmi:id="_B-DmOizSEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_FVWSISzSEeKu_JWrb89wUQ" graphEdge="_FVWSIizSEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B-DmOyzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@features.3"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_DLr28CzSEeKu_JWrb89wUQ" position="306,53" size="248,148">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DLr28SzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_ESwMsCzSEeKu_JWrb89wUQ" position="1,35" size="-1,-1">
+          <property xmi:id="_ESwMsSzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_F4gpkSzSEeKu_JWrb89wUQ" graphEdge="_F4gpkizSEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ESwMsizSEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.22/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ES5WoCzSEeKu_JWrb89wUQ" position="1,60" size="-1,-1">
+          <property xmi:id="_ES5WoSzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_GZ44USzSEeKu_JWrb89wUQ" graphEdge="_GZ44UizSEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ES5WoizSEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.22/@children.0/@children.0/@features.1"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ES5WoyzSEeKu_JWrb89wUQ" position="1,85" size="-1,-1">
+          <property xmi:id="_ES5WpCzSEeKu_JWrb89wUQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_G7aRASzSEeKu_JWrb89wUQ" graphEdge="_G7aRAizSEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ES5WpSzSEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.22/@children.0/@children.0/@features.2"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ES5WpizSEeKu_JWrb89wUQ" position="190,56" size="-1,-1">
+          <property xmi:id="_ES5WpyzSEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_FVWSICzSEeKu_JWrb89wUQ" graphEdge="_FVWSIizSEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ES5WqCzSEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.22/@children.0/@children.0/@features.3"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_FVWSIizSEeKu_JWrb89wUQ" anchor="_FVWSICzSEeKu_JWrb89wUQ _FVWSISzSEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FVWSIyzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_F4gpkizSEeKu_JWrb89wUQ" anchor="_F4gpkCzSEeKu_JWrb89wUQ _F4gpkSzSEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_F4gpkyzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@parameterConnection.1"/>
+        </semanticModel>
+        <waypoints>[206, 0, -100, -49]</waypoints>
+        <waypoints>[206, 49, -100, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_GZ44UizSEeKu_JWrb89wUQ" anchor="_GZ44UCzSEeKu_JWrb89wUQ _GZ44USzSEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GZ44UyzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@parameterConnection.2"/>
+        </semanticModel>
+        <waypoints>[177, 0, -129, -29]</waypoints>
+        <waypoints>[177, 29, -129, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_G7aRAizSEeKu_JWrb89wUQ" anchor="_G7aRACzSEeKu_JWrb89wUQ _G7aRASzSEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G7aRAyzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.22/@children.0/@parameterConnection.3"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_I8SjoCzSEeKu_JWrb89wUQ">
+    <model href="isolette_thermostat.adele#//@children.24/@children.0"/>
+    <diagrams xmi:id="_I8SjoSzSEeKu_JWrb89wUQ" position="0,0" size="100,100" name="unnamed" viewport="0,0">
+      <property xmi:id="_I9VFcyzSEeKu_JWrb89wUQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_I9VFdCzSEeKu_JWrb89wUQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_I9VFdSzSEeKu_JWrb89wUQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_I9VFdizSEeKu_JWrb89wUQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_I9VFdyzSEeKu_JWrb89wUQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_I9VFeCzSEeKu_JWrb89wUQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_I9VFeSzSEeKu_JWrb89wUQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_I9VFeizSEeKu_JWrb89wUQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_I9VFeyzSEeKu_JWrb89wUQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I8SjoizSEeKu_JWrb89wUQ" presentation="org.topcased.adele.editor.thread">
+        <element href="isolette_thermostat.adele#//@children.24/@children.0"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_I9VFcCzSEeKu_JWrb89wUQ" position="654,150" size="-1,-1">
+        <property xmi:id="_I9VFcSzSEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+        <anchorage xmi:id="_Ov3r0SzSEeKu_JWrb89wUQ" graphEdge="_OwBc0CzSEeKu_JWrb89wUQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I9VFcizSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.24/@children.0/@features.0"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_JxoQMCzSEeKu_JWrb89wUQ" position="259,96" size="277,171">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JxoQMSzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.24/@children.0/@children.0"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_NoplECzSEeKu_JWrb89wUQ" position="196,56" size="-1,-1">
+          <property xmi:id="_NoplESzSEeKu_JWrb89wUQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_Ov3r0CzSEeKu_JWrb89wUQ" graphEdge="_OwBc0CzSEeKu_JWrb89wUQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_NoplEizSEeKu_JWrb89wUQ" presentation="default">
+            <element href="isolette_thermostat.adele#//@children.24/@children.0/@children.0/@features.0"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_OwBc0CzSEeKu_JWrb89wUQ" anchor="_Ov3r0CzSEeKu_JWrb89wUQ _Ov3r0SzSEeKu_JWrb89wUQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OwBc0SzSEeKu_JWrb89wUQ" presentation="default">
+          <element href="isolette_thermostat.adele#//@children.24/@children.0/@parameterConnection.0"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+</diagrams:Diagrams>

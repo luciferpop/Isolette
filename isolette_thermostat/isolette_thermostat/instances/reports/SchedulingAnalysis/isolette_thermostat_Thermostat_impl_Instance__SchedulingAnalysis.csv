@@ -1,0 +1,9 @@
+Test scheduability Report
+
+Processor Utilization/Scheduling Results
+
+Thread binding report
+thread regulate_temperature.manage_heat_source(0.000 MIPS) ==>  NOTHING
+thread regulate_temperature.manage_regulator_interface(0.000 MIPS) ==>  NOTHING
+thread regulate_temperature.manage_regulator_mode(0.000 MIPS) ==>  NOTHING
+thread regulate_temperature.detect_regulator_failure(0.000 MIPS) ==>  NOTHING

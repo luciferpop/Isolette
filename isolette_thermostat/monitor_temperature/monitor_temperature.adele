@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADELE_Components:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ADELE_Components="http://ADELE_Components" xmlns:ADELE_Features="http://ADELE_Features" name="monitor_temperature" id="monitor_temperature">
+  <children xsi:type="ADELE_Components:Data" name="Monitor_Internal_Failure" id="monitor_temperature-Monitor_Internal_Failure" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Monitor_Mode" id="monitor_temperature-Monitor_Mode" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Data" name="Monitor_Interface_Failure" id="monitor_temperature-Monitor_Interface_Failure" level="1" parent="/"/>
+  <children xsi:type="ADELE_Components:Subprogram" name="Manage_Monitor_Interface" id="monitor_temperature-Manage_Monitor_Interface" level="1" parent="/">
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Interface-monitor_mode" level="2" component="//@children.3" classifier="//@children.1"/>
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_status" id="monitor_temperature-Manage_Monitor_Interface-monitor_status" level="2" component="//@children.3" direction="out"/>
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Interface-monitor_interface_failure" level="2" component="//@children.3" classifier="//@children.2" direction="out"/>
+  </children>
+  <children xsi:type="ADELE_Components:Thread" name="Manage_Monitor_Interface_Thread" id="monitor_temperature-Manage_Monitor_Interface_Thread" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_mode" level="2" component="//@children.4" classifier="//@children.1"/>
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_status" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_status" level="2" component="//@children.4" direction="out"/>
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_interface_failure" level="2" component="//@children.4" classifier="//@children.2" direction="out"/>
+    <children xsi:type="ADELE_Components:Thread" name="Manage_Monitor_Interface_Thread.impl" id="monitor_temperature-Manage_Monitor_Interface_Thread-impl" level="2" parent="//@children.4" type="//@children.4" featuresLock="true">
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_mode" level="3" component="//@children.4/@children.0" classifier="//@children.1"/>
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_status" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_status" level="3" component="//@children.4/@children.0" direction="out"/>
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_interface_failure" level="3" component="//@children.4/@children.0" classifier="//@children.2" direction="out"/>
+      <children xsi:type="ADELE_Components:Subprogram" name="manage_monitor_interface_sub" id="monitor_temperature-Manage_Monitor_Interface_Thread-impl-manage_monitor_interface_sub" level="3" parent="//@children.4/@children.0" type="//@children.3" implementation="//@children.3" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Interface-monitor_mode" level="4" component="//@children.4/@children.0/@children.0" classifier="//@children.1"/>
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_status" id="monitor_temperature-Manage_Monitor_Interface-monitor_status" level="4" component="//@children.4/@children.0/@children.0" direction="out"/>
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Interface-monitor_interface_failure" level="4" component="//@children.4/@children.0/@children.0" classifier="//@children.2" direction="out"/>
+      </children>
+      <parameterConnection name="monitor_mode_conn" id="monitor_temperature-Manage_Monitor_Interface_Thread-impl-monitor_mode_conn" objects="//@children.4/@children.0/@features.2"/>
+      <parameterConnection name="monitor_status_conn" id="monitor_temperature-Manage_Monitor_Interface_Thread-impl-monitor_status_conn"/>
+      <parameterConnection name="parameterconnection6" id="monitor_temperature-Manage_Monitor_Interface_Thread-impl-parameterconnection6"/>
+    </children>
+  </children>
+  <children xsi:type="ADELE_Components:Subprogram" name="Manage_Monitor_Mode" id="monitor_temperature-Manage_Monitor_Mode" level="1" parent="/">
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Mode-monitor_interface_failure" level="2" component="//@children.5" classifier="//@children.2"/>
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_internal_failure" id="monitor_temperature-Manage_Monitor_Mode-monitor_internal_failure" level="2" component="//@children.5" classifier="//@children.0"/>
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Mode-monitor_mode" level="2" component="//@children.5" classifier="//@children.1" direction="out"/>
+  </children>
+  <children xsi:type="ADELE_Components:Thread" name="Manage_Monitor_Mode_Thread" id="monitor_temperature-Manage_Monitor_Mode_Thread" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_interface_failure" level="2" component="//@children.6" classifier="//@children.2"/>
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_internal_failure" level="2" component="//@children.6" classifier="//@children.0"/>
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_mode" level="2" component="//@children.6" classifier="//@children.1" direction="out"/>
+    <children xsi:type="ADELE_Components:Thread" name="Manage_Monitor_Mode_Thread.impl" id="monitor_temperature-Manage_Monitor_Mode_Thread-impl" level="2" parent="//@children.6" type="//@children.6" featuresLock="true">
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_interface_failure" level="3" component="//@children.6/@children.0" classifier="//@children.2"/>
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_internal_failure" level="3" component="//@children.6/@children.0" classifier="//@children.0"/>
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_mode" level="3" component="//@children.6/@children.0" classifier="//@children.1" direction="out"/>
+      <children xsi:type="ADELE_Components:Subprogram" name="manage_monitor_mode_sub" id="monitor_temperature-Manage_Monitor_Mode_Thread-impl-manage_monitor_mode_sub" level="3" parent="//@children.6/@children.0" type="//@children.5" implementation="//@children.5" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Mode-monitor_interface_failure" level="4" component="//@children.6/@children.0/@children.0" classifier="//@children.2"/>
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_internal_failure" id="monitor_temperature-Manage_Monitor_Mode-monitor_internal_failure" level="4" component="//@children.6/@children.0/@children.0" classifier="//@children.0"/>
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Mode-monitor_mode" level="4" component="//@children.6/@children.0/@children.0" classifier="//@children.1" direction="out"/>
+      </children>
+      <parameterConnection name="parameterconnection1" id="monitor_temperature-Manage_Monitor_Mode_Thread-impl-parameterconnection1" objects="//@children.6/@children.0/@features.0"/>
+      <parameterConnection name="parameterconnection3" id="monitor_temperature-Manage_Monitor_Mode_Thread-impl-parameterconnection3" objects="//@children.6/@children.0/@features.2"/>
+      <parameterConnection name="parameterconnection4" id="monitor_temperature-Manage_Monitor_Mode_Thread-impl-parameterconnection4"/>
+    </children>
+  </children>
+  <children xsi:type="ADELE_Components:Subprogram" name="Manage_Alarm" id="monitor_temperature-Manage_Alarm" level="1" parent="/">
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Alarm-monitor_mode" level="2" component="//@children.7" classifier="//@children.1"/>
+    <features xsi:type="ADELE_Features:Parameter" name="alarm_control" id="monitor_temperature-Manage_Alarm-alarm_control" level="2" component="//@children.7" direction="out"/>
+  </children>
+  <children xsi:type="ADELE_Components:Thread" name="Manage_Alarm_Thread" id="monitor_temperature-Manage_Alarm_Thread" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Alarm_Thread-monitor_mode" level="2" component="//@children.8" classifier="//@children.1"/>
+    <features xsi:type="ADELE_Features:DataPort" name="alarm_control" id="monitor_temperature-Manage_Alarm_Thread-alarm_control" level="2" component="//@children.8" direction="out"/>
+    <children xsi:type="ADELE_Components:Thread" name="Manage_Alarm_Thread.impl" id="monitor_temperature-Manage_Alarm_Thread-impl" level="2" parent="//@children.8" type="//@children.8" featuresLock="true">
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Alarm_Thread-monitor_mode" level="3" component="//@children.8/@children.0" classifier="//@children.1"/>
+      <features xsi:type="ADELE_Features:DataPort" name="alarm_control" id="monitor_temperature-Manage_Alarm_Thread-alarm_control" level="3" component="//@children.8/@children.0" direction="out"/>
+      <children xsi:type="ADELE_Components:Subprogram" name="manage_alarm_sub" id="monitor_temperature-Manage_Alarm_Thread-impl-manage_alarm_sub" level="3" parent="//@children.8/@children.0" type="//@children.7" implementation="//@children.7" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:Parameter" name="monitor_mode" id="monitor_temperature-Manage_Alarm-monitor_mode" level="4" component="//@children.8/@children.0/@children.0" classifier="//@children.1"/>
+        <features xsi:type="ADELE_Features:Parameter" name="alarm_control" id="monitor_temperature-Manage_Alarm-alarm_control" level="4" component="//@children.8/@children.0/@children.0" direction="out"/>
+      </children>
+      <parameterConnection name="alarm_control_conn" id="monitor_temperature-Manage_Alarm_Thread-impl-alarm_control_conn"/>
+      <parameterConnection name="monitor_mode_conn" id="monitor_temperature-Manage_Alarm_Thread-impl-monitor_mode_conn" objects="//@children.8/@children.0/@features.1"/>
+    </children>
+  </children>
+  <children xsi:type="ADELE_Components:Subprogram" name="Detect_Monitor_Failure" id="monitor_temperature-Detect_Monitor_Failure" level="1" parent="/">
+    <features xsi:type="ADELE_Features:Parameter" name="monitor_internal_failure" id="monitor_temperature-Detect_Monitor_Failure-monitor_internal_failure" level="2" component="//@children.9" classifier="//@children.0" direction="out"/>
+  </children>
+  <children xsi:type="ADELE_Components:Thread" name="Detect_Monitor_Failure_Thread" id="monitor_temperature-Detect_Monitor_Failure_Thread" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Detect_Monitor_Failure_Thread-monitor_internal_failure" level="2" component="//@children.10" classifier="//@children.0" direction="out"/>
+    <children xsi:type="ADELE_Components:Thread" name="Detect_Monitor_Failure_Thread.impl" id="monitor_temperature-Detect_Monitor_Failure_Thread-impl" level="2" parent="//@children.10" type="//@children.10" featuresLock="true">
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Detect_Monitor_Failure_Thread-monitor_internal_failure" level="3" component="//@children.10/@children.0" classifier="//@children.0" direction="out"/>
+      <parameterConnection name="monitor_internal_failure_conn" id="monitor_temperature-Detect_Monitor_Failure_Thread-impl-monitor_internal_failure_conn" objects="//@children.10/@children.0/@features.0"/>
+    </children>
+  </children>
+  <children xsi:type="ADELE_Components:Process" name="Monitor_Temperature" id="monitor_temperature-Monitor_Temperature" level="1" parent="/">
+    <features xsi:type="ADELE_Features:DataPort" name="monitor_status" id="monitor_temperature-Monitor_Temperature-monitor_status" level="2" component="//@children.11" direction="out"/>
+    <features xsi:type="ADELE_Features:DataPort" name="alarm_control" id="monitor_temperature-Monitor_Temperature-alarm_control" level="2" component="//@children.11" direction="out"/>
+    <children xsi:type="ADELE_Components:Process" name="Monitor_Temperature.impl" id="monitor_temperature-Monitor_Temperature-impl" level="2" parent="//@children.11" type="//@children.11" featuresLock="true">
+      <features xsi:type="ADELE_Features:DataPort" name="monitor_status" id="monitor_temperature-Monitor_Temperature-monitor_status" level="3" component="//@children.11/@children.0" direction="out"/>
+      <features xsi:type="ADELE_Features:DataPort" name="alarm_control" id="monitor_temperature-Monitor_Temperature-alarm_control" level="3" component="//@children.11/@children.0" direction="out"/>
+      <dataPortConnection name="monitor_status_conn" id="monitor_temperature-Monitor_Temperature-impl-monitor_status_conn"/>
+      <dataPortConnection name="manage_alarm_monitor_mode_conn" id="monitor_temperature-Monitor_Temperature-impl-manage_alarm_monitor_mode_conn" objects="//@children.11/@children.0/@children.2/@features.1"/>
+      <dataPortConnection name="alarm_control_conn" id="monitor_temperature-Monitor_Temperature-impl-alarm_control_conn"/>
+      <dataPortConnection name="monitor_interface_fail_conn" id="monitor_temperature-Monitor_Temperature-impl-monitor_interface_fail_conn" objects="//@children.11/@children.0/@children.1/@features.0"/>
+      <dataPortConnection name="monitor_internal_failure_conn" id="monitor_temperature-Monitor_Temperature-impl-monitor_internal_failure_conn" objects="//@children.11/@children.0/@children.3/@features.0 //@children.11/@children.0/@children.1/@features.2"/>
+      <dataPortConnection name="manage_monitor_interface_monitor_mode_conn" id="monitor_temperature-Monitor_Temperature-impl-manage_monitor_interface_monitor_mode_conn" objects="//@children.11/@children.0/@children.0/@features.2"/>
+      <children xsi:type="ADELE_Components:Thread" name="manage_monitor_interface" id="monitor_temperature-Monitor_Temperature-impl-manage_monitor_interface" level="3" parent="//@children.11/@children.0" type="//@children.4" implementation="//@children.4/@children.0" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_mode" level="4" component="//@children.11/@children.0/@children.0" classifier="//@children.1"/>
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_status" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_status" level="4" component="//@children.11/@children.0/@children.0" direction="out"/>
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Interface_Thread-monitor_interface_failure" level="4" component="//@children.11/@children.0/@children.0" classifier="//@children.2" direction="out"/>
+      </children>
+      <children xsi:type="ADELE_Components:Thread" name="manage_monitor_mode" id="monitor_temperature-Monitor_Temperature-impl-manage_monitor_mode" level="3" parent="//@children.11/@children.0" type="//@children.6" implementation="//@children.6/@children.0" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_interface_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_interface_failure" level="4" component="//@children.11/@children.0/@children.1" classifier="//@children.2"/>
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_internal_failure" level="4" component="//@children.11/@children.0/@children.1" classifier="//@children.0"/>
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Monitor_Mode_Thread-monitor_mode" level="4" component="//@children.11/@children.0/@children.1" classifier="//@children.1" direction="out"/>
+      </children>
+      <children xsi:type="ADELE_Components:Thread" name="manage_alarm" id="monitor_temperature-Monitor_Temperature-impl-manage_alarm" level="3" parent="//@children.11/@children.0" type="//@children.8" implementation="//@children.8/@children.0" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_mode" id="monitor_temperature-Manage_Alarm_Thread-monitor_mode" level="4" component="//@children.11/@children.0/@children.2" classifier="//@children.1"/>
+        <features xsi:type="ADELE_Features:DataPort" name="alarm_control" id="monitor_temperature-Manage_Alarm_Thread-alarm_control" level="4" component="//@children.11/@children.0/@children.2" direction="out"/>
+      </children>
+      <children xsi:type="ADELE_Components:Thread" name="detect_monitor_failure" id="monitor_temperature-Monitor_Temperature-impl-detect_monitor_failure" level="3" parent="//@children.11/@children.0" type="//@children.10" implementation="//@children.10/@children.0" featuresLock="true" subcomponentsLock="true">
+        <features xsi:type="ADELE_Features:DataPort" name="monitor_internal_failure" id="monitor_temperature-Detect_Monitor_Failure_Thread-monitor_internal_failure" level="4" component="//@children.11/@children.0/@children.3" classifier="//@children.0" direction="out"/>
+      </children>
+    </children>
+  </children>
+</ADELE_Components:Package>

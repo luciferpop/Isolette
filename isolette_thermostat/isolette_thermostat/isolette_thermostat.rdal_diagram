@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http:///www.open-people.fr/rdal/core" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_5Ch64BYCEeK1O6AbU3-cSg" type="Rdal" name="isolette_thermostat.rdal_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_G19j0BYqEeKe3ok4L5IasA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G19j1RYqEeKe3ok4L5IasA" type="5013"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_G19j1hYqEeKe3ok4L5IasA" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_T48R8BYqEeKe3ok4L5IasA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_T48R9RYqEeKe3ok4L5IasA" type="5011"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_T48R8RYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_T48R8hYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_T48R8xYqEeKe3ok4L5IasA"/>
+        <element xmi:type="core:Requirement" href="isolette_thermostat.rdal#7124c0c0-0fba-428d-8208-c8409ccecbd9"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T48R9BYqEeKe3ok4L5IasA" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_o7eQkBYqEeKe3ok4L5IasA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_o7eQlRYqEeKe3ok4L5IasA" type="5011"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_o7eQkRYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_o7eQkhYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_o7eQkxYqEeKe3ok4L5IasA"/>
+        <element xmi:type="core:Requirement" href="isolette_thermostat.rdal#37da9cc2-cb77-4112-8c38-d26b28eacdf2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o7eQlBYqEeKe3ok4L5IasA" x="235" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zJb5YBYqEeKe3ok4L5IasA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zJb5ZRYqEeKe3ok4L5IasA" type="5011"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zJb5YRYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zJb5YhYqEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_zJb5YxYqEeKe3ok4L5IasA"/>
+        <element xmi:type="core:Requirement" href="isolette_thermostat.rdal#7cca0545-e11c-4b0b-83e7-941ae576a951"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJb5ZBYqEeKe3ok4L5IasA" x="495" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_FCb7QBYrEeKe3ok4L5IasA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FCb7RRYrEeKe3ok4L5IasA" type="5011"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_FCb7QRYrEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_FCb7QhYrEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_FCb7QxYrEeKe3ok4L5IasA"/>
+        <element xmi:type="core:Requirement" href="isolette_thermostat.rdal#5fc2b059-05c2-46ef-b916-8d3d2b6e826a"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FCb7RBYrEeKe3ok4L5IasA" x="105" y="59"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_OYDm0BYrEeKe3ok4L5IasA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_OYDm1RYrEeKe3ok4L5IasA" type="5011"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_OYDm0RYrEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_OYDm0hYrEeKe3ok4L5IasA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_OYDm0xYrEeKe3ok4L5IasA"/>
+        <element xmi:type="core:Requirement" href="isolette_thermostat.rdal#1d36a31d-9372-44ea-9801-6a887110792e"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYDm1BYrEeKe3ok4L5IasA" x="360" y="59"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G19j0RYqEeKe3ok4L5IasA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_G19j0hYqEeKe3ok4L5IasA"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_G19j0xYqEeKe3ok4L5IasA"/>
+    <element xmi:type="core:RequirementsGroup" href="isolette_thermostat.rdal#1b08e51d-3401-4190-8afc-d94c99cb1cd9"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G19j1BYqEeKe3ok4L5IasA" x="85" y="55"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_frDZUBxlEeKCb40pPhWtNg" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_frDZVRxlEeKCb40pPhWtNg" type="5013"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_frDZVhxlEeKCb40pPhWtNg" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_gfXVsBxmEeKCb40pPhWtNg" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gfXVtRxmEeKCb40pPhWtNg" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_gfXVsRxmEeKCb40pPhWtNg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_gfXVshxmEeKCb40pPhWtNg"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_gfXVsxxmEeKCb40pPhWtNg"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#d4712b5d-24e5-4923-8f26-a9213b7525ba"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gfXVtBxmEeKCb40pPhWtNg" x="195" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_jOKFgB9LEeKArvDYCIjFoQ" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jOKFhR9LEeKArvDYCIjFoQ" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_jOKFgR9LEeKArvDYCIjFoQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_jOKFgh9LEeKArvDYCIjFoQ"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_jOKFgx9LEeKArvDYCIjFoQ"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#c551e704-4236-4ce2-97d6-515c1c1db3c3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jOKFhB9LEeKArvDYCIjFoQ" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-Fla8B9LEeKArvDYCIjFoQ" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_-Fla9R9LEeKArvDYCIjFoQ" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_-Fla8R9LEeKArvDYCIjFoQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_-Fla8h9LEeKArvDYCIjFoQ"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_-Fla8x9LEeKArvDYCIjFoQ"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#513e6cb6-16fe-4cd4-8b60-1b9450391e08"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Fla9B9LEeKArvDYCIjFoQ" y="59"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_oGHUMCESEeKi4ZZNf9EOBw" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_oGHUNSESEeKi4ZZNf9EOBw" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_oGHUMSESEeKi4ZZNf9EOBw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_oGHUMiESEeKi4ZZNf9EOBw" fontColor="255"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_oGHUMyESEeKi4ZZNf9EOBw"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#484f1583-2536-4196-a880-066718485f22"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oGHUNCESEeKi4ZZNf9EOBw" y="104"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1M8ZkDyHEeKDQZhkZ_E2rg" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1M8ZlTyHEeKDQZhkZ_E2rg" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_1M8ZkTyHEeKDQZhkZ_E2rg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_1M8ZkjyHEeKDQZhkZ_E2rg" fontColor="255"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_1M8ZkzyHEeKDQZhkZ_E2rg" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#8de09b1d-6d56-4780-acdd-849b8f72dc65"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1M8ZlDyHEeKDQZhkZ_E2rg" y="149"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_frDZURxlEeKCb40pPhWtNg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_frDZUhxlEeKCb40pPhWtNg"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_frDZUxxlEeKCb40pPhWtNg"/>
+    <element xmi:type="core:RequirementsGroup" href="isolette_thermostat.rdal#85791e2b-ea99-4ff2-ac68-73731d1c5bb8"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_frDZVBxlEeKCb40pPhWtNg" x="535" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_m_oxUS1oEeKg6ctL4ZOsjQ" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_m_oxVi1oEeKg6ctL4ZOsjQ" type="5013"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_m_oxVy1oEeKg6ctL4ZOsjQ" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_pbDD0C1oEeKg6ctL4ZOsjQ" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_pbDD1S1oEeKg6ctL4ZOsjQ" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_pbDD0S1oEeKg6ctL4ZOsjQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_pbDD0i1oEeKg6ctL4ZOsjQ"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_pbDD0y1oEeKg6ctL4ZOsjQ"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#250ad6f9-d0d4-47c5-8703-303e2b725613"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbDD1C1oEeKg6ctL4ZOsjQ" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_BEHm4C1pEeKg6ctL4ZOsjQ" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_BEHm5S1pEeKg6ctL4ZOsjQ" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BEHm4S1pEeKg6ctL4ZOsjQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_BEHm4i1pEeKg6ctL4ZOsjQ"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_BEHm4y1pEeKg6ctL4ZOsjQ"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#b45abdf5-bc2b-47a9-a09b-187e8b659598"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEHm5C1pEeKg6ctL4ZOsjQ" y="59"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_m_oxUi1oEeKg6ctL4ZOsjQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_m_oxUy1oEeKg6ctL4ZOsjQ"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_m_oxVC1oEeKg6ctL4ZOsjQ"/>
+    <element xmi:type="core:RequirementsGroup" href="isolette_thermostat.rdal#a6fb6168-37e9-4868-b5b0-4d625f88c654"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_oxVS1oEeKg6ctL4ZOsjQ" y="255"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_GCS-kTpCEeK2P8XEo3nn9w" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GCS-ljpCEeK2P8XEo3nn9w" type="5013"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_GCS-lzpCEeK2P8XEo3nn9w" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_0ItxQDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0ItxRTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_0ItxQTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_0ItxQjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_0ItxQzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#615be7ec-9e48-469c-8e32-c0f9e513f5e2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ItxRDpqEeKLi-QkLXTwSA" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_0q-w0DpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0q-w1TpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_0q-w0TpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_0q-w0jpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_0q-w0zpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#a2dec156-f7c0-4713-a7b6-3e5d31169941"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0q-w1DpqEeKLi-QkLXTwSA" x="530" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1GGmkDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1GGmlTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_1GGmkTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_1GGmkjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_1GGmkzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#fde4c3f4-912c-48e5-8b47-c1171bee2727"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GGmlDpqEeKLi-QkLXTwSA" x="200" y="14"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1wkf4DpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1wkf5TpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_1wkf4TpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_1wkf4jpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_1wkf4zpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#d070f05f-886c-4c72-a82e-6464df8aabe4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1wkf5DpqEeKLi-QkLXTwSA" x="385" y="104"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_2NxZQDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2NxZRTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_2NxZQTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_2NxZQjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_2NxZQzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#bb93df1b-12fe-49e0-b836-959402282c0a"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2NxZRDpqEeKLi-QkLXTwSA" y="59"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_2r3qgDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2r3qhTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_2r3qgTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_2r3qgjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_2r3qgzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#5f39c94e-6dcd-45ff-b6c7-837f471fca7f"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2r3qhDpqEeKLi-QkLXTwSA" y="104"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_3LwEcDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_3LwEdTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_3LwEcTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_3LwEcjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_3LwEczpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#c861e528-7f8d-46d3-bd57-43407b99ca45"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3LwEdDpqEeKLi-QkLXTwSA" x="370" y="59"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_3sYsUDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_3sYsVTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_3sYsUTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_3sYsUjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_3sYsUzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#24cb587a-2fc3-4a60-af96-ccc48b7fac8a"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3sYsVDpqEeKLi-QkLXTwSA" x="586" y="151"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_4JcbwDpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_4JcbxTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_4JcbwTpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_4JcbwjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_4JcbwzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#78ed39cc-756d-450d-a9cb-0a4c50665a8b"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JcbxDpqEeKLi-QkLXTwSA" x="240" y="149"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_4nY8ADpqEeKLi-QkLXTwSA" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_4nY8BTpqEeKLi-QkLXTwSA" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_4nY8ATpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_4nY8AjpqEeKLi-QkLXTwSA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_4nY8AzpqEeKLi-QkLXTwSA" lineColor="12632256"/>
+        <element xmi:type="core:Assumption" href="isolette_thermostat.rdal#31c32c72-367f-44d9-823e-3de36a159dea"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4nY8BDpqEeKLi-QkLXTwSA" y="149"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_GCS-kjpCEeK2P8XEo3nn9w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GCS-kzpCEeK2P8XEo3nn9w"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_GCS-lDpCEeK2P8XEo3nn9w"/>
+    <element xmi:type="core:RequirementsGroup" href="isolette_thermostat.rdal#caca0365-6aa5-4c24-90ac-f2dcc7e35373"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GCS-lTpCEeK2P8XEo3nn9w" x="35" y="400"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_5Ch64RYCEeK1O6AbU3-cSg"/>
+  <element xmi:type="core:Specification" href="isolette_thermostat.rdal#036cb70c-4e10-4550-b068-2b887b6580ad"/>
+</notation:Diagram>

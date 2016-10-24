@@ -1,0 +1,298 @@
+package isolette
+public
+	with Isolette_Properties, Power_Properties, Data_Model;
+
+	data Current_Temp_Value
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Float;
+			Isolette_Properties::Temperature_Tolerance => 0.05 Fahrenheit;
+			Data_Model::Real_Range => 68.0 .. 105.0;
+	end Current_Temp_Value;
+
+	data Current_Temp_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Invalid", "Valid" );
+	end Current_Temp_Status;
+	
+	--@description Current air temperature inside Isolette.
+	feature group Current_Temperature
+		features
+			value : in data port Current_Temp_Value;
+			status : in data port Current_Temp_Status;
+	end Current_Temperature;
+	
+	--@description Command to turn Heat Source on and off.
+	data Heat_Control
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "On", "Off" );
+	end Heat_Control;
+
+	data Heat
+	end Heat;
+	
+	data Lower_Desired_Temp_Value
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Integer;
+	  		Data_Model::Integer_Range => 97 .. 99;
+			Isolette_Properties::Temperature_Increment => 1.0 Fahrenheit;
+	end Lower_Desired_Temp_Value;
+
+	data Lower_Desired_Temp_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Invalid", "Valid" );
+	end Lower_Desired_Temp_Status;
+
+	data Upper_Desired_Temp_Value
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Integer;
+	  		Data_Model::Integer_Range => 98 .. 100;
+			Isolette_Properties::Temperature_Increment => 1.0 Fahrenheit;
+	end Upper_Desired_Temp_Value;
+
+	data Upper_Desired_Temp_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Invalid", "Valid" );
+	end Upper_Desired_Temp_Status;
+
+	--@description Lower value of Desired Temperature Range.
+	feature group Lower_Desired_Temperature
+		features
+			value : in data port Lower_Desired_Temp_Value;
+			status : in data port Lower_Desired_Temp_Status;
+	end Lower_Desired_Temperature;
+
+	--@description Upper value of Desired Temperature Range.
+	feature group Upper_Desired_Temperature
+		features
+			value : in data port Upper_Desired_Temp_Value;
+			status : in data port Upper_Desired_Temp_Status;
+	end Upper_Desired_Temperature;
+	
+	--@description Desired range of Isolette temperature. 
+	feature group Desired_Temperature_Range
+		features
+			lower : in feature group Lower_Desired_Temperature;
+			upper : in feature group Upper_Desired_Temperature;
+	end Desired_Temperature_Range;
+
+	data Lower_Alarm_Temp_Value
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Integer;
+			Data_Model::Integer_Range => 93 .. 98;
+			Isolette_Properties::Temperature_Increment => 1.0 Fahrenheit;
+	end Lower_Alarm_Temp_Value;
+
+	data Lower_Alarm_Temp_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Invalid", "Valid" );
+	end Lower_Alarm_Temp_Status;
+
+	data Upper_Alarm_Temp_Value
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Integer;
+			Data_Model::Integer_Range => 99 .. 103;
+			Isolette_Properties::Temperature_Increment => 1.0 Fahrenheit;
+	end Upper_Alarm_Temp_Value;
+
+	data Upper_Alarm_Temp_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Invalid", "Valid" );
+	end Upper_Alarm_Temp_Status;
+
+	--@description Lower value of Alarm Temperature Range. 
+	feature group Lower_Alarm_Temperature
+		features
+			value : in data port Lower_Alarm_Temp_Value;
+			status : in data port Lower_Alarm_Temp_Status;
+	end Lower_Alarm_Temperature;
+
+	--@description Upper value of Alarm Temperature Range. 
+	feature group Upper_Alarm_Temperature
+		features
+			value : in data port Upper_Alarm_Temp_Value;
+			status : in data port Upper_Alarm_Temp_Status;
+	end Upper_Alarm_Temperature;
+	
+	--@description Activate Alarm when outside of this range.
+	feature group Alarm_Temperature_Range
+		features
+			lower : in feature group Lower_Alarm_Temperature;
+			upper : in feature group Upper_Alarm_Temperature;
+	end Alarm_Temperature_Range;
+
+	--@description Command to turn Alarm on or off.
+	data Alarm
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "On", "Off" );
+	end Alarm;
+	
+	--@description Thermostat settings provided by operator.
+	feature group Operator_Settings
+		features
+			desired_temperature_range : in feature group Desired_Temperature_Range;
+			alarm_temperature_range : in feature group Alarm_Temperature_Range;
+	end Operator_Settings;
+
+
+	--@description Status of the Thermostat Regulator Function.
+	data Regulator_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Init", "On", "Failed" );
+	end Regulator_Status;
+
+	--@description Status of the Thermostat Monitor Function.
+	data Monitor_Status
+		properties
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Init", "On", "Failed" );
+	end Monitor_Status;
+
+	--@description Displayed temperature of Isolette.
+	data Display_Temperature
+		properties
+			Data_Model::Measurement_Unit => "Fahrenheit";
+			Data_Model::Data_Representation => Integer;
+			Data_Model::Integer_Range => 68 .. 105;
+			Isolette_Properties::Temperature_Increment => 1.0 Fahrenheit;
+	end Display_Temperature;
+
+	--@description Information provided back to the operator.
+	feature group Operator_Feedback
+		features
+			regulator_status : out data port Regulator_Status;
+			display_temperature : out data port Display_Temperature;
+			monitor_status : out data port Monitor_Status;
+			alarm_control : out data port Alarm;
+	end Operator_Feedback;
+
+	--@description An Isolette is an incubator for an Infant that provides controlled temperature, 
+	-- humidity, and oxygen (if necessary). Isolettes are used extensively in Neonatal Intensive Care 
+	-- Units for the care of premature infants.
+	system Isolette
+		properties
+			Isolette_Properties::Temperature_Increase_Rate => 0.5 Fdeg_Minute;
+			Isolette_Properties::Temperature_Decrease_Rate => 0.5 Fdeg_Minute;
+	end Isolette;
+
+	system Thermostat
+		features
+			current_temperature : in feature group Current_Temperature;
+			operator_settings : in feature group Operator_Settings;
+			heat_control : out data port Heat_Control;
+			operator_feedback : out feature group Operator_Feedback;
+		flows
+			current_temperature_heat_control : flow path current_temperature -> heat_control;
+			desired_temp_regulator_status : flow path operator_settings.desired_temperature_range -> operator_feedback.regulator_status;
+			alarm_temp_monitor_status : flow path operator_settings.alarm_temperature_range -> operator_feedback.monitor_status;
+		properties
+			Isolette_Properties::Failure_Probability => 0.000000005 abs;
+	end Thermostat;
+
+	--@description The Temperature Sensor provides the Current Temperature of the Air in the Isolette to the Thermostat. 	
+	system Temperature_Sensor
+		features
+			heat : in data port Heat;
+			current_temperature : feature group inverse of Current_Temperature;
+			flows
+				temp_sensor_source : flow source current_temperature;
+		properties
+			Isolette_Properties::Failure_Probability => 0.000000005 abs;
+	end Temperature_Sensor;
+	
+	--@description Heats the Air in the Isolette. It is turned on and off by changing the value of the Heat Control controlled variable. 	
+	system Heat_Source
+		features
+			heat_control : in data port Heat_Control;
+			heat : out data port Heat;
+		flows
+			heat_source_sink: flow sink heat_control;
+		properties
+			Power_Properties::Power_Static_Tot => 300.0 W .. 310.0 W;
+	end Heat_Source;
+	
+	system Operator_Interface
+		features
+			operator_interaction : in out data port Interface_Interaction;
+			operator_feedback : feature group inverse of Operator_Feedback;
+			operator_settings : feature group inverse of Operator_Settings;
+		flows								-- Why can't it be the sub feature group and not the feature group?
+			desired_temp_range_source : flow source operator_settings.desired_temperature_range; 
+			alarm_temp_range_source : flow source operator_settings.alarm_temperature_range; 
+			operator_interface_sink : flow sink operator_feedback;
+		properties
+			Isolette_Properties::Failure_Probability => 0.000000005 abs;
+	end Operator_Interface;
+	
+	system Air
+		features
+			heat_in : in data port Heat;
+			heat_out : out data port Heat;
+			infant_interaction : in out data port Air_Interaction;
+	end Air;
+	
+	abstract Nurse
+		features
+			interface_interaction : in out data port Interface_Interaction;
+	end Nurse;
+
+	abstract Infant
+		features
+			air_interaction : in out data port Air_Interaction;
+	end Infant;
+	
+	system implementation Isolette.Normal_Operation
+		subcomponents
+			thermostat : system Thermostat;
+			temperature_sensor : system Temperature_Sensor;
+			heat_source : system Heat_Source;
+			operator_interface : system Operator_Interface;
+			air : system Air;
+			infant : abstract Infant;
+			nurse : abstract Nurse;
+		connections
+			thermostat_heat_control_conn : port thermostat.heat_control -> heat_source.heat_control;
+			temp_sensor_thermostat_conn : feature group temperature_sensor.current_temperature -> thermostat.current_temperature;
+			thermostat_operator_feedback_conn : feature group thermostat.operator_feedback -> operator_interface.operator_feedback;
+			an: port heat_source.heat -> air.heat_in;
+			an2: port air.heat_out -> temperature_sensor.heat;
+			op_settings_thermostat_conn : feature group operator_interface.operator_settings -> thermostat.operator_settings;
+			an3: port nurse.interface_interaction -> operator_interface.operator_interaction;
+			an4: port infant.air_interaction -> air.infant_interaction;
+--		flows
+--			temp_sensor_to_heat_source_flow : end to end flow 	temperature_sensor.temp_sensor_source -> 
+--																temp_sensor_thermostat_conn ->
+--																thermostat.current_temperature_heat_control ->
+--																thermostat_heat_control_conn ->
+--																heat_source.heat_source_sink;
+--			op_interface_to_reg_status : end to end flow 	operator_interface.desired_temp_range_source -> 
+--															op_settings_thermostat_conn ->
+--															thermostat.desired_temp_regulator_status ->
+--															thermostat_operator_feedback_conn ->
+--															operator_interface.operator_interface_sink;
+--			op_interface_to_mon_status : end to end flow 	operator_interface.alarm_temp_range_source -> 
+--															op_settings_thermostat_conn ->
+--															thermostat.alarm_temp_monitor_status ->
+--															thermostat_operator_feedback_conn ->
+--															operator_interface.operator_interface_sink;
+	end Isolette.Normal_Operation;
+	
+	data Interface_Interaction
+	end Interface_Interaction;
+	
+	data Air_Interaction
+	end Air_Interaction;
+	
+end isolette;
