@@ -4,8 +4,31 @@ public
 	
 	system Heat_Source extends isolette::Heat_Source
 	end Heat_Source;
-
+	
 	system implementation Heat_Source.impl
+		subcomponents
+			heatsource : device roof_heat_source.impl;
+			skinsensor : device skin_temp_sensor.impl;
 	end Heat_Source.impl;
+	
+	--- roof heat source --- 
+	
+	device roof_heat_source
+		
+	end roof_heat_source;
+	
+	device implementation roof_heat_source.impl
+		
+	end roof_heat_source.impl;
+	
+	--- skin temperature sensor ---
+	
+	device skin_temp_sensor
+		
+	end skin_temp_sensor;
+	
+	device implementation skin_temp_sensor.impl
+		
+	end skin_temp_sensor.impl;
 	
 end isolette_heat_source;
