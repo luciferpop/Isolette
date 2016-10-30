@@ -64,7 +64,7 @@ public
 			current_temp_heat_control : flow path current_temp_value -> heat_control { Latency => 70 ms .. 90 ms; };
 		properties
 			Source_Text => ("manage_heat_source.smv");
-			Compute_Execution_Time => 50 ms .. 60 ms;
+			Compute_Execution_Time =>50 ms .. 60 ms;
 	end Manage_Heat_Source;
 	
 	thread Manage_Heat_Source_Thread
