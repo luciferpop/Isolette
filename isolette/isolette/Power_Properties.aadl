@@ -2,7 +2,7 @@ property set Power_Properties is
 
   -- Static Power
   Power_Static: Power_Properties::Power_Consumption_Range_Type applies to (processor, memory, system, bus, device);
-  Power_Static_Subcompo: Power_Properties::Power_Consumption_Range_Type applies to     (processor, memory, system, bus, device);
+  Power_Static_Subcompo: Power_Properties::Power_Consumption_Range_Type applies to (processor, memory, system, bus, device);
   Power_Static_Tot: Power_Properties::Power_Consumption_Range_Type applies to (processor, memory, system, bus, device);
 
     -- Power Property Types
