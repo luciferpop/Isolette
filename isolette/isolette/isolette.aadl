@@ -235,7 +235,7 @@ public
 	system implementation Heat_Source.with_devices
 		subcomponents
 			this_heat_source : device Roof_Heat_Source;
-			this_configuration_checker : device Configuration_Checker;
+			this_configuration_checker : process Configuration_Checker.impl;
 			this_bus : bus Checker_Heat_Source_Conn.impl;
 			this_processor : processor MainProcessor.impl;
 		connections 
@@ -244,7 +244,7 @@ public
 			heat_configuration_conn : port this_configuration_checker.heat_configuration -> this_heat_source.heat_configuration;
 			current_temperature_conn : feature group current_temperature <-> this_configuration_checker.current_temperature;
 			bus_heat_source : bus access this_bus -> this_heat_source.bus_access;
-			bus_configuration_checker : bus access this_bus -> this_configuration_checker.bus_access;
+			---bus_configuration_checker : bus access this_bus -> this_configuration_checker.bus_access;
 			bus_processor : bus access this_bus -> this_processor.bus_access;
 
 	end Heat_Source.with_devices;
@@ -283,18 +283,46 @@ public
 	end Roof_Heat_Source.impl;
 	
 	--- configuration checker ---
-	device Configuration_Checker
+	
+	process Configuration_Checker
 		features 
 			current_temperature : feature group inverse of Current_Temperature;
 			heat_control : in data port Heat_Control;
 			heat_configuration : out data port Heat_Configuration; 
-			bus_access : requires bus access Checker_Heat_Source_Conn;
+			--- bus_access : requires bus access Checker_Heat_Source_Conn;
 		flows
 			heat_source_sink: flow sink heat_control;
 	end Configuration_Checker;
 	
-	device implementation Configuration_Checker.impl
+	process implementation Configuration_Checker.impl	
+		subcomponents 
+			this_checker : thread Checker.impl;
+			this_controller : thread Heat_Controller;
+		connections 
+			current_temperature_config_checker_conn : feature group current_temperature <-> this_checker.current_temperature;
+			heat_control_config_checker_conn : port heat_control -> this_checker.heat_control;
+			checker_heat_controller_conn : port this_checker.heat_controller -> this_controller.heat_controller;
+			heat_controller_config_checker_conn : port this_controller.heat_configuration -> heat_configuration;
 	end Configuration_Checker.impl;
+	
+	thread Checker
+		features 
+			current_temperature : feature group inverse of Current_Temperature;
+			heat_control : in data port Heat_Control;
+			heat_controller : out data port Heat_Control;
+	end Checker;
+	
+	thread implementation Checker.impl
+	end Checker.impl;
+	
+	thread Heat_Controller
+		features 
+			heat_controller : in data port Heat_Control;
+			heat_configuration : out data port Heat_Configuration; 
+	end Heat_Controller;
+	
+	thread implementation Heat_Controller.impl
+	end Heat_Controller.impl;
 	
 	--@description Operator Interface provides an interface between nurse and the thermostat which allows nurse operator settings for the system
 	system Operator_Interface
