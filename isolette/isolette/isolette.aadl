@@ -30,6 +30,13 @@ public
 			Data_Model::Enumerators => ( "On", "Off" );
 	end Heat_Control;
 
+	--@description Configurations to send to the heat source 
+	data Heat_Configuration
+		properties 
+			Data_Model::Data_Representation => Enum;
+			Data_Model::Enumerators => ( "Target", "Control" );
+	end Heat_Configuration;
+
 	data Heat
 	end Heat;
 	
@@ -206,8 +213,8 @@ public
 		features
 			heat : in data port Heat;
 			current_temperature : feature group inverse of Current_Temperature;
-			flows
-				temp_sensor_source : flow source current_temperature;
+		flows
+			temp_sensor_source : flow source current_temperature;
 		properties
 			Isolette_Properties::Failure_Probability => 0.000000005 abs;
 	end Temperature_Sensor;
@@ -217,12 +224,79 @@ public
 		features
 			heat_control : in data port Heat_Control;
 			heat : out data port Heat;
+			current_temperature : feature group inverse of Current_Temperature;
 		flows
+			heat_source_current_temperature : flow source current_temperature;
 			heat_source_sink: flow sink heat_control;
 		properties
 			Power_Properties::Power_Static_Tot => 300.0 W .. 310.0 W;
 	end Heat_Source;
 	
+	system implementation Heat_Source.with_devices
+		subcomponents
+			this_heat_source : device Roof_Heat_Source;
+			this_configuration_checker : device Configuration_Checker;
+			this_bus : bus Checker_Heat_Source_Conn.impl;
+			this_processor : processor MainProcessor.impl;
+		connections 
+			heat_conn : port this_heat_source.heat_source -> heat;
+			heat_control_conn : port heat_control -> this_configuration_checker.heat_control;
+			heat_configuration_conn : port this_configuration_checker.heat_configuration -> this_heat_source.heat_configuration;
+			current_temperature_conn : feature group current_temperature <-> this_configuration_checker.current_temperature;
+			bus_heat_source : bus access this_bus -> this_heat_source.bus_access;
+			bus_configuration_checker : bus access this_bus -> this_configuration_checker.bus_access;
+			bus_processor : bus access this_bus -> this_processor.bus_access;
+
+	end Heat_Source.with_devices;
+	
+	--- processors and bus ---
+	
+	processor MainProcessor
+		features
+			bus_access : requires bus access Checker_Heat_Source_Conn;
+	end MainProcessor;
+	
+	processor implementation MainProcessor.impl
+		subcomponents
+			this_ram : memory RAM;
+	end MainProcessor.impl;
+	
+	Memory RAM
+	end RAM;
+	
+	bus Checker_Heat_Source_Conn
+	end Checker_Heat_Source_Conn;
+	
+	bus implementation Checker_Heat_Source_Conn.impl
+	end Checker_Heat_Source_Conn.impl;
+	
+	--- roof heat source --- 
+	
+	device Roof_Heat_Source
+		features
+			heat_configuration : in data port Heat_Configuration;
+			heat_source : out data port Heat;
+			bus_access : requires bus access Checker_Heat_Source_Conn;
+	end Roof_Heat_Source;
+	
+	device implementation Roof_Heat_Source.impl
+	end Roof_Heat_Source.impl;
+	
+	--- configuration checker ---
+	device Configuration_Checker
+		features 
+			current_temperature : feature group inverse of Current_Temperature;
+			heat_control : in data port Heat_Control;
+			heat_configuration : out data port Heat_Configuration; 
+			bus_access : requires bus access Checker_Heat_Source_Conn;
+		flows
+			heat_source_sink: flow sink heat_control;
+	end Configuration_Checker;
+	
+	device implementation Configuration_Checker.impl
+	end Configuration_Checker.impl;
+	
+	--@description Operator Interface provides an interface between nurse and the thermostat which allows nurse operator settings for the system
 	system Operator_Interface
 		features
 			operator_interaction : in out data port Interface_Interaction;
@@ -265,6 +339,7 @@ public
 		connections
 			thermostat_heat_control_conn : port thermostat.heat_control -> heat_source.heat_control;
 			temp_sensor_thermostat_conn : feature group temperature_sensor.current_temperature -> thermostat.current_temperature;
+			heat_source_thermostat_conn : feature group heat_source.current_temperature -> thermostat.current_temperature;
 			thermostat_operator_feedback_conn : feature group thermostat.operator_feedback -> operator_interface.operator_feedback;
 			an: port heat_source.heat -> air.heat_in;
 			an2: port air.heat_out -> temperature_sensor.heat;
