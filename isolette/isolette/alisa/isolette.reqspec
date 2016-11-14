@@ -1,0 +1,13 @@
+system requirements IsoletteReqs for isolette::Isolette [
+	requirement req1_1 : "the Current Temperature increase rate when the Heat Source is turned on and the isolette is properly shut"
+	[
+		description "shall be less than " Minrate_increase "per minute"
+		val Minrate_increase = 1 
+	]
+	requirement req1_2: "the Current Temperature decrease rate when the Heat Source is turned off and the isolette is properly shut"
+	[
+		description "shall be less than " Minrate_decrease "per minute"
+		val Minrate_decrease = 1
+	]
+
+]

@@ -1,0 +1,15 @@
+assurance case isoletteCase for isolette::Isolette[
+	assurance plan IsolettePlan for isolette::Isolette.Normal_Operation[
+		description "My Plan"
+		assure Isolettevplan
+		assure subsystem heat_source
+		assume subsystem infant nurse air operator_interface temperature_sensor thermostat 
+		
+	]
+	assurance task Minrate_increase [
+		category Quality.Mass
+	]
+	assurance task Minrate_decrease[
+		category Quality.Mass
+	]
+]
