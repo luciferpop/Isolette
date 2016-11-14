@@ -145,6 +145,17 @@ public
 			Data_Model::Enumerators => ( "On", "Off" );
 	end Alarm;
 	
+	--@description feature group takes inputs from nurse
+	feature group Interface_Interaction
+		features
+			current_temp : in feature group Current_Temperature;
+			lower_desired_temp : in feature group Lower_Desired_Temperature;
+			upper_desired_temp : in feature group Upper_Desired_Temperature;
+			desired_temp_range : in feature group Desired_Temperature_Range;
+			
+			
+	end Interface_Interaction;
+	
 	--@description Thermostat settings provided by operator.
 	feature group Operator_Settings
 		features
@@ -327,7 +338,7 @@ public
 	--@description Operator Interface provides an interface between nurse and the thermostat which allows nurse operator settings for the system
 	system Operator_Interface
 		features
-			operator_interaction : in out data port Interface_Interaction;
+			operator_interaction : feature group inverse of Interface_Interaction;
 			operator_feedback : feature group inverse of Operator_Feedback;
 			operator_settings : feature group inverse of Operator_Settings;
 		flows								-- Why can't it be the sub feature group and not the feature group?
@@ -338,6 +349,88 @@ public
 			Isolette_Properties::Failure_Probability => 0.000000005 abs;
 	end Operator_Interface;
 	
+	system implementation Operator_Interface.impl
+		subcomponents 
+			this_interaction_receiver : process Interaction_Receiver;
+			this_desired_temperature_setting : process Desired_Temperature_Setting;
+			this_alarm_temperature_setting : process Alarm_Temperature_Setting;
+			this_thermostat_controller : process Thermostat_Controller;
+		connections 
+			interaction_setting_conn : feature group operator_interaction <-> this_interaction_receiver.operator_interaction;
+			alarm_temp_range_lower_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_lower;
+			alarm_temp_range_upper_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_upper;
+			desired_temp_range_lower_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_lower;
+			desired_temp_range_upper_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_upper;
+			regulator_status_conn : port this_interaction_receiver.regulator_status -> this_thermostat_controller.regulator_status;
+			monitor_status_conn : port this_interaction_receiver.monitor_status -> this_thermostat_controller.monitor_status;
+			display_temp_conn : port this_interaction_receiver.display_temp -> this_thermostat_controller.display_temp;
+			alarm_conn : port this_interaction_receiver.alarm -> this_thermostat_controller.alarm;
+			desired_temp_setting_conn : feature group this_desired_temperature_setting.operator_settings -> operator_settings;
+			alarm_temp_setting_conn : feature group this_alarm_temperature_setting.operator_settings -> operator_settings;
+			operator_settings_conn : feature group this_thermostat_controller.operator_feedback <-> operator_feedback;
+			
+	end Operator_Interface.impl;
+	
+	--- processes ---
+	
+	process Interaction_Receiver
+		features
+			operator_interaction : feature group inverse of Interface_Interaction;
+			alarm_temp_range : out feature group inverse of Alarm_Temperature_Range;
+		 	desired_temp_range : feature group Desired_Temperature_Range;
+		 	regulator_status : out data port Regulator_Status;
+		 	monitor_status : out data port Monitor_Status;
+		 	display_temp : out data port Display_Temperature;
+		 	alarm : out data port Alarm;
+		 	
+	end Interaction_Receiver;
+	
+	process implementation Interaction_Receiver.impl
+		
+	end Interaction_Receiver.impl;
+	
+	--- desired temperature setting ---
+	
+	process Desired_Temperature_Setting
+		features 
+			desired_temp_lower : out feature group inverse of Lower_Desired_Temperature;
+			desired_temp_upper : in feature group Upper_Desired_Temperature;
+			operator_settings : out feature group inverse of Operator_Settings;
+	end Desired_Temperature_Setting;
+	
+	process implementation Desired_Temperature_Setting.impl
+	end Desired_Temperature_Setting.impl;
+	
+	--- alarm temperature setting ---
+	
+	process Alarm_Temperature_Setting
+		features
+			alarm_temp_lower : in feature group Lower_Alarm_Temperature;
+			alarm_temp_upper : in feature group Upper_Alarm_Temperature;
+			operator_settings : out feature group inverse of Operator_Settings;
+	end Alarm_Temperature_Setting;
+	
+	process implementation Alarm_Temperature_Setting.impl
+		
+	end Alarm_Temperature_Setting.impl;
+	
+	--- thermostat controller ---
+	
+	process Thermostat_Controller
+		features 
+			regulator_status : in data port Regulator_Status;
+		 	monitor_status : in data port Monitor_Status;
+		 	display_temp : in data port Display_Temperature;
+		 	alarm : in data port Alarm;
+		 	operator_feedback : feature group inverse of Operator_Feedback;
+	end Thermostat_Controller;
+	
+	process implementation Thermostat_Controller.impl
+		
+	end Thermostat_Controller.impl;
+	
+	--- environment ---
+	
 	system Air
 		features
 			heat_in : in data port Heat;
@@ -347,7 +440,7 @@ public
 	
 	abstract Nurse
 		features
-			interface_interaction : in out data port Interface_Interaction;
+			interface_interaction : feature group Interface_Interaction;
 	end Nurse;
 
 	abstract Infant
@@ -372,7 +465,7 @@ public
 			an: port heat_source.heat -> air.heat_in;
 			an2: port air.heat_out -> temperature_sensor.heat;
 			op_settings_thermostat_conn : feature group operator_interface.operator_settings -> thermostat.operator_settings;
-			an3: port nurse.interface_interaction -> operator_interface.operator_interaction;
+			an3: feature group nurse.interface_interaction <-> operator_interface.operator_interaction;
 			an4: port infant.air_interaction -> air.infant_interaction;
 --		flows
 --			temp_sensor_to_heat_source_flow : end to end flow 	temperature_sensor.temp_sensor_source -> 
@@ -392,8 +485,7 @@ public
 --															operator_interface.operator_interface_sink;
 	end Isolette.Normal_Operation;
 	
-	data Interface_Interaction
-	end Interface_Interaction;
+
 	
 	data Air_Interaction
 	end Air_Interaction;
