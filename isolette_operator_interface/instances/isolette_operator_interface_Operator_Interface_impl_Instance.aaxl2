@@ -7,7 +7,11 @@
         <unit href="../../isolette/isolette/Isolette_Properties.aadl#/0/@ownedPropertyType.5/@ownedLiteral.1"/>
       </ownedValue>
     </ownedValue>
+<<<<<<< HEAD
     <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.29/@ownedPropertyAssociation.0"/>
+=======
+    <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
   </ownedPropertyAssociation>
   <featureInstance name="operator_feedback" category="featureGroup" direction="in out">
     <featureInstance name="regulator_status">
@@ -18,7 +22,11 @@
             <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedPropertyAssociation.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -29,9 +37,15 @@
             <ownedListElement xsi:type="aadl2:StringLiteral" value="Failed"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedPropertyAssociation.1"/>
       </ownedPropertyAssociation>
       <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.25/@ownedDataPort.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
     </featureInstance>
     <featureInstance name="display_temperature">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -41,14 +55,22 @@
             <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.23/@ownedPropertyAssociation.1"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPropertyAssociation.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
         <ownedValue>
           <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.23/@ownedPropertyAssociation.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
@@ -58,9 +80,15 @@
             <maximum xsi:type="aadl2:IntegerLiteral" value="105"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.23/@ownedPropertyAssociation.2"/>
       </ownedPropertyAssociation>
       <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.1"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPropertyAssociation.2"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.25/@ownedDataPort.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
     </featureInstance>
     <featureInstance name="monitor_status">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -70,7 +98,11 @@
             <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.23/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -81,9 +113,15 @@
             <ownedListElement xsi:type="aadl2:StringLiteral" value="Failed"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.1"/>
       </ownedPropertyAssociation>
       <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.2"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.23/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.25/@ownedDataPort.2"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
     </featureInstance>
     <featureInstance name="alarm_control">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -93,7 +131,11 @@
             <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.19/@ownedPropertyAssociation.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.20/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -103,11 +145,19 @@
             <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
           </ownedValue>
         </ownedValue>
+<<<<<<< HEAD
         <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.19/@ownedPropertyAssociation.1"/>
       </ownedPropertyAssociation>
       <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedDataPort.3"/>
     </featureInstance>
     <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.29/@ownedFeatureGroup.0"/>
+=======
+        <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.20/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.25/@ownedDataPort.3"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedFeatureGroup.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
   </featureInstance>
   <featureInstance name="operator_settings" category="featureGroup" direction="in out">
     <featureInstance name="desired_temperature_range" category="featureGroup" direction="out">
@@ -120,14 +170,22 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPropertyAssociation.1"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedPropertyAssociation.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
             <ownedValue>
               <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
@@ -137,9 +195,15 @@
                 <maximum xsi:type="aadl2:IntegerLiteral" value="99"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPropertyAssociation.2"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedPropertyAssociation.2"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
         </featureInstance>
         <featureInstance name="status" direction="out">
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -149,7 +213,11 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -159,11 +227,19 @@
                 <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedPropertyAssociation.1"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.1"/>
         </featureInstance>
         <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedFeatureGroup.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </featureInstance>
       <featureInstance name="upper" category="featureGroup" direction="out">
         <featureInstance name="value" direction="out">
@@ -174,14 +250,22 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedPropertyAssociation.1"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedPropertyAssociation.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
             <ownedValue>
               <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
@@ -191,9 +275,15 @@
                 <maximum xsi:type="aadl2:IntegerLiteral" value="100"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedPropertyAssociation.2"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedPropertyAssociation.2"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
         </featureInstance>
         <featureInstance name="status" direction="out">
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -203,7 +293,11 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -213,6 +307,7 @@
                 <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedPropertyAssociation.1"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
@@ -220,6 +315,15 @@
         <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedFeatureGroup.1"/>
       </featureInstance>
       <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.20/@ownedFeatureGroup.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedFeatureGroup.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
     </featureInstance>
     <featureInstance name="alarm_temperature_range" category="featureGroup" direction="out">
       <featureInstance name="lower" category="featureGroup" direction="out">
@@ -231,14 +335,22 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.1"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPropertyAssociation.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
             <ownedValue>
               <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
@@ -248,9 +360,15 @@
                 <maximum xsi:type="aadl2:IntegerLiteral" value="98"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.2"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPropertyAssociation.2"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
         </featureInstance>
         <featureInstance name="status" direction="out">
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -260,7 +378,11 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -270,11 +392,19 @@
                 <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPropertyAssociation.1"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.1"/>
         </featureInstance>
         <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.18/@ownedFeatureGroup.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.19/@ownedFeatureGroup.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
       </featureInstance>
       <featureInstance name="upper" category="featureGroup" direction="out">
         <featureInstance name="value" direction="out">
@@ -285,14 +415,22 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedPropertyAssociation.1"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedPropertyAssociation.1"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
             <ownedValue>
               <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Integer_Range"/>
@@ -302,9 +440,15 @@
                 <maximum xsi:type="aadl2:IntegerLiteral" value="103"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedPropertyAssociation.2"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedPropertyAssociation.2"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.18/@ownedDataPort.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
         </featureInstance>
         <featureInstance name="status" direction="out">
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -314,7 +458,11 @@
                 <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedPropertyAssociation.0"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedPropertyAssociation.0"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
@@ -324,6 +472,7 @@
                 <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
               </ownedValue>
             </ownedValue>
+<<<<<<< HEAD
             <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedPropertyAssociation.1"/>
           </ownedPropertyAssociation>
           <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.1"/>
@@ -345,6 +494,41 @@
   </flowSpecification>
   <flowSpecification name="operator_interface_sink" source="//@featureInstance.0">
     <flowSpecification href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.29/@ownedFlowSpecification.2"/>
+=======
+            <propertyAssociation href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.18/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.19/@ownedFeatureGroup.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedFeatureGroup.1"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedFeatureGroup.1"/>
+  </featureInstance>
+  <featureInstance name="operator_interaction" direction="in out">
+    <feature xsi:type="aadl2:DataPort" href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedDataPort.0"/>
+  </featureInstance>
+  <componentInstance name="this_desired_temperature_setting" category="process">
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../isolette_operator_interface.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedProcessSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance name="this_alarm_temperature_setting" category="process">
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../isolette_operator_interface.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedProcessSubcomponent.1"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance name="this_interaction_receiver" category="process">
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../isolette_operator_interface.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedProcessSubcomponent.2"/>
+    <index>0</index>
+  </componentInstance>
+  <flowSpecification name="desired_temp_range_source" destination="//@featureInstance.1/@featureInstance.0">
+    <flowSpecification href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedFlowSpecification.0"/>
+  </flowSpecification>
+  <flowSpecification name="alarm_temp_range_source" destination="//@featureInstance.1/@featureInstance.1">
+    <flowSpecification href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedFlowSpecification.1"/>
+  </flowSpecification>
+  <flowSpecification name="operator_interface_sink" source="//@featureInstance.0">
+    <flowSpecification href="../../isolette/isolette/isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedFlowSpecification.2"/>
+>>>>>>> 654b3d903fd50738823c8d76e07f91ab0ea70736
   </flowSpecification>
   <systemOperationMode name="No Modes"/>
   <componentImplementation xsi:type="aadl2:SystemImplementation" href="../isolette_operator_interface.aadl#isolette_operator_interface.Operator_Interface.impl"/>

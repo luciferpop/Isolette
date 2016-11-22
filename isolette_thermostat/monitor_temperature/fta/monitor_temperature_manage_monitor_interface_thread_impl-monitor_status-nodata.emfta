@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<emfta:FTAModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:emfta="http://cmu.edu/emfta" root="//@events.3" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata" description="Top Level Failure">
+  <events type="External" name="monitor_temperature_manage_monitor_interface_thread_impl-current_temperature.value-latedata" description="component Manage_Monitor_Interface_Thread_impl_Instance with in propagation current_temperature.value"/>
+  <events type="External" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_mode-latedata" description="component Manage_Monitor_Interface_Thread_impl_Instance with in propagation monitor_mode"/>
+  <events type="External" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_temp_lower-alarmtemplower" description="component Manage_Monitor_Interface_Thread_impl_Instance with in propagation alarm_temp_lower"/>
+  <events type="Intermediate" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata">
+    <gate events="//@events.0 //@events.1 //@events.2"/>
+  </events>
+</emfta:FTAModel>

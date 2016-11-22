@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:emfta="http://cmu.edu/emfta" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_81tkgK63EeaPEIJs-cyPJw" selectedViews="_-CL-sK63EeaPEIJs-cyPJw _-Vt-sK63EeaPEIJs-cyPJw _gq1FUK7GEeaWQJ-HN6H7gQ" version="10.1.0.201509162000">
+  <semanticResources>isolette_thermostat/instances/isolette_thermostat_Thermostat_impl_rev_Instance.aaxl2</semanticResources>
+  <semanticResources>isolette_thermostat/isolette_thermostat.aadl</semanticResources>
+  <semanticResources>platform:/resource/isolette/isolette/Isolette_Properties.aadl</semanticResources>
+  <semanticResources>platform:/resource/isolette/isolette/isolette.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Data_Model.aadl</semanticResources>
+  <semanticResources>regulate_temperature/regulate_temperature.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Predeclared_Property_Sets/Programming_Properties.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Predeclared_Property_Sets/Timing_Properties.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Predeclared_Property_Sets/AADL_Project.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Predeclared_Property_Sets/Communication_Properties.aadl</semanticResources>
+  <semanticResources>monitor_temperature/monitor_temperature.aadl</semanticResources>
+  <semanticResources>platform:/resource/isolette/isolette/Power_Properties.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Base_Types.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/Predeclared_Property_Sets/Memory_Properties.aadl</semanticResources>
+  <semanticResources>monitor_temperature/monitor_temp_error_library.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/ErrorLibrary.aadl</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/EMV2.aadl</semanticResources>
+  <semanticResources>isolette_thermostat/req/thermostat.reqspec</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta</semanticResources>
+  <semanticResources>monitor_temperature/instances/monitor_temperature_Manage_Monitor_Interface_Thread_impl_Instance.aaxl2</semanticResources>
+  <semanticResources>monitor_temperature/instances/monitor_temperature_Monitor_Temperature_impl_Instance.aaxl2</semanticResources>
+  <semanticResources>monitor_temperature/req/monitor_temp.reqspec</semanticResources>
+  <semanticResources>regulate_temperature/req/regulate_temp.reqspec</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta</semanticResources>
+  <semanticResources>platform:/resource/Plugin_Resources/ARP4761.aadl</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree.emfta</semanticResources>
+  <semanticResources>monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_-CL-sK63EeaPEIJs-cyPJw">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_-Vt-sK63EeaPEIJs-cyPJw">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_-Vt-sa63EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_-Vt-sq63EeaPEIJs-cyPJw" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_-Vt-s663EeaPEIJs-cyPJw"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_-YWb8K63EeaPEIJs-cyPJw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_-YWb8a63EeaPEIJs-cyPJw" type="Sirius" element="_-Vt-sa63EeaPEIJs-cyPJw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_-YrzIK63EeaPEIJs-cyPJw" type="2001" element="_-Vt-tK63EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_-ZS3IK63EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-ZS3Ia63EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-bdaUK63EeaPEIJs-cyPJw" type="3003" element="_-Vt-ta63EeaPEIJs-cyPJw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-bdaUa63EeaPEIJs-cyPJw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-bdaUq63EeaPEIJs-cyPJw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-YrzIa63EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-YrzIq63EeaPEIJs-cyPJw" x="25" y="108" width="150" height="60"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-ZrRoK63EeaPEIJs-cyPJw" type="2001" element="_-Vt-tq63EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_-Zr4sK63EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-Zr4sa63EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-beocK63EeaPEIJs-cyPJw" type="3005" element="_-Vt-t663EeaPEIJs-cyPJw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-beoca63EeaPEIJs-cyPJw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-beocq63EeaPEIJs-cyPJw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-ZrRoa63EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ZrRoq63EeaPEIJs-cyPJw" x="12" y="252" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-ba-EK63EeaPEIJs-cyPJw" type="2001" element="_-Vt-uK63EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_-ba-E663EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_-bblIK63EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-bfPgK63EeaPEIJs-cyPJw" type="3003" element="_-Vt-ua63EeaPEIJs-cyPJw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-bfPga63EeaPEIJs-cyPJw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-bfPgq63EeaPEIJs-cyPJw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-ba-Ea63EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ba-Eq63EeaPEIJs-cyPJw" width="200" height="50"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_-YWb8q63EeaPEIJs-cyPJw"/>
+          <edges xmi:type="notation:Edge" xmi:id="_-c6L0K63EeaPEIJs-cyPJw" type="4001" element="_-Vt-uq63EeaPEIJs-cyPJw" source="_-YrzIK63EeaPEIJs-cyPJw" target="_-ZrRoK63EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_-c8BAK63EeaPEIJs-cyPJw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c8BAa63EeaPEIJs-cyPJw" x="-15" y="13"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-c9PIK63EeaPEIJs-cyPJw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c9PIa63EeaPEIJs-cyPJw" x="-5" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-c-dQK63EeaPEIJs-cyPJw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c-dQa63EeaPEIJs-cyPJw" x="-18" y="-14"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-c6L0a63EeaPEIJs-cyPJw" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-c6L0q63EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-c6L0663EeaPEIJs-cyPJw" points="[0, 0, 13, -84]$[0, 44, 13, -40]$[-13, 44, 0, -40]$[-13, 84, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-dO78K63EeaPEIJs-cyPJw" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-dO78a63EeaPEIJs-cyPJw" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-dPjAK63EeaPEIJs-cyPJw" type="4001" element="_-Vt-va63EeaPEIJs-cyPJw" source="_-ba-EK63EeaPEIJs-cyPJw" target="_-YrzIK63EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_-dQKEK63EeaPEIJs-cyPJw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dQKEa63EeaPEIJs-cyPJw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dQKEq63EeaPEIJs-cyPJw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dQKE663EeaPEIJs-cyPJw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-dQKFK63EeaPEIJs-cyPJw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-dQKFa63EeaPEIJs-cyPJw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-dPjAa63EeaPEIJs-cyPJw" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-dPjAq63EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-dPjA663EeaPEIJs-cyPJw" points="[0, 25, 0, -90]$[0, 85, 0, -30]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-dQxIK63EeaPEIJs-cyPJw" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-dQxIa63EeaPEIJs-cyPJw" id="(0.5,0.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-Vt-tK63EeaPEIJs-cyPJw" name=" Intermediate Gate&#xA;" outgoingEdges="_-Vt-uq63EeaPEIJs-cyPJw" incomingEdges="_-Vt-va63EeaPEIJs-cyPJw" width="15" height="6" resizeKind="NSEW">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1/@gate"/>
+        <semanticElements xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1/@gate"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_-Vt-ta63EeaPEIJs-cyPJw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="15" height="6" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-Vt-tq63EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_temp_lower-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation alarm_temp_lower" incomingEdges="_-Vt-uq63EeaPEIJs-cyPJw" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_-Vt-t663EeaPEIJs-cyPJw" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-Vt-uK63EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata (0.0)&#xA;" outgoingEdges="_-Vt-va63EeaPEIJs-cyPJw" width="20" height="5" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_-Vt-ua63EeaPEIJs-cyPJw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="20" height="5" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-Vt-uq63EeaPEIJs-cyPJw" sourceNode="_-Vt-tK63EeaPEIJs-cyPJw" targetNode="_-Vt-tq63EeaPEIJs-cyPJw">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-Vt-u663EeaPEIJs-cyPJw" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-Vt-vK63EeaPEIJs-cyPJw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-Vt-va63EeaPEIJs-cyPJw" sourceNode="_-Vt-uK63EeaPEIJs-cyPJw" targetNode="_-Vt-tK63EeaPEIJs-cyPJw">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-Vt-vq63EeaPEIJs-cyPJw" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-Vt-v663EeaPEIJs-cyPJw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_-Vt-wK63EeaPEIJs-cyPJw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-alarm_range.lower-nodata_fulltree.emfta#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_rRzFAK67EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rRzFAa67EeaPEIJs-cyPJw" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_rRzFAq67EeaPEIJs-cyPJw"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rRzsEK67EeaPEIJs-cyPJw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_rRzsEa67EeaPEIJs-cyPJw" type="Sirius" element="_rRzFAK67EeaPEIJs-cyPJw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_rR7A0K67EeaPEIJs-cyPJw" type="2001" element="_rRzFBa67EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_rR7A0667EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rR7A1K67EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rR82A667EeaPEIJs-cyPJw" type="3005" element="_rRzFBq67EeaPEIJs-cyPJw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rR82BK67EeaPEIJs-cyPJw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rR82Ba67EeaPEIJs-cyPJw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rR7A0a67EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rR7A0q67EeaPEIJs-cyPJw" x="216" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rR7n4K67EeaPEIJs-cyPJw" type="2001" element="_rRzFB667EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_rR8O8K67EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rR8O8a67EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rR9dEK67EeaPEIJs-cyPJw" type="3005" element="_rRzFCK67EeaPEIJs-cyPJw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rR9dEa67EeaPEIJs-cyPJw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rR9dEq67EeaPEIJs-cyPJw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rR7n4a67EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rR7n4q67EeaPEIJs-cyPJw" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rR8O8q67EeaPEIJs-cyPJw" type="2001" element="_rRzFCa67EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_rR8O9a67EeaPEIJs-cyPJw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rR8O9q67EeaPEIJs-cyPJw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMLK7JEeaWQJ-HN6H7gQ" type="3005" element="_1guOwK7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMLa7JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMLq7JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rR8O8667EeaPEIJs-cyPJw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rR8O9K67EeaPEIJs-cyPJw" x="288" y="96" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1hOlEa7JEeaWQJ-HN6H7gQ" type="2001" element="_1guOwa7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_1hPMIK7JEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1hPMIa7JEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPML67JEeaWQJ-HN6H7gQ" type="3005" element="_1guOwq7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMMK7JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMMa7JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1hOlEq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hOlE67JEeaWQJ-HN6H7gQ" x="-60" y="84" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1hPMIq7JEeaWQJ-HN6H7gQ" type="2001" element="_1guOw67JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_1hPMJa7JEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1hPMJq7JEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMMq7JEeaWQJ-HN6H7gQ" type="3003" element="_1guOxK7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMM67JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMNK7JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMI67JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMJK7JEeaWQJ-HN6H7gQ" x="-24" y="-84" width="200" height="50"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1hPMJ67JEeaWQJ-HN6H7gQ" type="2001" element="_1gkdwK7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_1hPMKq7JEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1hPMK67JEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMNa7JEeaWQJ-HN6H7gQ" type="3005" element="_1gkdwa7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMNq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMN67JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1hPMKK7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMKa7JEeaWQJ-HN6H7gQ" x="144" y="156" width="106" height="95"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_rRzsEq67EeaPEIJs-cyPJw"/>
+          <edges xmi:type="notation:Edge" xmi:id="_1hPMOK7JEeaWQJ-HN6H7gQ" type="4001" element="_1guOxa7JEeaWQJ-HN6H7gQ" source="_1hPMJ67JEeaWQJ-HN6H7gQ" target="_rR7A0K67EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_1hPMPK7JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMPa7JEeaWQJ-HN6H7gQ" x="11" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMPq7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMP67JEeaWQJ-HN6H7gQ" x="7" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMQK7JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMQa7JEeaWQJ-HN6H7gQ" x="-20" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_1hPMOa7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1hPMOq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1hPMO67JEeaWQJ-HN6H7gQ" points="[-1, 22, -95, -101]$[-1, 45, -95, -78]$[95, 45, 1, -78]$[95, 61, 1, -62]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMQq7JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMQ67JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_1hPMRK7JEeaWQJ-HN6H7gQ" type="4001" element="_1guOyK7JEeaWQJ-HN6H7gQ" source="_1hPMJ67JEeaWQJ-HN6H7gQ" target="_rR7n4K67EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_1hPMSK7JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMSa7JEeaWQJ-HN6H7gQ" x="-40" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMSq7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMS67JEeaWQJ-HN6H7gQ" x="9" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMTK7JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMTa7JEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_1hPMRa7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1hPMRq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1hPMR67JEeaWQJ-HN6H7gQ" points="[-1, 22, 121, -101]$[-1, 45, 121, -78]$[-121, 45, 1, -78]$[-121, 61, 1, -62]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMTq7JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMT67JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_1hPMUK7JEeaWQJ-HN6H7gQ" type="4001" element="_1guOy67JEeaWQJ-HN6H7gQ" source="_1hPMJ67JEeaWQJ-HN6H7gQ" target="_rR8O8q67EeaPEIJs-cyPJw">
+            <children xmi:type="notation:Node" xmi:id="_1hPMVK7JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMVa7JEeaWQJ-HN6H7gQ" x="-27" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMVq7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMV67JEeaWQJ-HN6H7gQ" x="94" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMWK7JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMWa7JEeaWQJ-HN6H7gQ" x="-16" y="5"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_1hPMUa7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1hPMUq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1hPMU67JEeaWQJ-HN6H7gQ" points="[-1, -47, -167, -2]$[-1, -219, -167, -174]$[167, -219, 1, -174]$[167, -107, 1, -62]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMWq7JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMW67JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_1hPMXK7JEeaWQJ-HN6H7gQ" type="4001" element="_1guOzq7JEeaWQJ-HN6H7gQ" source="_1hPMJ67JEeaWQJ-HN6H7gQ" target="_1hOlEa7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_1hPMYK7JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMYa7JEeaWQJ-HN6H7gQ" x="46" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMYq7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMY67JEeaWQJ-HN6H7gQ" x="96" y="-97"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMZK7JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMZa7JEeaWQJ-HN6H7gQ" x="-24" y="-76"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_1hPMXa7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1hPMXq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1hPMX67JEeaWQJ-HN6H7gQ" points="[-1, -47, 181, 10]$[-1, -219, 181, -162]$[-181, -219, 1, -162]$[-181, -119, 1, -62]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMZq7JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMZ67JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_1hPMaK7JEeaWQJ-HN6H7gQ" type="4001" element="_1guO0a7JEeaWQJ-HN6H7gQ" source="_1hPMIq7JEeaWQJ-HN6H7gQ" target="_1hPMJ67JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_1hPMbK7JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMba7JEeaWQJ-HN6H7gQ" x="-17" y="45"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMbq7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMb67JEeaWQJ-HN6H7gQ" x="-50" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1hPMcK7JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hPMca7JEeaWQJ-HN6H7gQ" x="-23" y="-29"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_1hPMaa7JEeaWQJ-HN6H7gQ" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1hPMaq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1hPMa67JEeaWQJ-HN6H7gQ" points="[100, 16, -21, -246]$[219, 16, 98, -246]$[219, 249, 98, -13]$[31, 249, -90, -13]$[31, 286, -90, 24]$[172, 286, 51, 24]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMcq7JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1hPMc67JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rRzFBa67EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-current_temperature.value-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation current_temperature.value" incomingEdges="_1guOxa7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_rRzFBq67EeaPEIJs-cyPJw" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rRzFB667EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_mode-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation monitor_mode" incomingEdges="_1guOyK7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.1"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_rRzFCK67EeaPEIJs-cyPJw" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rRzFCa67EeaPEIJs-cyPJw" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_temp_upper-alarmtempupper (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation alarm_temp_upper" incomingEdges="_1guOy67JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.2"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_1guOwK7JEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1guOwa7JEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_temp_lower-alarmtemplower (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation alarm_temp_lower" incomingEdges="_1guOzq7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.3"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_1guOwq7JEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1guOw67JEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata (0.0)&#xA;" outgoingEdges="_1guO0a7JEeaWQJ-HN6H7gQ" width="20" height="5" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_1guOxK7JEeaWQJ-HN6H7gQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="20" height="5" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1gkdwK7JEeaWQJ-HN6H7gQ" name="OR" outgoingEdges="_1guOxa7JEeaWQJ-HN6H7gQ _1guOyK7JEeaWQJ-HN6H7gQ _1guOy67JEeaWQJ-HN6H7gQ _1guOzq7JEeaWQJ-HN6H7gQ" incomingEdges="_1guO0a7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <semanticElements xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_1gkdwa7JEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/or.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1guOxa7JEeaWQJ-HN6H7gQ" sourceNode="_1gkdwK7JEeaWQJ-HN6H7gQ" targetNode="_rRzFBa67EeaPEIJs-cyPJw">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1guOxq7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1guOx67JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1guOyK7JEeaWQJ-HN6H7gQ" sourceNode="_1gkdwK7JEeaWQJ-HN6H7gQ" targetNode="_rRzFB667EeaPEIJs-cyPJw">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1guOya7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1guOyq7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1guOy67JEeaWQJ-HN6H7gQ" sourceNode="_1gkdwK7JEeaWQJ-HN6H7gQ" targetNode="_rRzFCa67EeaPEIJs-cyPJw">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1guOzK7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1guOza7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1guOzq7JEeaWQJ-HN6H7gQ" sourceNode="_1gkdwK7JEeaWQJ-HN6H7gQ" targetNode="_1guOwa7JEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1guOz67JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1guO0K7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1guO0a7JEeaWQJ-HN6H7gQ" sourceNode="_1guOw67JEeaWQJ-HN6H7gQ" targetNode="_1gkdwK7JEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#//@events.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1guO0q7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1guO067JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_rRzFFK67EeaPEIJs-cyPJw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata_fulltree.emfta#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_gq1FUK7GEeaWQJ-HN6H7gQ">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_gq1FUa7GEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_gq1FUq7GEeaWQJ-HN6H7gQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_gq1FU67GEeaWQJ-HN6H7gQ"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_gq7L8K7GEeaWQJ-HN6H7gQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_gq7L8a7GEeaWQJ-HN6H7gQ" type="Sirius" element="_gq1FUa7GEeaWQJ-HN6H7gQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_gq9oMq7GEeaWQJ-HN6H7gQ" type="2001" element="_gq1FVq7GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_gq9oNa7GEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gq9oNq7GEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gq9oRK7GEeaWQJ-HN6H7gQ" type="3005" element="_gq1FV67GEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gq9oRa7GEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gq9oRq7GEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gq9oM67GEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gq9oNK7GEeaWQJ-HN6H7gQ" x="216" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gq9oN67GEeaWQJ-HN6H7gQ" type="2001" element="_gq1FWK7GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_gq9oOq7GEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gq9oO67GEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gq9oR67GEeaWQJ-HN6H7gQ" type="3005" element="_gq1FWa7GEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gq9oSK7GEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gq9oSa7GEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gq9oOK7GEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gq9oOa7GEeaWQJ-HN6H7gQ" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gq9oPK7GEeaWQJ-HN6H7gQ" type="2001" element="_gq1FWq7GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_gq9oP67GEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gq9oQK7GEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysmq7JEeaWQJ-HN6H7gQ" type="3005" element="_h08Aoa7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_h1Ysm67JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YsnK7JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gq9oPa7GEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gq9oPq7GEeaWQJ-HN6H7gQ" x="84" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_h1YskK7JEeaWQJ-HN6H7gQ" type="2001" element="_h08Aoq7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1Ysk67JEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_h1YslK7JEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysna7JEeaWQJ-HN6H7gQ" type="3003" element="_h1FxoK7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_h1Ysnq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ysn67JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_h1Yska7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Yskq7JEeaWQJ-HN6H7gQ" x="-144" y="-240" width="200" height="50"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_h1Ysla7JEeaWQJ-HN6H7gQ" type="2001" element="_h0yPoK7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1YsmK7JEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_h1Ysma7JEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1YsoK7JEeaWQJ-HN6H7gQ" type="3005" element="_h08AoK7JEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_h1Ysoa7JEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ysoq7JEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_h1Yslq7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ysl67JEeaWQJ-HN6H7gQ" x="-96" y="-120" width="106" height="95"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_gq7L8q7GEeaWQJ-HN6H7gQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_h1Yso67JEeaWQJ-HN6H7gQ" type="4001" element="_h1Fxoa7JEeaWQJ-HN6H7gQ" source="_h1Ysla7JEeaWQJ-HN6H7gQ" target="_gq9oMq7GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1Ysp67JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YsqK7JEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysqa7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ysqq7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysq67JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YsrK7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_h1YspK7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_h1Yspa7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h1Yspq7JEeaWQJ-HN6H7gQ" points="[0, -95, 211, -155]$[0, 160, 211, 100]$[-211, 160, 0, 100]$[-211, 211, 0, 151]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysra7JEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysrq7JEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_h1Ysr67JEeaWQJ-HN6H7gQ" type="4001" element="_h1FxpK7JEeaWQJ-HN6H7gQ" source="_h1Ysla7JEeaWQJ-HN6H7gQ" target="_gq9oN67GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1Yss67JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YstK7JEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysta7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ystq7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Yst67JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YsuK7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_h1YssK7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_h1Yssa7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h1Yssq7JEeaWQJ-HN6H7gQ" points="[0, -95, 0, -155]$[0, 160, 0, 100]$[0, 160, 0, 100]$[0, 211, 0, 151]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysua7JEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysuq7JEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_h1Ysu67JEeaWQJ-HN6H7gQ" type="4001" element="_h1Fxp67JEeaWQJ-HN6H7gQ" source="_h1Ysla7JEeaWQJ-HN6H7gQ" target="_gq9oPK7GEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1Ysv67JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YswK7JEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Yswa7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Yswq7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysw67JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YsxK7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_h1YsvK7JEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_h1Ysva7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h1Ysvq7JEeaWQJ-HN6H7gQ" points="[0, 0, -211, -60]$[211, 60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysxa7JEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ysxq7JEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_h1Ysx67JEeaWQJ-HN6H7gQ" type="4001" element="_h1Fxqq7JEeaWQJ-HN6H7gQ" source="_h1YskK7JEeaWQJ-HN6H7gQ" target="_h1Ysla7JEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_h1Ysy67JEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1YszK7JEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysza7JEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Yszq7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_h1Ysz67JEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h1Ys0K7JEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_h1YsyK7JEeaWQJ-HN6H7gQ" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_h1Ysya7JEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h1Ysyq7JEeaWQJ-HN6H7gQ" points="[0, 25, 0, -107]$[0, 85, 0, -47]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ys0a7JEeaWQJ-HN6H7gQ" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h1Ys0q7JEeaWQJ-HN6H7gQ" id="(0.5,0.49473684210526314)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gq1FVq7GEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-current_temperature.value-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation current_temperature.value" incomingEdges="_h1Fxoa7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_gq1FV67GEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gq1FWK7GEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_mode-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation monitor_mode" incomingEdges="_h1FxpK7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.1"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_gq1FWa7GEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gq1FWq7GEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-alarm_temp_lower-alarmtemplower (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation alarm_temp_lower" incomingEdges="_h1Fxp67JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.2"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_h08Aoa7JEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h08Aoq7JEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata (0.0)&#xA;" outgoingEdges="_h1Fxqq7JEeaWQJ-HN6H7gQ" width="20" height="5" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_h1FxoK7JEeaWQJ-HN6H7gQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="20" height="5" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h0yPoK7JEeaWQJ-HN6H7gQ" name="OR" outgoingEdges="_h1Fxoa7JEeaWQJ-HN6H7gQ _h1FxpK7JEeaWQJ-HN6H7gQ _h1Fxp67JEeaWQJ-HN6H7gQ" incomingEdges="_h1Fxqq7JEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3/@gate"/>
+        <semanticElements xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3/@gate"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_h08AoK7JEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/or.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h1Fxoa7JEeaWQJ-HN6H7gQ" sourceNode="_h0yPoK7JEeaWQJ-HN6H7gQ" targetNode="_gq1FVq7GEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h1Fxoq7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h1Fxo67JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h1FxpK7JEeaWQJ-HN6H7gQ" sourceNode="_h0yPoK7JEeaWQJ-HN6H7gQ" targetNode="_gq1FWK7GEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h1Fxpa7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h1Fxpq7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h1Fxp67JEeaWQJ-HN6H7gQ" sourceNode="_h0yPoK7JEeaWQJ-HN6H7gQ" targetNode="_gq1FWq7GEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h1FxqK7JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h1Fxqa7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h1Fxqq7JEeaWQJ-HN6H7gQ" sourceNode="_h08Aoq7JEeaWQJ-HN6H7gQ" targetNode="_h0yPoK7JEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#//@events.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h1Fxq67JEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h1FxrK7JEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_gq1FZa7GEeaWQJ-HN6H7gQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-nodata.emfta#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_rOrMoK7IEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rOrMoa7IEeaWQJ-HN6H7gQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_rOrMoq7IEeaWQJ-HN6H7gQ"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rOrMsK7IEeaWQJ-HN6H7gQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_rOrMsa7IEeaWQJ-HN6H7gQ" type="Sirius" element="_rOrMoK7IEeaWQJ-HN6H7gQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_rOrMs67IEeaWQJ-HN6H7gQ" type="2001" element="_rOrMo67IEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_rO09oK7IEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rO09oa7IEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rO09rK7IEeaWQJ-HN6H7gQ" type="3003" element="_rOrMpK7IEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rO09ra7IEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO09rq7IEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rOrMtK7IEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rOrMta7IEeaWQJ-HN6H7gQ" x="25" y="108" width="150" height="60"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rO09oq7IEeaWQJ-HN6H7gQ" type="2001" element="_rOrMpa7IEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_rO09pa7IEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rO09pq7IEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rO09r67IEeaWQJ-HN6H7gQ" type="3005" element="_rOrMpq7IEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rO09sK7IEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO09sa7IEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rO09o67IEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO09pK7IEeaWQJ-HN6H7gQ" x="24" y="228" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rO09p67IEeaWQJ-HN6H7gQ" type="2001" element="_rOrMp67IEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_rO09qq7IEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rO09q67IEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rO09sq7IEeaWQJ-HN6H7gQ" type="3003" element="_rOrMqK7IEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rO09s67IEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO09tK7IEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rO09qK7IEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO09qa7IEeaWQJ-HN6H7gQ" width="200" height="50"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_rOrMsq7IEeaWQJ-HN6H7gQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_rO09ta7IEeaWQJ-HN6H7gQ" type="4001" element="_rOrMqa7IEeaWQJ-HN6H7gQ" source="_rOrMs67IEeaWQJ-HN6H7gQ" target="_rO09oq7IEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_rO-HkK7IEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO-Hka7IEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rO-Hkq7IEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO-Hk67IEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rO-HlK7IEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rO-Hla7IEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_rO09tq7IEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_rO09t67IEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rO09uK7IEeaWQJ-HN6H7gQ" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rPH4kK7IEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rPH4ka7IEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_rPH4kq7IEeaWQJ-HN6H7gQ" type="4001" element="_rOrMrK7IEeaWQJ-HN6H7gQ" source="_rO09p67IEeaWQJ-HN6H7gQ" target="_rOrMs67IEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_rPH4lq7IEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPH4l67IEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rPH4mK7IEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPH4ma7IEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rPH4mq7IEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPH4m67IEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_rPH4k67IEeaWQJ-HN6H7gQ" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_rPH4lK7IEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rPH4la7IEeaWQJ-HN6H7gQ" points="[0, 25, 0, -90]$[0, 85, 0, -30]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rPH4nK7IEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rPH4na7IEeaWQJ-HN6H7gQ" id="(0.5,0.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rOrMo67IEeaWQJ-HN6H7gQ" name=" Intermediate Gate&#xA;" outgoingEdges="_rOrMqa7IEeaWQJ-HN6H7gQ" incomingEdges="_rOrMrK7IEeaWQJ-HN6H7gQ" width="15" height="6" resizeKind="NSEW">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1/@gate"/>
+        <semanticElements xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1/@gate"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_rOrMpK7IEeaWQJ-HN6H7gQ" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="15" height="6" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rOrMpa7IEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_mode-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation monitor_mode" incomingEdges="_rOrMqa7IEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_rOrMpq7IEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rOrMp67IEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata (0.0)&#xA;" outgoingEdges="_rOrMrK7IEeaWQJ-HN6H7gQ" width="20" height="5" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_rOrMqK7IEeaWQJ-HN6H7gQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="20" height="5" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_rOrMqa7IEeaWQJ-HN6H7gQ" sourceNode="_rOrMo67IEeaWQJ-HN6H7gQ" targetNode="_rOrMpa7IEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_rOrMqq7IEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_rOrMq67IEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_rOrMrK7IEeaWQJ-HN6H7gQ" sourceNode="_rOrMp67IEeaWQJ-HN6H7gQ" targetNode="_rOrMo67IEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_rOrMra7IEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_rOrMrq7IEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_rOrMr67IEeaWQJ-HN6H7gQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-nodata.emfta#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_oyRe0K7MEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_oyRe0a7MEeaWQJ-HN6H7gQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_oyRe0q7MEeaWQJ-HN6H7gQ"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_oyRe1q7MEeaWQJ-HN6H7gQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_oyRe167MEeaWQJ-HN6H7gQ" type="Sirius" element="_oyRe0K7MEeaWQJ-HN6H7gQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_oyRe2a7MEeaWQJ-HN6H7gQ" type="2001" element="_oyRe067MEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_oyRe3K7MEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oyRe3a7MEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_o4olgK7MEeaWQJ-HN6H7gQ" type="3005" element="_oyRe1K7MEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_o4olga7MEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o4olgq7MEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oyRe2q7MEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oyRe267MEeaWQJ-HN6H7gQ" width="165" height="135"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_oyRe2K7MEeaWQJ-HN6H7gQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_oyRe067MEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with out propagation monitor_interface_failure" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree.emfta#//@events.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_oyRe1K7MEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-basic.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_oyRe1a7MEeaWQJ-HN6H7gQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree.emfta#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_YvB5IK7WEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree Tree">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_YvB5Ia7WEeaWQJ-HN6H7gQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_YvB5Iq7WEeaWQJ-HN6H7gQ"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_YvCgMK7WEeaWQJ-HN6H7gQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_YvCgMa7WEeaWQJ-HN6H7gQ" type="Sirius" element="_YvB5IK7WEeaWQJ-HN6H7gQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_YvCgM67WEeaWQJ-HN6H7gQ" type="2001" element="_YvB5I67WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvDHQK7WEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YvDHQa7WEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvFjgq7WEeaWQJ-HN6H7gQ" type="3005" element="_YvB5JK7WEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YvFjg67WEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvFjhK7WEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YvCgNK7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvCgNa7WEeaWQJ-HN6H7gQ" x="131" y="108" width="106" height="95"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YvDuUK7WEeaWQJ-HN6H7gQ" type="2001" element="_YvB5Ja7WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvDuU67WEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YvDuVK7WEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvGKkK7WEeaWQJ-HN6H7gQ" type="3005" element="_YvB5Jq7WEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YvGKka7WEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvGKkq7WEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YvDuUa7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvDuUq7WEeaWQJ-HN6H7gQ" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YvEVYK7WEeaWQJ-HN6H7gQ" type="2001" element="_YvB5J67WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvE8cK7WEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YvE8ca7WEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvGKk67WEeaWQJ-HN6H7gQ" type="3005" element="_YvB5KK7WEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YvGKlK7WEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvGKla7WEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YvEVYa7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvEVYq7WEeaWQJ-HN6H7gQ" x="216" y="264" width="151" height="125"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YvE8cq7WEeaWQJ-HN6H7gQ" type="2001" element="_YvB5Ka7WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvFjgK7WEeaWQJ-HN6H7gQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YvFjga7WEeaWQJ-HN6H7gQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvGxoK7WEeaWQJ-HN6H7gQ" type="3003" element="_YvB5Kq7WEeaWQJ-HN6H7gQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_YvGxoa7WEeaWQJ-HN6H7gQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvGxoq7WEeaWQJ-HN6H7gQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YvE8c67WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvE8dK7WEeaWQJ-HN6H7gQ" x="84" width="200" height="50"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_YvCgMq7WEeaWQJ-HN6H7gQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_YvHYsK7WEeaWQJ-HN6H7gQ" type="4001" element="_YvB5K67WEeaWQJ-HN6H7gQ" source="_YvCgM67WEeaWQJ-HN6H7gQ" target="_YvDuUK7WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvHYtK7WEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvHYta7WEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvHYtq7WEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvHYt67WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvHYuK7WEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvHYua7WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_YvHYsa7WEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YvHYsq7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YvHYs67WEeaWQJ-HN6H7gQ" points="[0, -95, 105, -155]$[0, 44, 105, -16]$[-105, 44, 0, -16]$[-105, 211, 0, 151]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvH_wK7WEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvH_wa7WEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_YvIm0K7WEeaWQJ-HN6H7gQ" type="4001" element="_YvB5Lq7WEeaWQJ-HN6H7gQ" source="_YvCgM67WEeaWQJ-HN6H7gQ" target="_YvEVYK7WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvJN4K7WEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvJN4a7WEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvJN4q7WEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvJN467WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvKcAK7WEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvKcAa7WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_YvIm0a7WEeaWQJ-HN6H7gQ" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YvIm0q7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YvIm067WEeaWQJ-HN6H7gQ" points="[0, 0, -106, -60]$[106, 60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvKcAq7WEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvKcA67WEeaWQJ-HN6H7gQ" id="(0.4966887417218543,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_YvKcBK7WEeaWQJ-HN6H7gQ" type="4001" element="_YvB5Ma7WEeaWQJ-HN6H7gQ" source="_YvE8cq7WEeaWQJ-HN6H7gQ" target="_YvCgM67WEeaWQJ-HN6H7gQ">
+            <children xmi:type="notation:Node" xmi:id="_YvLDEK7WEeaWQJ-HN6H7gQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvLDEa7WEeaWQJ-HN6H7gQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvLDEq7WEeaWQJ-HN6H7gQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvLDE67WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_YvLDFK7WEeaWQJ-HN6H7gQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvLDFa7WEeaWQJ-HN6H7gQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_YvKcBa7WEeaWQJ-HN6H7gQ" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YvKcBq7WEeaWQJ-HN6H7gQ" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YvKcB67WEeaWQJ-HN6H7gQ" points="[0, 25, 0, -107]$[0, 85, 0, -47]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvLDFq7WEeaWQJ-HN6H7gQ" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YvLDF67WEeaWQJ-HN6H7gQ" id="(0.5,0.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YvB5I67WEeaWQJ-HN6H7gQ" name="OR" outgoingEdges="_YvB5K67WEeaWQJ-HN6H7gQ _YvB5Lq7WEeaWQJ-HN6H7gQ" incomingEdges="_YvB5Ma7WEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2/@gate"/>
+        <semanticElements xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2/@gate"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YvB5JK7WEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/or.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='GateNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YvB5Ja7WEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-current_temperature.value-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation current_temperature.value" incomingEdges="_YvB5K67WEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.0"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YvB5Jq7WEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YvB5J67WEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_mode-latedata (0.0)&#xA;component Manage_Monitor_Interface_Thread_impl_Instance with in propagation monitor_mode" incomingEdges="_YvB5Lq7WEeaWQJ-HN6H7gQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.1"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YvB5KK7WEeaWQJ-HN6H7gQ" showIcon="false" labelPosition="node" workspacePath="/emfta.design/imgs/event-external.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.4/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YvB5Ka7WEeaWQJ-HN6H7gQ" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror (0.0)&#xA;" outgoingEdges="_YvB5Ma7WEeaWQJ-HN6H7gQ" width="20" height="5" resizeKind="NSEW">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2"/>
+        <semanticElements xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_YvB5Kq7WEeaWQJ-HN6H7gQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="20" height="5" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']/@conditionnalStyles.5/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@nodeMappings[name='EventNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YvB5K67WEeaWQJ-HN6H7gQ" sourceNode="_YvB5I67WEeaWQJ-HN6H7gQ" targetNode="_YvB5Ja7WEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YvB5LK7WEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YvB5La7WEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YvB5Lq7WEeaWQJ-HN6H7gQ" sourceNode="_YvB5I67WEeaWQJ-HN6H7gQ" targetNode="_YvB5J67WEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Gate" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2/@gate"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YvB5L67WEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YvB5MK7WEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='GateToEventEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YvB5Ma7WEeaWQJ-HN6H7gQ" sourceNode="_YvB5Ka7WEeaWQJ-HN6H7gQ" targetNode="_YvB5I67WEeaWQJ-HN6H7gQ">
+        <target xmi:type="emfta:Event" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#//@events.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YvB5Mq7WEeaWQJ-HN6H7gQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YvB5M67WEeaWQJ-HN6H7gQ"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer/@edgeMappings[name='EventToGate']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_YvB5NK7WEeaWQJ-HN6H7gQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']/@ownedRepresentations[name='Tree.diagram']/@defaultLayer"/>
+      <target xmi:type="emfta:FTAModel" href="monitor_temperature/fta/monitor_temperature_manage_monitor_interface_thread_impl-monitor_status-statuserror_fulltree.emfta#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/emfta.design/description/emfta.odesign#//@ownedViewpoints[name='EMFTA']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

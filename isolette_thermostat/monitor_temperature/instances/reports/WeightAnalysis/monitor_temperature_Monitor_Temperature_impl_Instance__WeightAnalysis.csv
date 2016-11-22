@@ -1,0 +1,10 @@
+Weight totals Report
+
+Warning! manage_monitor_interface_sub: [L] No net weight plus subcomponent weight or no gross weight
+Warning! manage_monitor_interface: [L] No net weight plus subcomponent weight or no gross weight
+Warning! manage_monitor_mode_sub: [L] No net weight plus subcomponent weight or no gross weight
+Warning! manage_monitor_mode: [L] No net weight plus subcomponent weight or no gross weight
+Warning! manage_alarm_sub: [L] No net weight plus subcomponent weight or no gross weight
+Warning! manage_alarm: [L] No net weight plus subcomponent weight or no gross weight
+Warning! detect_monitor_failure: [L] No net weight plus subcomponent weight or no gross weight
+Warning! Monitor_Temperature_impl_Instance: [L] No net weight plus subcomponent weight or no gross weight
