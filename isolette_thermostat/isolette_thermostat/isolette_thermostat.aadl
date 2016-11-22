@@ -20,6 +20,7 @@ public
 			display_temperature_conn : port regulate_temperature.display_temperature -> operator_feedback.display_temperature;
 			current_temperature_regulate_conn : feature group current_temperature -> regulate_temperature.current_temperature;
 			heat_control_conn : port regulate_temperature.heat_control -> heat_control;
+	
 	end  Thermostat.impl;
 
 	-- Version after architecture revision to meet implementation constraints
@@ -53,6 +54,26 @@ public
 													monitor_temperature.alarm_temp_monitor_status ->
 													monitor_status_conn -> 
 													operator_feedback.monitor_status;
+	annex Resolute{**
+		prove thermostatreq1()
+		prove thermostatreq2()
+		--prove regulator()
+	**};
 	end  Thermostat.impl_rev;
+	annex Resolute{**
+		thermostatreq1()<=
+		**"req1: Thermostat shall set the value for monitor status and regulator status"**
+		forall(c:component).true=>monitorreq(c) 
+		
+	monitorreq(com:component)<=
+		**"req: Monitor temperature function should set value for alarm control, monitor status, and Init"**
+		forall(c:component).true
+		thermostatreq2()<=
+		**"req2:Thermostat shall set the value for monitor status and regulator status"**
+		forall(c:component).true=>regulatorreq(c)
+	regulatorreq(com:component)<=
+		**"Regulator temperatur function should set value for alarm control, monitor status, and Normal"**
+		forall(c:component).false
+	**};
 	
 end isolette_thermostat;

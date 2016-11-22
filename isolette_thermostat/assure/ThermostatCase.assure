@@ -1,0 +1,218 @@
+case ThermostatCase [
+	tbdcount 24
+	model ThermostatCase.Thermostatvplan for isolette_thermostat::Thermostat.impl_rev [
+		tbdcount 24
+		claim Thermostatvplan # req1_1 [
+			tbdcount 1
+			verification Thermostatvplan # req1_1 # actualthermostatfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim Thermostatvplan # req1_2 [
+			tbdcount 1
+			verification Thermostatvplan # req1_2 # actualthermostatfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim Thermostatvplan # req1_3 [
+			tbdcount 1
+			verification Thermostatvplan # req1_3 # actualthermostatfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim Thermostatvplan # req1_4 [
+			tbdcount 1
+			verification Thermostatvplan # req1_4 # actualthermostatfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim Thermostatvplan # req2 [
+			tbdcount 1
+			verification Thermostatvplan # req2 # actualthermostatfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req1_1 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req1_1 # actualmonitorfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req1_2 [
+		]
+		claim monitor_temperaturevplan # req2_1 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req2_1 # actualmonitorstatus [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req2_2 [
+		]
+		claim monitor_temperaturevplan # req2_3 [
+		]
+		claim monitor_temperaturevplan # req2_4 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req2_4 # actualmonitorstatuslatency [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req3_1 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req3_1 # interfacefailure [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req3_2 [
+		]
+		claim monitor_temperaturevplan # req4_1 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req4_1 # actualalarmrange [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req4_2 [
+		]
+		claim monitor_temperaturevplan # req5_1 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req5_1 # actualalarmcontrol [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req5_2 [
+		]
+		claim monitor_temperaturevplan # req5_3 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req5_3 # actualalarmvalue [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim monitor_temperaturevplan # req5_4 [
+		]
+		claim monitor_temperaturevplan # req5_5 [
+		]
+		claim monitor_temperaturevplan # req5_6 [
+			tbdcount 1
+			verification monitor_temperaturevplan # req5_6 # actualalarmcontrollatency [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req1_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req1_1 # actualregulatorfunction [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req1_2 [
+		]
+		claim regulate_temperaturevplan # req1_3 [
+		]
+		claim regulate_temperaturevplan # req2_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req2_1 # actualregulatorinterface [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req2_2 [
+		]
+		claim regulate_temperaturevplan # req2_3 [
+		]
+		claim regulate_temperaturevplan # req2_4 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req2_4 # actualregulatorlatency [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req3_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req3_1 # actualdisplaytemp [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req3_2 [
+		]
+		claim regulate_temperaturevplan # req3_3 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req3_3 # actualdisplaytemplatency [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req3_4 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req3_4 # actualdisplaytemptolerance [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req4_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req4_1 # actualregulatorfailure [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req4_2 [
+		]
+		claim regulate_temperaturevplan # req5_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req5_1 # actualdesiredrange [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req5_2 [
+		]
+		claim regulate_temperaturevplan # req6_1 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req6_1 # actualheatcontrol [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req6_2 [
+		]
+		claim regulate_temperaturevplan # req6_3 [
+		]
+		claim regulate_temperaturevplan # req6_4 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req6_4 # actualvalue [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		claim regulate_temperaturevplan # req6_5 [
+		]
+		claim regulate_temperaturevplan # req6_6 [
+			tbdcount 1
+			verification regulate_temperaturevplan # req6_6 # actualheatcontrollatency [
+				executionstate todo resultstate tbd tbdcount 1
+			]
+		]
+		subsystem regulate_temperature [
+			subsystem manage_heat_source [
+				subsystem manage_heat_source_sub [
+				]
+			]
+			subsystem manage_regulator_interface [
+				subsystem manage_reg_interface_sub [
+				]
+			]
+			subsystem manage_regulator_mode [
+				subsystem manage_reg_mode_sub [
+				]
+			]
+			subsystem detect_regulator_failure [
+			]
+		]
+		subsystem monitor_temperature [
+			subsystem manage_monitor_interface [
+				subsystem manage_monitor_interface_sub [
+				]
+			]
+			subsystem manage_monitor_mode [
+				subsystem manage_monitor_mode_sub [
+				]
+			]
+			subsystem manage_alarm [
+				subsystem manage_alarm_sub [
+				]
+			]
+			subsystem detect_monitor_failure [
+			]
+		]
+	]
+]

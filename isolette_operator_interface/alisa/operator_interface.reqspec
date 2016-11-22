@@ -9,7 +9,7 @@ system requirements Operator_InterfaceReqs for isolette::Operator_Interface[
 	]
 	requirement req2_1 : "The Lower Alarm Temperature"
 	[
-		description "shall be lees than" Alarmtemp
+		description "shall be less than" Alarmtemp
 		val Alarmtemp = 93
 	]
 	requirement req2_2 : "The Lower Alarm Temperature"

@@ -1,45 +1,39 @@
 case isoletteCase [
 	successcount 2 featurescount 16
-	model isoletteCase.IsolettePlan for isolette::Isolette.Normal_Operation [
-		successcount 2 featurescount 16 totalqualitycategorycount 14 requirementscount 2
+	model isoletteCase.IsolettevPlan for isolette::Isolette.Normal_Operation [
+		successcount 2 featurescount 16 totalqualitycategorycount 13 requirementscount 2
 		claim Isolettevplan # req1_1 [
 			successcount 1
-			verification Isolettevplan # req1_1 # actualMinrate_increase [
-				executionstate completed resultstate success
-				issues [
-					warning "[L] No net weight plus subcomponent weight or no gross weight" diagnosticId ""
-				] successcount 1 time 285
+			verification Isolettevplan # req1_1 # actualTemperature_Increment [
+				executionstate completed resultstate success successcount 1 time 616
 			]
 		]
 		claim Isolettevplan # req1_2 [
 			successcount 1
-			verification Isolettevplan # req1_2 # actualMinrate_decrease [
-				executionstate completed resultstate success
-				issues [
-					warning "[L] No net weight plus subcomponent weight or no gross weight" diagnosticId ""
-				] successcount 1
+			verification Isolettevplan # req1_2 # actualTemperature_Increment [
+				executionstate completed resultstate success successcount 1
 			]
 		]
 		subsystem infant [
-			featurescount 1 totalqualitycategorycount 14
+			featurescount 1 totalqualitycategorycount 13
 		]
 		subsystem nurse [
-			featurescount 1 totalqualitycategorycount 14
+			featurescount 1 totalqualitycategorycount 13
 		]
 		subsystem thermostat [
-			featurescount 4 totalqualitycategorycount 14
+			featurescount 4 totalqualitycategorycount 13
 		]
 		subsystem temperature_sensor [
-			featurescount 2 totalqualitycategorycount 14
+			featurescount 2 totalqualitycategorycount 13
 		]
 		subsystem heat_source [
-			featurescount 2 totalqualitycategorycount 14
+			featurescount 2 totalqualitycategorycount 13
 		]
 		subsystem operator_interface [
-			featurescount 3 totalqualitycategorycount 14
+			featurescount 3 totalqualitycategorycount 13
 		]
 		subsystem air [
-			featurescount 3 totalqualitycategorycount 14
+			featurescount 3 totalqualitycategorycount 13
 		]
 	]
 ]

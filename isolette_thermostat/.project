@@ -3,6 +3,7 @@
 	<name>isolette_thermostat</name>
 	<comment></comment>
 	<projects>
+		<project>AlisaPredefined</project>
 		<project>isolette</project>
 		<project>Plugin_Resources</project>
 	</projects>

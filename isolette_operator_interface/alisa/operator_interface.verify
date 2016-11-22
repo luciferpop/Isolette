@@ -1,0 +1,43 @@
+verification plan Operator_Interfacevplan for Operator_InterfaceReqs[
+	
+claim req1_1 [
+	activities 
+		actualtemperatureunit : Plugins.PortDataConsistency()
+	]
+claim req1_2 [
+	activities 
+		actualdisplayedtmperature : Plugins.PortDataConsistency()
+	]
+claim req2_1[
+	activities
+		actualalarmtemperature : Plugins.PortDataConsistency()
+]
+claim req2_2[
+	
+]
+claim req3_1[
+	activities
+		actuallowerdesiredtemp : Plugins.PortDataConsistency()
+		[category Quality.Mass]
+]
+claim req3_2[
+	
+]
+claim req4[
+	activities
+	actualupperdesiredtemp : Plugins.PortDataConsistency()
+]
+claim req5_1[
+	activities
+	actualupperalarmtemp : Plugins.PortDataConsistency()
+]
+claim req5_2[
+	
+]
+claim req6[
+	activities
+	actualdisplaytemp : Plugins.PortDataConsistency()
+	
+]
+
+]

@@ -3,6 +3,7 @@
 	<name>isolette_temperature_sensor</name>
 	<comment></comment>
 	<projects>
+		<project>AlisaPredefined</project>
 		<project>isolette</project>
 	</projects>
 	<buildSpec>

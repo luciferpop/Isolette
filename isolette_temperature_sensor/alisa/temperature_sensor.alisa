@@ -1,0 +1,22 @@
+assurance case Temperature_SensorCase for isolette::Temperature_Sensor[
+	assurance plan Temperature_Sensorvplan for isolette_temperature_sensor::Temperature_Sensor.impl[
+		description "My Plan"
+		assure Temperature_Sensorvplan
+	]
+	assurance task
+	actualtemperatureunit[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task
+	actualaccuracy[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task
+	actualcurrenttemperature[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task
+	variable[
+		category Quality.Security
+	]
+]

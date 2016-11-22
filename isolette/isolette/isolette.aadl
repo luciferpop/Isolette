@@ -1,5 +1,6 @@
 package isolette
 public
+	
 	with Isolette_Properties, Power_Properties, Data_Model;
 
 	data Current_Temp_Value
@@ -271,6 +272,14 @@ public
 			op_settings_thermostat_conn : feature group operator_interface.operator_settings -> thermostat.operator_settings;
 			an3: port nurse.interface_interaction -> operator_interface.operator_interaction;
 			an4: port infant.air_interaction -> air.infant_interaction;
+		annex Resolute{**
+				
+			prove Isolettereq1() 
+		**};
+		
+
+				
+	
 --		flows
 --			temp_sensor_to_heat_source_flow : end to end flow 	temperature_sensor.temp_sensor_source -> 
 --																temp_sensor_thermostat_conn ->
@@ -288,6 +297,14 @@ public
 --															thermostat_operator_feedback_conn ->
 --															operator_interface.operator_interface_sink;
 	end Isolette.Normal_Operation;
+	
+	annex Resolute{**
+			Temperature_Increment : real = 1.0
+		Isolettereq1()<=
+		**"req1:Temperature rate shall be less than" Temperature_Increment**
+		forall(c:component).true
+		
+	**};
 	
 	data Interface_Interaction
 	end Interface_Interaction;

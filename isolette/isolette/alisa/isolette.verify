@@ -2,15 +2,15 @@ verification plan Isolettevplan for IsoletteReqs[
 	
 	claim req1_1 [
 		activities 
-			actualMinrate_increase : Plugins.MassAnalysis()	
-			[category Quality.Mass]
+			actualTemperature_Increment : Plugins.PortDataConsistency()	
+			
 		]
 
 	
 	claim req1_2 [
 		activities
-			actualMinrate_decrease : Plugins.MassAnalysis()
-			[category Quality.Mass]
+			actualTemperature_Increment : Plugins.PortDataConsistency()
+			
 		]
 
 ]

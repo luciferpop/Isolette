@@ -79,7 +79,7 @@ system requirements regulate_temperatureReqs for isolette::Thermostat[
 	[
 		description "shall be set to Off when the Regulator Mode is FAILED"
 	]
-	requirement req6_6 : "Latency of Hear Control"
+	requirement req6_6 : "Latency of Heat Control"
 	[
 		description "shall be less than Allowed Heat Source Latency"
 	]

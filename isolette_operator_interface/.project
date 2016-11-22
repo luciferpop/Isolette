@@ -3,6 +3,7 @@
 	<name>isolette_operator_interface</name>
 	<comment></comment>
 	<projects>
+		<project>AlisaPredefined</project>
 		<project>isolette</project>
 	</projects>
 	<buildSpec>

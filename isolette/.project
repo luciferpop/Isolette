@@ -3,6 +3,7 @@
 	<name>isolette</name>
 	<comment></comment>
 	<projects>
+		<project>AlisaPredefined</project>
 		<project>data_types</project>
 		<project>heat_source</project>
 		<project>Plugin_Resources</project>

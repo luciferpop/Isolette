@@ -44,7 +44,27 @@ public
 		subcomponents
 			heatsource : device roof_heat_source;
 			skinsensor : device roof_heat_source;
+	annex Resolute{**
+		prove HeatControl_On()
+		prove HeatControl_OFF()
+	**};
 	end Heat_Source.impl;
+	
+	annex Resolute{**
+		HeatControl_On()<=
+		**"After Heat shall be set to On"**
+		forall(c:component).true=>HeatRange(c)
+		
+	HeatRange(com:component)<=
+		**"R1: current temperature range sall be fall with in 68.0 to 105.0"**
+		forall(c:component).true
+		
+		HeatControl_Off()<=
+		**"Heat cannot be On and Off at same time"**
+		forall(c:component).false
+		
+	**};
+	
 	
 	--- roof heat source --- 
 	
@@ -57,6 +77,7 @@ public
 	end roof_heat_source;
 	
 	device implementation roof_heat_source.impl
+	
 	end roof_heat_source.impl;
 	
 	--- skin temperature sensor ---

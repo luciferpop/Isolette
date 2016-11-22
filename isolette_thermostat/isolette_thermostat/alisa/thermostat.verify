@@ -1,0 +1,27 @@
+verification plan Thermostatvplan for ThermostatReqs[
+	claim req1_1[
+		activities
+		actualthermostatfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	] 
+	claim req1_2[
+		activities
+		actualthermostatfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req1_3[
+		activities
+		actualthermostatfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req1_4[
+		activities
+		actualthermostatfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+claim req2 [
+	activities
+		actualthermostatfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+]

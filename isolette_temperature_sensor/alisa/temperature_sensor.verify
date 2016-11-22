@@ -1,0 +1,24 @@
+verification plan Temperature_Sensorvplan for Temperature_SensorReqs[
+	claim req1_1[
+		activities
+		actualtemperatureunit : Plugins.PortDataConsistency()
+	]
+	claim req1_2[
+		activities
+		actualaccuracy : Plugins.PortDataConsistency()
+	]
+	claim req1_3[
+		activities
+		actualcurrenttemperature : Plugins.PortDataConsistency()
+	]
+	claim req2[
+		activities
+		variable: Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req3[
+		activities
+		variable:  Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+]

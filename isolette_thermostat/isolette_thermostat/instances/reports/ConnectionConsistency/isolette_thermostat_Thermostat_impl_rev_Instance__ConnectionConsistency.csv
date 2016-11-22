@@ -1,0 +1,10 @@
+Port Connection Consistency Report
+
+
+operator_settings.desired_temperature_range.upper.value -> regulate_temperature.manage_regulator_interface.desired_temp_lower.status,Destination measurement unit is missing
+
+operator_settings.desired_temperature_range.lower.status -> regulate_temperature.manage_regulator_interface.desired_temp_upper.value,Source measurement unit is missing
+
+operator_settings.alarm_temperature_range.upper.value -> monitor_temperature.manage_monitor_interface.alarm_temp_lower.status,Destination measurement unit is missing
+
+operator_settings.alarm_temperature_range.lower.status -> monitor_temperature.manage_monitor_interface.alarm_temp_upper.value,Source measurement unit is missing

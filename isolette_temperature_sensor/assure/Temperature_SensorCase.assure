@@ -1,0 +1,36 @@
+case Temperature_SensorCase [
+	successcount 5
+	model Temperature_SensorCase.Temperature_Sensorvplan for isolette_temperature_sensor::Temperature_Sensor.impl [
+		successcount 5 totalqualitycategorycount 13 requirementscount 5
+		claim Temperature_Sensorvplan # req1_1 [
+			successcount 1
+			verification Temperature_Sensorvplan # req1_1 # actualtemperatureunit [
+				executionstate completed resultstate success successcount 1 time 129
+			]
+		]
+		claim Temperature_Sensorvplan # req1_2 [
+			successcount 1
+			verification Temperature_Sensorvplan # req1_2 # actualaccuracy [
+				executionstate completed resultstate success successcount 1 time 19
+			]
+		]
+		claim Temperature_Sensorvplan # req1_3 [
+			successcount 1
+			verification Temperature_Sensorvplan # req1_3 # actualcurrenttemperature [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim Temperature_Sensorvplan # req2 [
+			successcount 1
+			verification Temperature_Sensorvplan # req2 # variable [
+				executionstate completed resultstate success successcount 1 time 60
+			]
+		]
+		claim Temperature_Sensorvplan # req3 [
+			successcount 1
+			verification Temperature_Sensorvplan # req3 # variable [
+				executionstate completed resultstate success successcount 1
+			]
+		]
+	]
+]
