@@ -1,8 +1,9 @@
 package isolette
 public
 	with Isolette_Properties, Power_Properties, Data_Model;
+	with Base_Types;
 
-	data Current_Temp_Value
+	data Current_Temp_Value extends Base_Types::Integer
 		properties
 			Data_Model::Measurement_Unit => "Fahrenheit";
 			Data_Model::Data_Representation => Float;
@@ -37,7 +38,7 @@ public
 			Data_Model::Enumerators => ( "Target", "Control" );
 	end Heat_Configuration;
 
-	data Heat
+	data Heat extends base_types::boolean
 	end Heat;
 	
 	data Lower_Desired_Temp_Value
@@ -89,7 +90,7 @@ public
 			upper : in feature group Upper_Desired_Temperature;
 	end Desired_Temperature_Range;
 
-	data Lower_Alarm_Temp_Value
+	data Lower_Alarm_Temp_Value extends Base_Types::Integer
 		properties
 			Data_Model::Measurement_Unit => "Fahrenheit";
 			Data_Model::Data_Representation => Integer;
@@ -103,7 +104,7 @@ public
 			Data_Model::Enumerators => ( "Invalid", "Valid" );
 	end Lower_Alarm_Temp_Status;
 
-	data Upper_Alarm_Temp_Value
+	data Upper_Alarm_Temp_Value extends Base_Types::Integer
 		properties
 			Data_Model::Measurement_Unit => "Fahrenheit";
 			Data_Model::Data_Representation => Integer;
@@ -228,12 +229,19 @@ public
 			temp_sensor_source : flow source current_temperature;
 		properties
 			Isolette_Properties::Failure_Probability => 0.000000005 abs;
+		annex agree {**
+			guarantee "Cannot turn on and off heat at the same time" : not (heat=true and heat=false);
+			**};
 	end Temperature_Sensor;
+	
+	system implementation Temperature_Sensor.impl
+	end Temperature_Sensor.impl;
 	
 	--@description Heats the Air in the Isolette. It is turned on and off by changing the value of the Heat Control controlled variable. 	
 	system Heat_Source
 		features
 			heat_control : in data port Heat_Control;
+			--heat_control : in data port Base_Types::Boolean;
 			heat : out data port Heat;
 			current_temperature : feature group inverse of Current_Temperature;
 		flows
@@ -241,6 +249,13 @@ public
 			heat_source_sink: flow sink heat_control;
 		properties
 			Power_Properties::Power_Static_Tot => 300.0 W .. 310.0 W;
+			
+		annex agree {**
+				guarantee "Cannot turn on and off heat at the same time" : 
+							not (heat=true and heat=false);
+				guarantee "When heat control is on and current temperature does not exceed the range, heater must be truned on" : not (heat=true and heat=false);
+				guarantee "Current temperature does not exceed the range" : not (heat=true and heat=false);
+			**};
 	end Heat_Source;
 	
 	system implementation Heat_Source.with_devices
@@ -257,9 +272,23 @@ public
 			bus_heat_source : bus access this_bus -> this_heat_source.bus_access;
 			---bus_configuration_checker : bus access this_bus -> this_configuration_checker.bus_access;
 			bus_processor : bus access this_bus -> this_processor.bus_access;
-
+		annex agree {**
+				eq heat_request : bool = true;
+				--assert (heat = heat_request);
+			**};
+		annex Resolute{**
+			prove HeatControl_On()
+		**};
 	end Heat_Source.with_devices;
-	
+	annex Resolute{**
+		HeatControl_On()<=
+		**"Heat shall be On"**
+		forall(c:component).true=>HeatRange(c)
+		
+	HeatRange(com:component)<=
+	**"shall be within 68.0 to 105.0"**
+	forall(c:component).true
+	**};
 	--- processors and bus ---
 	
 	processor MainProcessor
@@ -357,10 +386,10 @@ public
 			this_thermostat_controller : process Thermostat_Controller;
 		connections 
 			interaction_setting_conn : feature group operator_interaction <-> this_interaction_receiver.operator_interaction;
-			alarm_temp_range_lower_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_lower;
-			alarm_temp_range_upper_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_upper;
-			desired_temp_range_lower_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_lower;
-			desired_temp_range_upper_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_upper;
+			--alarm_temp_range_lower_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_lower;
+			--alarm_temp_range_upper_conn : feature group this_interaction_receiver.alarm_temp_range -> this_alarm_temperature_setting.alarm_temp_upper;
+			--desired_temp_range_lower_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_lower;
+			--desired_temp_range_upper_conn : feature group this_interaction_receiver.desired_temp_range -> this_desired_temperature_setting.desired_temp_upper;
 			regulator_status_conn : port this_interaction_receiver.regulator_status -> this_thermostat_controller.regulator_status;
 			monitor_status_conn : port this_interaction_receiver.monitor_status -> this_thermostat_controller.monitor_status;
 			display_temp_conn : port this_interaction_receiver.display_temp -> this_thermostat_controller.display_temp;

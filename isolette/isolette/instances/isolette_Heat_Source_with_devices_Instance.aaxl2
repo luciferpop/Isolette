@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" name="Heat_Source_with_devices_Instance" category="system">
+  <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+    <property href="../Power_Properties.aadl#Power_Properties.Power_Static_Tot"/>
+    <ownedValue>
+      <ownedValue xsi:type="aadl2:RangeValue">
+        <minimum xsi:type="aadl2:RealLiteral" value="300.0">
+          <unit href="../Power_Properties.aadl#/0/@ownedPropertyType.2/@ownedLiteral.4"/>
+        </minimum>
+        <maximum xsi:type="aadl2:RealLiteral" value="310.0">
+          <unit href="../Power_Properties.aadl#/0/@ownedPropertyType.2/@ownedLiteral.4"/>
+        </maximum>
+      </ownedValue>
+    </ownedValue>
+    <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedPropertyAssociation.0"/>
+  </ownedPropertyAssociation>
+  <featureInstance name="current_temperature" category="featureGroup" direction="in out">
+    <featureInstance name="value" direction="out">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RangeValue">
+            <minimum xsi:type="aadl2:RealLiteral" value="68.0"/>
+            <maximum xsi:type="aadl2:RealLiteral" value="105.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.3"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance name="status" direction="out">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Invalid"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+    </featureInstance>
+    <feature xsi:type="aadl2:FeatureGroup" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedFeatureGroup.0"/>
+  </featureInstance>
+  <featureInstance name="heat_control">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:NamedValue">
+          <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:ListValue">
+          <ownedListElement xsi:type="aadl2:StringLiteral" value="On"/>
+          <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+    </ownedPropertyAssociation>
+    <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedDataPort.0"/>
+  </featureInstance>
+  <featureInstance name="heat" direction="out">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:NamedValue">
+          <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../../../Plugin_Resources/Base_Types.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedDataPort.1"/>
+  </featureInstance>
+  <componentInstance name="this_bus" category="bus">
+    <subcomponent xsi:type="aadl2:BusSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedBusSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance name="this_heat_source" category="device">
+    <featureInstance name="heat_configuration">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Target"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Control"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.38/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance name="heat_source" direction="out">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.1"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../../../Plugin_Resources/Base_Types.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.38/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance name="bus_access" category="busAccess" direction="in out">
+      <feature xsi:type="aadl2:BusAccess" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.38/@ownedBusAccess.0"/>
+    </featureInstance>
+    <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedDeviceSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance name="this_configuration_checker" category="process">
+    <featureInstance name="current_temperature" category="featureGroup" direction="in out">
+      <featureInstance name="value" direction="out">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:RangeValue">
+              <minimum xsi:type="aadl2:RealLiteral" value="68.0"/>
+              <maximum xsi:type="aadl2:RealLiteral" value="105.0"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.3"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="status" direction="out">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Invalid"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+      </featureInstance>
+      <feature xsi:type="aadl2:FeatureGroup" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.40/@ownedFeatureGroup.0"/>
+    </featureInstance>
+    <featureInstance name="heat_control">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="On"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.40/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance name="heat_configuration" direction="out">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:NamedValue">
+            <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Target"/>
+            <ownedListElement xsi:type="aadl2:StringLiteral" value="Control"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.1"/>
+      </ownedPropertyAssociation>
+      <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.40/@ownedDataPort.1"/>
+    </featureInstance>
+    <componentInstance name="this_checker" category="thread">
+      <featureInstance name="current_temperature" category="featureGroup" direction="in out">
+        <featureInstance name="value" direction="out">
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Measurement_Unit"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:StringLiteral" value="Fahrenheit"/>
+            </ownedValue>
+            <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:NamedValue">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.4"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Real_Range"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:RangeValue">
+                <minimum xsi:type="aadl2:RealLiteral" value="68.0"/>
+                <maximum xsi:type="aadl2:RealLiteral" value="105.0"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.3"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance name="status" direction="out">
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:NamedValue">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+          </ownedPropertyAssociation>
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:ListValue">
+                <ownedListElement xsi:type="aadl2:StringLiteral" value="Invalid"/>
+                <ownedListElement xsi:type="aadl2:StringLiteral" value="Valid"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.1"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedDataPort.1"/>
+        </featureInstance>
+        <feature xsi:type="aadl2:FeatureGroup" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.42/@ownedFeatureGroup.0"/>
+      </featureInstance>
+      <featureInstance name="heat_control">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="On"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.42/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="heat_controller" direction="out">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="On"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.42/@ownedDataPort.1"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.41/@ownedThreadSubcomponent.0"/>
+      <index>0</index>
+    </componentInstance>
+    <componentInstance name="this_controller" category="thread">
+      <featureInstance name="heat_controller">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="On"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Off"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="heat_configuration" direction="out">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="../../../Plugin_Resources/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.3"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="../../../Plugin_Resources/Data_Model.aadl#Data_Model.Enumerators"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Target"/>
+              <ownedListElement xsi:type="aadl2:StringLiteral" value="Control"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedPropertyAssociation.1"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.44/@ownedDataPort.1"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.41/@ownedThreadSubcomponent.1"/>
+      <index>0</index>
+    </componentInstance>
+    <flowSpecification name="heat_source_sink" source="//@componentInstance.2/@featureInstance.1">
+      <flowSpecification href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.40/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <connectionInstance name="this_checker.heat_controller -> this_controller.heat_controller" complete="true" kind="portConnection" destination="//@componentInstance.2/@componentInstance.1/@featureInstance.0" source="//@componentInstance.2/@componentInstance.0/@featureInstance.2">
+      <connectionReference context="//@componentInstance.2" source="//@componentInstance.2/@componentInstance.0/@featureInstance.2" destination="//@componentInstance.2/@componentInstance.1/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.41/@ownedPortConnection.1"/>
+      </connectionReference>
+    </connectionInstance>
+    <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedProcessSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <componentInstance name="this_processor" category="processor">
+    <featureInstance name="bus_access" category="busAccess" direction="in out">
+      <feature xsi:type="aadl2:BusAccess" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.33/@ownedBusAccess.0"/>
+    </featureInstance>
+    <componentInstance name="this_ram" category="memory">
+      <subcomponent xsi:type="aadl2:MemorySubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.34/@ownedMemorySubcomponent.0"/>
+      <index>0</index>
+    </componentInstance>
+    <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedProcessorSubcomponent.0"/>
+    <index>0</index>
+  </componentInstance>
+  <flowSpecification name="heat_source_current_temperature" destination="//@featureInstance.0">
+    <flowSpecification href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedFlowSpecification.0"/>
+  </flowSpecification>
+  <flowSpecification name="heat_source_sink" source="//@featureInstance.1">
+    <flowSpecification href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.31/@ownedFlowSpecification.1"/>
+  </flowSpecification>
+  <connectionInstance name="heat_control -> this_configuration_checker.this_checker.heat_control" kind="portConnection" destination="//@componentInstance.2/@componentInstance.0/@featureInstance.1" source="//@featureInstance.1">
+    <connectionReference context="/" source="//@featureInstance.1" destination="//@componentInstance.2/@featureInstance.1">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedPortConnection.1"/>
+    </connectionReference>
+    <connectionReference context="//@componentInstance.2" source="//@componentInstance.2/@featureInstance.1" destination="//@componentInstance.2/@componentInstance.0/@featureInstance.1">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.41/@ownedPortConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="this_bus -> this_heat_source.bus_access" complete="true" kind="accessConnection" destination="//@componentInstance.1/@featureInstance.2" source="//@componentInstance.0">
+    <connectionReference context="/" source="//@componentInstance.0" destination="//@componentInstance.1/@featureInstance.2">
+      <connection xsi:type="aadl2:AccessConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedAccessConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="this_bus -> this_processor.bus_access" complete="true" kind="accessConnection" destination="//@componentInstance.3/@featureInstance.0" source="//@componentInstance.0">
+    <connectionReference context="/" source="//@componentInstance.0" destination="//@componentInstance.3/@featureInstance.0">
+      <connection xsi:type="aadl2:AccessConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedAccessConnection.1"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="this_heat_source.heat_source -> heat" kind="portConnection" destination="//@featureInstance.2" source="//@componentInstance.1/@featureInstance.1">
+    <connectionReference context="/" source="//@componentInstance.1/@featureInstance.1" destination="//@featureInstance.2">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedPortConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="this_configuration_checker.this_controller.heat_configuration -> this_heat_source.heat_configuration" complete="true" kind="portConnection" destination="//@componentInstance.1/@featureInstance.0" source="//@componentInstance.2/@componentInstance.1/@featureInstance.1">
+    <connectionReference context="//@componentInstance.2" source="//@componentInstance.2/@componentInstance.1/@featureInstance.1" destination="//@componentInstance.2/@featureInstance.2">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.41/@ownedPortConnection.2"/>
+    </connectionReference>
+    <connectionReference context="/" source="//@componentInstance.2/@featureInstance.2" destination="//@componentInstance.1/@featureInstance.0">
+      <connection xsi:type="aadl2:PortConnection" href="../isolette.aadl#/0/@ownedPublicSection/@ownedClassifier.32/@ownedPortConnection.2"/>
+    </connectionReference>
+  </connectionInstance>
+  <systemOperationMode name="No Modes"/>
+  <componentImplementation xsi:type="aadl2:SystemImplementation" href="../isolette.aadl#isolette.Heat_Source.with_devices"/>
+</instance:SystemInstance>

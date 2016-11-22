@@ -1,10 +1,12 @@
 package monitor_temperature
 public
 	with isolette, Isolette_Properties, isolette_thermostat, Data_Model;
+	with Base_Types;
+	with EMV2;
 	
 
 	--@description Lower value of alarm range.
-	data Lower_Alarm_Temp
+	data Lower_Alarm_Temp extends Base_Types::Integer
 		properties
 			Data_Model::Measurement_Unit => "Fahrenheit";
 			Data_Model::Data_Representation => Integer;
@@ -12,7 +14,7 @@ public
 	end Lower_Alarm_Temp;
 
 	--@description Upper value of alarm range.
-	data Upper_Alarm_Temp
+	data Upper_Alarm_Temp extends Base_Types::Integer
 		properties
 			Data_Model::Measurement_Unit => "Fahrenheit";
 			Data_Model::Data_Representation => Integer;
@@ -81,6 +83,14 @@ public
 	  		monitor_interface_failure : out data port Monitor_Interface_Failure;
 		flows
 			alarm_temp_monitor_status : flow path alarm_temp_lower.value -> monitor_status;
+		annex agree {**
+			assume "Lower Alarm Temperature must be greater than 93 and less than 98 ¡ãF" : alarm_temp_lower.value>=93 and alarm_temp_lower.value<=98;
+			guarantee "The difference between two Lower Alarm Temperatures must be less or equal to 5 ¡ãF" : alarm_temp_lower.value-alarm_temp_lower.value<=5;
+			assume "Upper Alarm Temperature must be greater than 99 and less than 103 ¡ãF" : alarm_temp_upper.value>=99 and alarm_temp_upper.value<=103;
+			guarantee "The difference between two Upper Alarm Temperatures must be less or equal to 4 ¡ãF" : alarm_temp_lower.value-alarm_temp_lower.value<=4;
+			guarantee "Current Temperature must be greater than 68 and less that 105 ¡ãF" : current_temperature.value>68 or current_temperature.value<=105;
+			--guarantee "The status of monitor interface is not failure" : monitor_interface_failure = true;
+			**};
 	end Manage_Monitor_Interface_Thread;
 	
 	thread implementation Manage_Monitor_Interface_Thread.impl
@@ -108,6 +118,39 @@ public
 													manage_monitor_interface_sub.alarm_temp_monitor_status ->
 													monitor_status_conn -> 
 													monitor_status;
+		annex EMV2 {**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+			use types Monitor_Temp_Error_Lib;
+			error propagations
+				 alarm_temp_lower : in propagation {LateData, AlarmTempLower};
+				 alarm_temp_upper : in propagation {LateData, AlarmTempUpper};
+				 current_temperature.value : in propagation {LateData, CurrentTempValueError};
+				 monitor_mode : in propagation {LateData, MonitorInternalFailure};
+				 monitor_status : out propagation {NoData, StatusError};
+				 alarm_range.lower : out propagation {NoData, AlarmTempLower};
+				 alarm_range.upper : out propagation {NoData, AlarmTempUpper};
+				 monitor_interface_failure : out propagation {NoData, MonitorInterfaceFailure};
+			flows 
+				ef0 : error path alarm_temp_lower{AlarmTempLower} -> alarm_range.lower{AlarmTempLower};
+				ef1 : error path alarm_temp_upper{AlarmTempUpper} -> alarm_range.upper{AlarmTempUpper};
+				ef2 : error path current_temperature.value{CurrentTempValueError} -> monitor_status{StatusError};
+				ef3 : error path monitor_mode{LateData} -> monitor_status{StatusError};
+				ef4 : error path monitor_mode{LateData} -> monitor_interface_failure{MonitorInterfaceFailure};
+				--ef5 : error path alarm_temp_lower{AlarmTempLower} -> monitor_status{StatusError};
+				--ef6 : error path alarm_temp_upper{AlarmTempUpper} -> monitor_status{StatusError};
+			end propagations;
+			
+			properties
+				EMV2::Severity => ARP4761::Hazardous applies to ef0, ef1, ef3, ef4;
+				EMV2::Severity => ARP4761::Major applies to ef2;
+				EMV2::hazards =>
+				([
+					crossreference => "N/A";
+					failure => "Late Values";
+					phases => ("all");
+					description => "Late delivery.";
+					comment => "";
+				]) applies to ef0, ef1, ef3, ef4;
+				**};
 	end Manage_Monitor_Interface_Thread.impl;
 	
 	subprogram Manage_Monitor_Mode

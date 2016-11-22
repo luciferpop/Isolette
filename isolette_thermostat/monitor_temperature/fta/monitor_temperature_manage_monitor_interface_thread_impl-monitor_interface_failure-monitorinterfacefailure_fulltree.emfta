@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<emfta:FTAModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:emfta="http://cmu.edu/emfta" root="//@events.0" name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure_fulltree" description="Top Level Failure">
+  <events name="monitor_temperature_manage_monitor_interface_thread_impl-monitor_interface_failure-monitorinterfacefailure" description="component Manage_Monitor_Interface_Thread_impl_Instance with out propagation monitor_interface_failure"/>
+</emfta:FTAModel>

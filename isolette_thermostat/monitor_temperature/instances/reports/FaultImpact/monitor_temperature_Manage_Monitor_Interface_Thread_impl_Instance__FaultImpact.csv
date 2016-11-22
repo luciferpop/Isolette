@@ -1,0 +1,16 @@
+Fault Impact of System Internal Error Sources
+
+Component, Initial Failure Mode, 1st Level Effect, Failure Mode, second Level Effect, Failure Mode, third Level Effect, Failure Mode, 4th Level Effect, Failure Mode, 5th Level Effect, Failure Mode, 6th Level Effect, Failure Mode, 7th Level Effect, More
+
+
+Fault Impact of System External Error Sources
+
+Root System, External Error Source, 1st Level Effect, Failure Mode, second Level Effect, Failure Mode, third Level Effect, Failure Mode, 4th Level Effect, Failure Mode, 5th Level Effect, Failure Mode, 6th Level Effect, Failure Mode, 7th Level Effect, More
+Manage_Monitor_Interface_Thread_impl_Instance, current_temperature.value {LateData},{LateData} current_temperature.value -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, current_temperature.value {CurrentTempValueError},{CurrentTempValueError} current_temperature.value -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, monitor_mode {LateData},{LateData} monitor_mode -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, monitor_mode {MonitorInternalFailure},{MonitorInternalFailure} monitor_mode -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, alarm_temp_lower {LateData},{LateData} alarm_temp_lower -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, alarm_temp_lower {AlarmTempLower},{AlarmTempLower} alarm_temp_lower -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, alarm_temp_upper {LateData},{LateData} alarm_temp_upper -> [No Outgoing Conn],,
+Manage_Monitor_Interface_Thread_impl_Instance, alarm_temp_upper {AlarmTempUpper},{AlarmTempUpper} alarm_temp_upper -> [No Outgoing Conn],,
