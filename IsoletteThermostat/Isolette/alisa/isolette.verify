@@ -1,0 +1,16 @@
+verification plan Isolettevplan for IsoletteReqs[
+	
+	claim req1_1 [
+		activities 
+			actualTemperature_Increment : Plugins.PortDataConsistency()	
+			
+		]
+
+	
+	claim req1_2 [
+		activities
+			actualTemperature_Increment : Plugins.PortDataConsistency()
+			
+		]
+
+]

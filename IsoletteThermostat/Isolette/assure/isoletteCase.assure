@@ -1,0 +1,39 @@
+case isoletteCase [
+	successcount 2 featurescount 16
+	model isoletteCase.IsolettevPlan for isolette::Isolette.Normal_Operation [
+		successcount 2 featurescount 16 totalqualitycategorycount 13 requirementscount 2
+		claim Isolettevplan # req1_1 [
+			successcount 1
+			verification Isolettevplan # req1_1 # actualTemperature_Increment [
+				executionstate completed resultstate success successcount 1 time 616
+			]
+		]
+		claim Isolettevplan # req1_2 [
+			successcount 1
+			verification Isolettevplan # req1_2 # actualTemperature_Increment [
+				executionstate completed resultstate success successcount 1
+			]
+		]
+		subsystem infant [
+			featurescount 1 totalqualitycategorycount 13
+		]
+		subsystem nurse [
+			featurescount 1 totalqualitycategorycount 13
+		]
+		subsystem thermostat [
+			featurescount 4 totalqualitycategorycount 13
+		]
+		subsystem temperature_sensor [
+			featurescount 2 totalqualitycategorycount 13
+		]
+		subsystem heat_source [
+			featurescount 2 totalqualitycategorycount 13
+		]
+		subsystem operator_interface [
+			featurescount 3 totalqualitycategorycount 13
+		]
+		subsystem air [
+			featurescount 3 totalqualitycategorycount 13
+		]
+	]
+]

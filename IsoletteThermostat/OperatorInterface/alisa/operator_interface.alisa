@@ -1,0 +1,27 @@
+assurance case Operator_InterfaceCase for isolette::Operator_Interface[
+	assurance plan Operator_Interfacevplan for isolette_operator_interface::Operator_Interface.impl[
+		description "My Plan"
+		assure Operator_Interfacevplan
+	]
+	assurance task temperatureunit [
+		description "Check Port Data Types, Value Ranges and Units" 
+	]
+	assurance task displayedtmperature[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task alarmtemperature[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task lowerdesiredtemp[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task upperdesiredtemp[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task upperalarmtemp[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+	assurance task displaytemp[
+		description "Check Port Data Types, Value Ranges and Units"
+	]
+]

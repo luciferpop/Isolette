@@ -282,14 +282,14 @@ public
 		**};
 	end Heat_Source.with_devices;
 	annex Resolute{**
-		HeatControl_On()<=
-		**"Heat shall be On"**
-		forall(c:component).true=>HeatRange(c)
-		
-	HeatRange(com:component)<=
-	**"shall be within 68.0 to 105.0"**
-	forall(c:component).true
-	**};
+			HeatControl_On()<=
+			**"Heat shall be On"**
+			forall(c:component).true=>HeatRange(c)
+				
+			HeatRange(com:component)<=
+			**"shall be within 68.0 to 105.0"**
+			forall(c:component).true
+		**};
 	--- processors and bus ---
 	
 	processor MainProcessor
@@ -497,12 +497,10 @@ public
 			op_settings_thermostat_conn : feature group operator_interface.operator_settings -> thermostat.operator_settings;
 			an3: feature group nurse.interface_interaction <-> operator_interface.operator_interaction;
 			an4: port infant.air_interaction -> air.infant_interaction;
-		annex Resolute{**
-				
-			prove Isolettereq1() 
-		**};
 		
-
+--			annex Resolute{**
+--				prove Isolettereq1() 
+--			**};
 				
 	
 --		flows
@@ -523,16 +521,15 @@ public
 --															operator_interface.operator_interface_sink;
 	end Isolette.Normal_Operation;
 
-	annex Resolute{**
-			Temperature_Increment : real = 1.0
-		Isolettereq1()<=
-		**"req1:Temperature rate shall be less than" Temperature_Increment**
-		forall(c:component).true
-		
-	**};
+--	annex Resolute{**
+--		Temperature_Increment : real = 1.0
+--		Isolettereq1()<=
+--		**"req1:Temperature rate shall be less than" Temperature_Increment**
+--		forall(c:component).true
+--		**};
 	
-	data Interface_Interaction
-	end Interface_Interaction;
+--	data Interface_Interaction
+--	end Interface_Interaction;
 	
 	data Air_Interaction
 	end Air_Interaction;

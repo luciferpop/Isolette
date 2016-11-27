@@ -1,0 +1,54 @@
+case Operator_InterfaceCase [
+	successcount 7
+	model Operator_InterfaceCase.Operator_Interfacevplan for isolette_operator_interface::Operator_Interface.impl [
+		successcount 7 totalqualitycategorycount 13 requirementscount 10
+		claim Operator_Interfacevplan # req1_1 [
+			successcount 1
+			verification Operator_Interfacevplan # req1_1 # actualtemperatureunit [
+				executionstate completed resultstate success successcount 1 time 131
+			]
+		]
+		claim Operator_Interfacevplan # req1_2 [
+			successcount 1
+			verification Operator_Interfacevplan # req1_2 # actualdisplayedtmperature [
+				executionstate completed resultstate success successcount 1 time 32
+			]
+		]
+		claim Operator_Interfacevplan # req2_1 [
+			successcount 1
+			verification Operator_Interfacevplan # req2_1 # actualalarmtemperature [
+				executionstate completed resultstate success successcount 1 time 37
+			]
+		]
+		claim Operator_Interfacevplan # req2_2 [
+		]
+		claim Operator_Interfacevplan # req3_1 [
+			successcount 1
+			verification Operator_Interfacevplan # req3_1 # actuallowerdesiredtemp [
+				executionstate completed resultstate success successcount 1 time 36
+			]
+		]
+		claim Operator_Interfacevplan # req3_2 [
+		]
+		claim Operator_Interfacevplan # req4 [
+			successcount 1
+			verification Operator_Interfacevplan # req4 # actualupperdesiredtemp [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim Operator_Interfacevplan # req5_1 [
+			successcount 1
+			verification Operator_Interfacevplan # req5_1 # actualupperalarmtemp [
+				executionstate completed resultstate success successcount 1 time 33
+			]
+		]
+		claim Operator_Interfacevplan # req5_2 [
+		]
+		claim Operator_Interfacevplan # req6 [
+			successcount 1
+			verification Operator_Interfacevplan # req6 # actualdisplaytemp [
+				executionstate completed resultstate success successcount 1
+			]
+		]
+	]
+]

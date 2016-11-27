@@ -1,0 +1,48 @@
+system requirements Operator_InterfaceReqs for isolette::Operator_Interface[
+	requirement req1_1 : "All temperatures"
+	[
+		description "shall be entered and displayed in degrees F"
+	]
+	requirement req1_2 : "All temperatures"
+	[
+		description "shall be set and displayed by the operators in increments of 1°„F"
+	]
+	requirement req2_1 : "The Lower Alarm Temperature"
+	[
+		description "shall be less than" Alarmtemp
+		val Alarmtemp = 93
+	]
+	requirement req2_2 : "The Lower Alarm Temperature"
+	[
+		description "be less than or equal to the Lower Desired Temperature of -1°„F"
+	]
+	requirement req3_1 : "Lower Desired Temperature"
+	[
+		description "shall be greater than" MaxDesiredtemp
+		val MaxDesiredtemp = 97
+	]
+	requirement req3_2 : "Lower Desired Temperature"
+	[
+		description "shall be less than or equal to the Upper Desired Temperature of -1°„F"
+	]
+	requirement req4: "Upper Desired Temperature"
+	[
+		description "shall be less than or equal to" Uppertemp
+		val Uppertemp = 100
+	]
+	requirement req5_1: "Upper Alarm Temperature"
+	[
+		description "shall greater than or equal to the Upper Desired Temperature of 1°„F"
+	]
+	requirement req5_2: "Upper Alarm Temperature"
+	[
+		description "shall be less than or equal to" MaxAlarmtemp
+		val MaxAlarmtemp = 103
+	]
+	requirement req6: "Display Temperature" 
+	[
+		description "shall cover the range from" Mintemp "to" Maxtemp
+		val Maxtemp = 105.0
+		val Mintemp = 68.0
+	]
+]

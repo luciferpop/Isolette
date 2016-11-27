@@ -1,0 +1,234 @@
+case regulate_temperatureCase [
+	successcount 24 featurescount 9
+	model regulate_temperatureCase.regulate_temperaturevplan for isolette_thermostat::Thermostat.impl_rev [
+		successcount 24 featurescount 9 totalqualitycategorycount 13 requirementscount 42
+		claim regulate_temperaturevplan # req1_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req1_1 # actualregulatorfunction [
+				executionstate completed resultstate success successcount 1 time 586
+			]
+		]
+		claim regulate_temperaturevplan # req1_2 [
+		]
+		claim regulate_temperaturevplan # req1_3 [
+		]
+		claim regulate_temperaturevplan # req2_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req2_1 # actualregulatorinterface [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim regulate_temperaturevplan # req2_2 [
+		]
+		claim regulate_temperaturevplan # req2_3 [
+		]
+		claim regulate_temperaturevplan # req2_4 [
+			successcount 1
+			verification regulate_temperaturevplan # req2_4 # actualregulatorlatency [
+				executionstate completed resultstate success successcount 1 time 53
+			]
+		]
+		claim regulate_temperaturevplan # req3_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req3_1 # actualdisplaytemp [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim regulate_temperaturevplan # req3_2 [
+		]
+		claim regulate_temperaturevplan # req3_3 [
+			successcount 1
+			verification regulate_temperaturevplan # req3_3 # actualdisplaytemplatency [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim regulate_temperaturevplan # req3_4 [
+			successcount 1
+			verification regulate_temperaturevplan # req3_4 # actualdisplaytemptolerance [
+				executionstate completed resultstate success successcount 1 time 640
+			]
+		]
+		claim regulate_temperaturevplan # req4_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req4_1 # actualregulatorfailure [
+				executionstate completed resultstate success successcount 1 time 47
+			]
+		]
+		claim regulate_temperaturevplan # req4_2 [
+		]
+		claim regulate_temperaturevplan # req5_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req5_1 # actualdesiredrange [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim regulate_temperaturevplan # req5_2 [
+		]
+		claim regulate_temperaturevplan # req6_1 [
+			successcount 1
+			verification regulate_temperaturevplan # req6_1 # actualheatcontrol [
+				executionstate completed resultstate success successcount 1 time 38
+			]
+		]
+		claim regulate_temperaturevplan # req6_2 [
+		]
+		claim regulate_temperaturevplan # req6_3 [
+		]
+		claim regulate_temperaturevplan # req6_4 [
+			successcount 1
+			verification regulate_temperaturevplan # req6_4 # actualvalue [
+				executionstate completed resultstate success successcount 1 time 47
+			]
+		]
+		claim regulate_temperaturevplan # req6_5 [
+		]
+		claim regulate_temperaturevplan # req6_6 [
+			successcount 1
+			verification regulate_temperaturevplan # req6_6 # actualheatcontrollatency [
+				executionstate completed resultstate success successcount 1 time 34
+			]
+		]
+		claim Thermostatvplan # req1_1 [
+			successcount 1
+			verification Thermostatvplan # req1_1 # actualthermostatfunction [
+				executionstate completed resultstate success successcount 1 time 35
+			]
+		]
+		claim Thermostatvplan # req1_2 [
+			successcount 1
+			verification Thermostatvplan # req1_2 # actualthermostatfunction [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim Thermostatvplan # req1_3 [
+			successcount 1
+			verification Thermostatvplan # req1_3 # actualthermostatfunction [
+				executionstate completed resultstate success successcount 1 time 38
+			]
+		]
+		claim Thermostatvplan # req1_4 [
+			successcount 1
+			verification Thermostatvplan # req1_4 # actualthermostatfunction [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim Thermostatvplan # req2 [
+			successcount 1
+			verification Thermostatvplan # req2 # actualthermostatfunction [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim monitor_temperaturevplan # req1_1 [
+			successcount 1
+			verification monitor_temperaturevplan # req1_1 # actualmonitorfunction [
+				executionstate completed resultstate success successcount 1 time 38
+			]
+		]
+		claim monitor_temperaturevplan # req1_2 [
+		]
+		claim monitor_temperaturevplan # req2_1 [
+			successcount 1
+			verification monitor_temperaturevplan # req2_1 # actualmonitorstatus [
+				executionstate completed resultstate success successcount 1 time 30
+			]
+		]
+		claim monitor_temperaturevplan # req2_2 [
+		]
+		claim monitor_temperaturevplan # req2_3 [
+		]
+		claim monitor_temperaturevplan # req2_4 [
+			successcount 1
+			verification monitor_temperaturevplan # req2_4 # actualmonitorstatuslatency [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim monitor_temperaturevplan # req3_1 [
+			successcount 1
+			verification monitor_temperaturevplan # req3_1 # interfacefailure [
+				executionstate completed resultstate success successcount 1 time 39
+			]
+		]
+		claim monitor_temperaturevplan # req3_2 [
+		]
+		claim monitor_temperaturevplan # req4_1 [
+			successcount 1
+			verification monitor_temperaturevplan # req4_1 # actualalarmrange [
+				executionstate completed resultstate success successcount 1 time 31
+			]
+		]
+		claim monitor_temperaturevplan # req4_2 [
+		]
+		claim monitor_temperaturevplan # req5_1 [
+			successcount 1
+			verification monitor_temperaturevplan # req5_1 # actualalarmcontrol [
+				executionstate completed resultstate success successcount 1 time 47
+			]
+		]
+		claim monitor_temperaturevplan # req5_2 [
+		]
+		claim monitor_temperaturevplan # req5_3 [
+			successcount 1
+			verification monitor_temperaturevplan # req5_3 # actualalarmvalue [
+				executionstate completed resultstate success successcount 1 time 54
+			]
+		]
+		claim monitor_temperaturevplan # req5_4 [
+		]
+		claim monitor_temperaturevplan # req5_5 [
+		]
+		claim monitor_temperaturevplan # req5_6 [
+			successcount 1
+			verification monitor_temperaturevplan # req5_6 # actualalarmcontrollatency [
+				executionstate completed resultstate success successcount 1
+			]
+		]
+		subsystem regulate_temperature [
+			featurescount 5 totalqualitycategorycount 13
+			subsystem manage_heat_source [
+				featurescount 4 totalqualitycategorycount 13
+				subsystem manage_heat_source_sub [
+					featurescount 6 totalqualitycategorycount 13
+				]
+			]
+			subsystem manage_regulator_interface [
+				featurescount 8 totalqualitycategorycount 13
+				subsystem manage_reg_interface_sub [
+					featurescount 12 totalqualitycategorycount 13
+				]
+			]
+			subsystem manage_regulator_mode [
+				featurescount 7 totalqualitycategorycount 13
+				subsystem manage_reg_mode_sub [
+					featurescount 8 totalqualitycategorycount 13
+				]
+			]
+			subsystem detect_regulator_failure [
+				featurescount 1 totalqualitycategorycount 13
+			]
+		]
+		subsystem monitor_temperature [
+			featurescount 4 totalqualitycategorycount 13
+			subsystem manage_monitor_interface [
+				featurescount 7 totalqualitycategorycount 13
+				subsystem manage_monitor_interface_sub [
+					featurescount 11 totalqualitycategorycount 13
+				]
+			]
+			subsystem manage_monitor_mode [
+				featurescount 7 totalqualitycategorycount 13
+				subsystem manage_monitor_mode_sub [
+					featurescount 8 totalqualitycategorycount 13
+				]
+			]
+			subsystem manage_alarm [
+				featurescount 4 totalqualitycategorycount 13
+				subsystem manage_alarm_sub [
+					featurescount 6 totalqualitycategorycount 13
+				]
+			]
+			subsystem detect_monitor_failure [
+				featurescount 1 totalqualitycategorycount 13
+			]
+		]
+	]
+]

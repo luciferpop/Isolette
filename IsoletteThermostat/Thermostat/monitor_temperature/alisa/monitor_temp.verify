@@ -1,0 +1,64 @@
+verification plan monitor_temperaturevplan for monitor_temperatureReqs[
+	claim req1_1[
+		activities
+	actualmonitorfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req1_2[
+		
+	]
+	claim req2_1[
+		activities
+		actualmonitorstatus : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req2_2[
+		
+	]
+	claim req2_3[
+		
+	]
+	claim req2_4[
+		activities
+		actualmonitorstatuslatency : Plugins.FlowLatencyAnalysis()
+		[category Quality.Latency]
+	]
+	claim req3_1[
+		activities
+		interfacefailure : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req3_2[
+		
+	]
+	claim req4_1[
+		activities
+		actualalarmrange : Plugins.PortDataConsistency()
+	]
+	claim req4_2[
+		
+	]
+	claim req5_1[
+		activities
+		actualalarmcontrol : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req5_2[
+		
+	]
+	claim req5_3[
+		activities
+		actualalarmvalue : Plugins.PortDataConsistency()
+	]
+	claim req5_4[
+		
+	]
+	claim req5_5[
+		
+	]
+	claim req5_6[
+		activities
+		actualalarmcontrollatency : Plugins.FlowLatencyAnalysis()
+		[category Quality.Latency]
+	]
+]
