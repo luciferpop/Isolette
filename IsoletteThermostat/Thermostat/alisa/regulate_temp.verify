@@ -1,0 +1,74 @@
+verification plan regulate_temperaturevplan for regulate_temperatureReqs[
+	claim req1_1[
+		activities
+		actualregulatorfunction : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req1_2[
+	]
+	claim req1_3[
+	]
+	claim req2_1[
+		activities
+		actualregulatorinterface : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req2_2[
+	]
+	claim req2_3[
+	]
+	claim req2_4[
+		activities
+		actualregulatorlatency : Plugins.FlowLatencyAnalysis()
+		[category Quality.Latency]
+	]
+	claim req3_1[
+		activities
+		actualdisplaytemp : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req3_2[
+	]
+	claim req3_3[
+		activities
+		actualdisplaytemplatency : Plugins.FlowLatencyAnalysis()
+		[category Quality.Latency]
+	]
+	claim req3_4[
+		activities
+		actualdisplaytemptolerance :  Plugins.PortDataConsistency()
+	]
+	claim req4_1[
+		activities
+		actualregulatorfailure : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req4_2[
+	]
+	claim req5_1[
+		activities
+		actualdesiredrange : Plugins.PortDataConsistency()
+	]
+	claim req5_2[
+	]
+	claim req6_1[
+		activities
+		actualheatcontrol : Plugins.CheckSecurityLevels()
+		[category Quality.Security]
+	]
+	claim req6_2[
+	]
+	claim req6_3[
+	]
+	claim req6_4[
+		activities
+		actualvalue : Plugins.PortDataConsistency()
+	]
+	claim req6_5[
+	]
+	claim req6_6[
+		activities
+		actualheatcontrollatency : Plugins.FlowLatencyAnalysis()
+		[category Quality.Latency]
+	]
+]

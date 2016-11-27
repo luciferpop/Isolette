@@ -1,0 +1,67 @@
+system requirements monitor_temperatureReqs for isolette::Thermostat[
+	requirement req1_1 : "Monitor Temperature Function"
+	[
+		description "shall set the value of the Alarm Control"
+	]
+	requirement req1_2 : "Monitor Temperature Function"
+	[
+		description "shall set the value of the Monitor Status"
+	]
+	requirement req2_1 : "Monitor Status"
+	[
+		description "shall be set to Init when the Manage Monitor Interface mode is INIT"
+	]
+	requirement req2_2 : "Monitor Status"
+	[
+		description "shall be set to On when the Manage Monitor Interface mode is NORMAL"
+	]
+	requirement req2_3 : "Monitor Status"
+	[
+		description "shall be set to Failed when the Manage Monitor Interface mode is FAILED"
+	]
+	requirement req2_4 : "Latency of Monitor Status"
+	[
+		description "shall be less than Max Operator Response Time"
+	]
+	requirement req3_1 : "Monitor Interface Failure"
+	[
+		description "shall be set to True when the Status attribute of the Lower Alarm Temperature or the Upper Alarm Temperature is Invalid"
+	]
+	requirement req3_2 : "Monitor Interface Failure"
+	[
+		description "shall be set to False when the Status attribute of the Lower Alarm Temperature and the Upper Alarm Temperature is Valid"
+	]
+	requirement req4_1 : "Alarm Range variable"
+	[
+		description "shall be set to the Desired Temperature Range when the Monitor Interface Failure is False"
+	]
+	requirement req4_2 : "Alarm Range variable"
+	[
+		description "shall be UNSPECIFIED when the Monitor Interface Failure is True"
+	]
+	requirement req5_1 : "Alarm Control"
+	[
+		description "shall be set to Off when the Monitor Mode is INIT"
+	]
+	requirement req5_2 : "Alarm Control"
+	[
+		description "shall be set to On when the Monitor Mode is NORMAL and the Current Temperature is less than the Lower Alarm Temperature or greater than the Upper Alarm Temperature"
+	]
+	requirement req5_3 : "the value of the Alarm Control"
+	[
+		description "shall not be changed when the Monitor Mode is NORMAL and the Current Temperature is greater than or equal to the Lower Alarm Temperature and less than the Lower Alarm Temperature +0.5бу, or the Current Temperature is greater than the Upper Alarm Temperature -0.5бу and less than or equal to the Upper Alarm Temperature"
+	]
+	requirement req5_4 : "Alarm Control"
+	[
+		description "shall be set to Off when the Monitor Mode is NORMAL and the value of the Current Temperature is greater than or equal to the Lower Alarm Temperature +0.5бу and less than or equal to the Upper Alarm Temperature -0.5бу"
+	]
+	requirement req5_5 : "Alarm Control"
+	[
+		description "shall be set to On when the Monitor Mode is FAILED"
+	]
+	requirement req5_6 : "Latency of Alarm Control"
+	[
+		description "shall be less than" MaxLatency
+		val MaxLatency = 5
+	]
+]

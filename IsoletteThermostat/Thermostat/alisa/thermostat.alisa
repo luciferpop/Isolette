@@ -1,0 +1,10 @@
+assurance case ThermostatCase for isolette::Thermostat[
+	assurance plan Thermostatvplan for isolette_thermostat::Thermostat.impl_rev[
+		description "My Plan"
+		assume subsystem regulate_temperature monitor_temperature
+	]
+	assurance task
+	actualthermostatfunction[
+		category Quality.Security
+	]
+]

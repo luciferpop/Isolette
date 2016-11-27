@@ -1,0 +1,24 @@
+system requirements Temperature_SensorReqs for isolette::Temperature_Sensor [
+	requirement req1_1 : "Current temperature"
+	[
+		description "shall be provided to the Thermostat in °„F"	
+	]
+	requirement req1_2 : "Current temperature accuracy"
+	[
+		description "shall be °¿ 0.1°„F"
+	]
+	requirement req1_3 : "Current temperature" 
+	[
+		description "shall be less than and greater than" Maxtemp Mintemp
+		val Maxtemp = 105.0
+		val Mintemp = 68.0
+	]
+	requirement req2 : "The status of the Current Temperature variable"
+	[
+		description "shall be invalid when the Temperature Sensor does not function properly"
+	]
+	requirement req3 : "The status of the Current Temperature variable"
+	[
+		description "shall be valid when the Temperature Sensor functions properly"
+	]
+]
